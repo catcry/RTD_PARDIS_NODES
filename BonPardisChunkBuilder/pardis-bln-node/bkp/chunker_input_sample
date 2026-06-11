@@ -1,0 +1,60 @@
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F msisdn 989932767207
+F actionid general_loan_content4
+F count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F msisdn 989932767207
+F actionid general_loan_content5
+F count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F msisdn 989932767207
+F actionid general_loan_content6
+F count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F msisdn 989932767207
+F actionid general_loan_content7
+F count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F msisdn 989932767207
+F actionid general_loan_content8
+F count 0
+.

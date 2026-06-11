@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.bonyan</groupId>
+    <artifactId>BonRestClient</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.sun.jersey</groupId>
+            <artifactId>jersey-client</artifactId>
+            <version>1.13</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/java/jersey-client-1.13.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.jersey</groupId>
+            <artifactId>jersey-core</artifactId>
+            <version>1.13</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/java/jersey-core-1.13.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.jersey</groupId>
+            <artifactId>jersey-json</artifactId>
+            <version>1.13</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/java/jersey-json-1.13.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.jersey</groupId>
+            <artifactId>jersey-multipart</artifactId>
+            <version>1.13</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/java/jersey-multipart-1.13.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-core-asl</artifactId>
+            <version>1.9.2</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/java/jackson-core-asl-1.9.2.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>1.9.2</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/java/jackson-mapper-asl-1.9.2.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.3.3</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/java/httpclient-4.3.3.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>javax.activation</groupId>
+            <artifactId>activation</artifactId>
+            <version>1.1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/java/activation-1.1.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.2.2</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/java/jaxb-api-2.2.2.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-impl</artifactId>
+            <version>2.2.3-1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/java/jaxb-impl-2.2.3-1.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.jettison</groupId>
+            <artifactId>jettison</artifactId>
+            <version>1.1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/java/jettison-1.1.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.9</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.comptel.mc</groupId>
+            <artifactId>mcp-javanode-api</artifactId>
+            <version>2.3.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/pardis-bln-node/lib/mcp-javanode-api-2.3.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.comptel.mc</groupId>
+            <artifactId>mcp-javanode-adapter</artifactId>
+            <version>1.4.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/pardis-bln-node/lib/mcp-javanode-adapter-1.4.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.comptel.eventlink</groupId>
+            <artifactId>el-nodebase-java</artifactId>
+            <version>6.5.0-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/pardis-bln-node/lib/Nodebase.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>1.9.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.comptel.mc</groupId>
+            <artifactId>mcp-javanode-mocks</artifactId>
+            <version>1.3.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/pardis-bln-node/lib/mcp-javanode-common-1.3.0.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-server</artifactId>
+            <version>9.2.18.v20160721</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-client</artifactId>
+            <version>9.2.18.v20160721</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-http</artifactId>
+            <version>9.2.18.v20160721</version>
+        </dependency>
+        <dependency>
+            <groupId>com.comptel.eventlink</groupId>
+            <artifactId>el-manager</artifactId>
+            <version>7.1.1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/java/el_nodemanager.jar</systemPath>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <extensions>
+            <extension>
+                <groupId>org.apache.maven.wagon</groupId>
+                <artifactId>wagon-ssh</artifactId>
+                <version>3.4.3</version>
+            </extension>
+        </extensions>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.0.0</version>
+                <executions>
+                    <execution>
+                        <id>deploy-via-ssh</id>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                        <configuration>
+                            <executable>ssh</executable>
+                            <arguments>
+                                <argument>-p</argument>
+                                <argument>2250</argument>
+                                <argument>elink@192.168.5.149</argument>
+                                <argument>mkdir -p /comptel/elink/zahra/el-programming-samples/java-programming/RestClientNode/app/AnyOS</argument>
+                                <!--                                <argument>elink@192.168.5.212</argument>-->
+                                <!--                                <argument>-->
+                                <!--                                    mkdir -p /comptel/elink/zahra-el/bon-rest-client-bln/bon-rest-client-app/app/AnyOS/-->
+                                <!--                                </argument>-->
+                            </arguments>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>copy-via-scp</id>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                        <configuration>
+                            <executable>scp</executable>
+                            <arguments>
+                                <argument>-P</argument>
+                                <argument>2250</argument>
+                                <argument>${project.build.directory}/app_AdapterNode.jar</argument>
+                                <argument>elink@192.168.5.149:/comptel/elink/zahra/el-programming-samples/java-programming/RestClientNode/app/AnyOS</argument>
+                                <!--                                <argument>-->
+                                <!--                                    elink@192.168.5.212:/comptel/elink/zahra-el/bon-rest-client-bln/bon-rest-client-app/app/AnyOS/-->
+                                <!--                                </argument>-->
+                            </arguments>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.2</version>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <finalName>app_AdapterNode</finalName>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <distributionManagement>
+        <repository>
+            <id>remote-repo</id>
+            <!--            <url>scp://192.168.5.212/comptel/elink/zahra-el/bon-rest-client-bln/bon-rest-client-app/app/AnyOS</url>-->
+            <url>
+                scp://192.168.5.149:2250/comptel/elink/zahra/el-programming-samples/java-programming/RestClientNode/app/AnyOS
+            </url>
+        </repository>
+    </distributionManagement>
+</project>

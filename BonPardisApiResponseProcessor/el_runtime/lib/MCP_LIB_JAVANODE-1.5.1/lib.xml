@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<library elversion="6.1">
+    <name>MCP_LIB_JAVANODE</name>
+    <param_prefix>MCP_LIB_JAVANOD</param_prefix>
+    <version major="1" minor="5" defect="1" patch=""/>
+    <parameters/>
+    <files>
+        <file os="AnyOS" path="./" name="AnyOS/mcp-javanode-api-2.4.0.jar">
+            <export>
+                <libpath>false</libpath>
+                <perl5lib>false</perl5lib>
+            </export>
+        </file>
+        <file os="AnyOS" path="./" name="AnyOS/mcp-javanode-adapter-1.5.1.jar">
+            <export>
+                <libpath>false</libpath>
+                <perl5lib>false</perl5lib>
+            </export>
+        </file>
+        <file os="AnyOS" path="./" name="AnyOS/mcp-javanode-common-1.4.0.jar">
+            <export>
+                <libpath>false</libpath>
+                <perl5lib>false</perl5lib>
+            </export>
+        </file>
+    </files>
+    <messages>
+        <message key="ADAPTER100" type="W">
+            <text>Aggregated message %s %s times.</text>
+            <explanation>The audit messages with same code and written during a defined timeframe were aggregated.</explanation>
+        </message>
+    </messages>
+    <docs/>
+    <libraries/>
+    <auditkeys/>
+</library>

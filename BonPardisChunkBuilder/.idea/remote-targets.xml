@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="elink@192.168.5.149:2250" type="ssh/sftp" uuid="e3bc3aea-05ec-4469-96e9-7caaa0d4df3c">
+        <config>
+          <option name="projectRootOnTarget" value="/comptel/elink/BonCmsPardis_pro1" />
+          <option name="serverName" value="elink@192.168.5.149:2250 password" />
+          <option name="useRsync" value="true" />
+        </config>
+        <ContributedStateBase type="JavaLanguageRuntime">
+          <config>
+            <option name="homePath" value="/comptel/elink/installation/java_jre/current" />
+            <option name="javaVersionString" value="1.7.0_72" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>

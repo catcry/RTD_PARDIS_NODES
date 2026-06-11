@@ -1,0 +1,135 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989924504539
+F callingNumberType 0
+F calledNumber 989910009912
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 20
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 1
+F isRoaming 0
+F eventStartTimestamp 20241027160515
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 3023925230
+F cost 0
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046438099
+F @filename RTD_OCSPOST-RECLIVE-61711-20241027195530.csv
+B profiles
+B subscriber
+B extensions
+F version 1730044225930002432
+B actions
+B new_30_min-5fda87d2
+F sentTime 1727546822764
+.
+B Action_L2_new_60_min-80374415
+F sentTime 1730044225930
+.
+B ACTION_L1_balance_LT_20000R-f25260df
+F sentTime 1727546822764
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1699455992944
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027194144
+F gender Female
+F weekly_data_pkg_start_time 14000825121201
+F weekly_data_pkg_end_time 14000902121201
+F peak_type_voice peak
+F payg_data_rev_to_arpu 
+F industry 
+F sub_balance 42808919
+F avg_offnet_voice_min 0
+F vas_cost_to_arpu 0
+F churn_propensity High
+F is_multi_sim_phone No
+F avg_non_business_voice_usage 453.83
+F avg_nmb_sms_sent 0
+F avg_business_voice_usage 259
+F is_smart_phone_user Yes
+F onnet_to_offnet_rev 0
+F model HUAWEI LUA-U22
+F daily_data_pkg_end_time 14030128201147
+F arpu 0
+F daily_data_pkg_start_time 14030127201149
+F brand HUAWEI Technologies Co Ltd
+F subscriber_segment MASS
+F tenure 34
+F portout_propensity High
+F peak_type_data peak
+F os Android
+F enterprise_national_id 5379978401
+F avg_daily_2g_data_usage 0
+F arpu_segment Low ARPU
+F avg_daily_3g_data_usage 3
+F avg_monthly_topup_cost 
+F roam_int_rev_to_arpu 0
+F avg_monthly_topup_nmb 
+F payment_type prepaid
+F avg_daily_4g_data_usage 0
+F avg_non_business_data_usage 2481.23
+F avg_onnet_voice_min 0
+F avg_data_usage 30393809970
+F voice_pkg_400297_end_time 14001225000000
+F provience هرمزگان
+F avg_business_data_usage 3500.96
+F voice_pkg_400297_start_time 14001125000000
+F age 456
+F status Active
+.
+F profileId 279019698
+F id 989924504539
+.
+B target
+F errorCode 100
+F errorMessage Profile for subscriber '989910009912' was not found
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 243 BALANCE_100_L1-Topup_NID
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 244 BALANCE_50_L1-Topup_NID
+F 210 L1_new_60_min
+F 213 roaming
+.
+.
+B __RULE_ENGINE__
+B TRIGGERED_ACTIONS
+F 78 ACTION_L2_balance_LT_20000R-f4ae35a9
+.
+B ACTIONS
+B ACTION_L2_balance_LT_20000R-f4ae35a9
+F CONTENT_ID L2_balance_LT_20000R
+F DOWNSTREAM cms
+F CHANNEL sms
+F RESEND_FREQUENCY month
+.
+.
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 211
+F DISCARD_REASON Action Action_L2_new_60_min-80374415 was removed from the event because of resend frequency restriction.
+.
+B LOGIC
+F ID 212
+F DISCARD_REASON Action new_30_min-5fda87d2 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046438129
+.

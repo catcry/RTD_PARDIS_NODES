@@ -1,0 +1,231 @@
+RECORD
+#input_id 1721052846x004_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename 2024-07-07_17-11-54.401.06_001_OUT.collected
+F eventType 1
+F eventId 8
+F callingNumber 989932767207
+F callingNumberType 2
+F calledNumber 989932767207
+F calledNumberType {{!!NULL!!}}
+F callingCountry {{!!NULL!!}}
+F calledCountry {{!!NULL!!}}
+F eventDuration 5
+F eventVolume 0
+F internationalCall {{!!NULL!!}}
+F onnet {{!!NULL!!}}
+F isRoaming {{!!NULL!!}}
+F eventStartTimestamp {{!!NULL!!}}
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 100
+F cost {{!!NULL!!}}
+F otherNetwork {{!!NULL!!}}
+F paygVoice 4
+F @collected 1720359714094
+F @filename 20240707094334.csv
+B profiles
+B subscriber
+B extensions
+F version 1720343449881214976
+B actions
+B Balance_50000_niod-4a78175f
+F sentTime 1712650534330
+.
+B action_L2_5_to_10-fe251d53
+F sentTime 1710142539760
+.
+B BonTest_Balance_L1_20_50-493742c0
+F sentTime 1709945119688
+.
+B mci-5343c276
+F sentTime 1704605669934
+.
+B testL1-fd6c1b3b
+F sentTime 1710142539760
+.
+B action_L1_none3-8f234163
+F sentTime 1714318554301
+.
+B OnnetPaygAction
+F sentTime 1720343449874
+.
+B NK_60-f9cd3c70
+F sentTime 1705200207168
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20240610082648
+F gender Male
+F weekly_data_pkg_start_time 14020924235229
+F weekly_data_pkg_end_time 14021001235229
+F peak_type_voice 
+F payg_data_rev_to_arpu 0
+F industry 
+F sub_balance 1160607720
+F avg_offnet_voice_min 0
+F vas_cost_to_arpu 60051.7
+F monthly_data_pkg_end_time 14010924041747
+F is_multi_sim_phone No
+F avg_nmb_sms_sent 0
+F churn_propensity 
+F avg_non_business_voice_usage 0
+F is_smart_phone_user No
+F onnet_to_offnet_rev 0
+F avg_business_voice_usage 0
+F model 
+F daily_data_pkg_end_time 14020313162148
+F arpu 60051.7
+F data_package_size m
+F daily_data_pkg_start_time 14020312162148
+F subscriber_segment MASS
+F brand 
+F tenure 19
+F monthly_data_pkg_start_time 14010824041747
+F portout_propensity 
+F peak_type_data 
+F os 
+F enterprise_national_id 1382067021
+F avg_daily_2g_data_usage 
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 
+F avg_monthly_topup_cost 175000
+F roam_int_rev_to_arpu 0
+F avg_monthly_topup_nmb 0.67
+F payment_type prepaid
+F avg_onnet_voice_min 0
+F avg_daily_4g_data_usage 
+F avg_non_business_data_usage 0.21
+F avg_data_usage 24338379
+F pkg_to_payg_data 1
+F provience تهران
+F avg_business_data_usage 0
+F age 443
+F status Active
+.
+F profileId 289638421
+F id 989932767207
+.
+B target
+B extensions
+F version 1720343449881214976
+B actions
+B Balance_50000_niod-4a78175f
+F sentTime 1712650534330
+.
+B action_L2_5_to_10-fe251d53
+F sentTime 1710142539760
+.
+B BonTest_Balance_L1_20_50-493742c0
+F sentTime 1709945119688
+.
+B mci-5343c276
+F sentTime 1704605669934
+.
+B testL1-fd6c1b3b
+F sentTime 1710142539760
+.
+B action_L1_none3-8f234163
+F sentTime 1714318554301
+.
+B OnnetPaygAction
+F sentTime 1720343449874
+.
+B NK_60-f9cd3c70
+F sentTime 1705200207168
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20240610082648
+F gender Male
+F weekly_data_pkg_start_time 14020924235229
+F weekly_data_pkg_end_time 14021001235229
+F peak_type_voice 
+F payg_data_rev_to_arpu 0
+F industry 
+F sub_balance 1160607720
+F avg_offnet_voice_min 0
+F vas_cost_to_arpu 60051.7
+F monthly_data_pkg_end_time 14010924041747
+F is_multi_sim_phone No
+F avg_nmb_sms_sent 0
+F churn_propensity 
+F avg_non_business_voice_usage 0
+F is_smart_phone_user No
+F onnet_to_offnet_rev 0
+F avg_business_voice_usage 0
+F model 
+F daily_data_pkg_end_time 14020313162148
+F arpu 60051.7
+F data_package_size m
+F daily_data_pkg_start_time 14020312162148
+F subscriber_segment MASS
+F brand 
+F tenure 19
+F monthly_data_pkg_start_time 14010824041747
+F portout_propensity 
+F peak_type_data 
+F os 
+F enterprise_national_id 1382067021
+F avg_daily_2g_data_usage 
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 
+F avg_monthly_topup_cost 175000
+F roam_int_rev_to_arpu 0
+F avg_monthly_topup_nmb 0.67
+F payment_type prepaid
+F avg_onnet_voice_min 0
+F avg_daily_4g_data_usage 
+F avg_non_business_data_usage 0.21
+F avg_data_usage 24338379
+F pkg_to_payg_data 1
+F provience تهران
+F avg_business_data_usage 0
+F age 443
+F status Active
+.
+F profileId 289638421
+F id 989932767207
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 19 General Loan
+F 18 VIPLoan
+F 13 Onnet PAYG
+.
+.
+B __RULE_ENGINE__
+B TRIGGERED_ACTIONS
+F 21 VipLoan
+F 21 GeneralLoan
+F 21 PardisDownstreamTest-97791791
+.
+B ACTIONS
+B GeneralLoan
+F CONTENT_ID general_loan_content
+F DOWNSTREAM cms
+F CHANNEL sms
+F ACTION_LIMIT 30001
+F RESEND_FREQUENCY always
+.
+B VipLoan
+F CONTENT_ID general_loan_content
+F DOWNSTREAM cms
+F CHANNEL sms
+F ACTION_LIMIT 30001
+F RESEND_FREQUENCY always
+.
+.
+.
+F @distributed 1720359714402
+.

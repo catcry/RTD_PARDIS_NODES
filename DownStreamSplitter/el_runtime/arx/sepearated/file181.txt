@@ -1,0 +1,187 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989917201552
+F callingNumberType 0
+F calledNumber 989111788628
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 26
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 1
+F isRoaming 0
+F eventStartTimestamp 20241027160657
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 59920972
+F cost 285514
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046444608
+F @filename RTD_OCSPOST-RECLIVE-61761-20241027195531.csv
+B profiles
+B subscriber
+B extensions
+F version 1727435823304867840
+B actions
+B Action_L2_new_60_min-80374415
+F sentTime 1727435823302
+.
+B testL2-f5299f11
+F sentTime 1706354965051
+.
+B testL1-fd6c1b3b
+F sentTime 1710224835954
+.
+B testL1B20-77847e22
+F sentTime 1705745626154
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1688970109009
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027005453
+F voice_pkg_400283_end_time 13990217001304
+F sub_balance 80959046
+F monthly_data_pkg_end_time 13990307180932
+F is_multi_sim_phone Yes
+F avg_nmb_sms_sent 862032.12
+F avg_business_voice_usage 9046
+F onnet_to_offnet_rev 12.4
+F model 
+F daily_data_pkg_end_time 13981129034749
+F data_package_size l
+F daily_data_pkg_start_time 13981128034751
+F subscriber_segment SHVC
+F brand 
+F voice_pkg_700315_end_time 14020928171619
+F tenure 69
+F monthly_data_pkg_start_time 13990208180932
+F portout_propensity High
+F arpu_segment High ARPU
+F avg_monthly_topup_cost 183333.33
+F voice_pkg_400218_start_time 13990106173352
+F payment_type prepaid
+F avg_non_business_data_usage 5183.13
+F avg_data_usage 29496065951
+F provience آذربایجان غربی
+F avg_business_data_usage 4101.86
+F status Disconnected
+F gender Male
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F avg_offnet_voice_min 257149.13
+F vas_cost_to_arpu 1043322.86
+F churn_propensity Low
+F avg_non_business_voice_usage 15860.5
+F pkg_to_payg_voice 
+F is_smart_phone_user No
+F arpu 1043322.86
+F peak_type_data peak
+F os 
+F enterprise_national_id 2740886209
+F avg_daily_2g_data_usage 0
+F avg_daily_3g_data_usage 25
+F roam_int_rev_to_arpu 217056.4
+F voice_pkg_400218_end_time 13990106230000
+F avg_monthly_topup_nmb 0.33
+F avg_daily_4g_data_usage 290
+F avg_onnet_voice_min 520.38
+F pkg_to_payg_data 
+F voice_pkg_400283_start_time 13990216001305
+F voice_pkg_700315_start_time 14020828171621
+F age 359
+.
+F profileId 275431396
+F id 989917201552
+.
+B target
+B extensions
+F version 1674555095974936576
+B actions
+B action2_atrisk_shvc-e80e7a78
+F sentTime 1667230517754
+.
+B action_PAYG_DATA-0a179f57
+F sentTime 1674555095973
+.
+.
+.
+B rtd
+F gender Male
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0.03
+F industry Others
+F avg_offnet_voice_min 1130250.36
+F vas_cost_to_arpu 3615143.68
+F monthly_data_pkg_end_time 14010220032752
+F churn_propensity 
+F avg_nmb_sms_sent 3347045.5
+F is_multi_sim_phone Yes
+F avg_non_business_voice_usage 45405.67
+F voice_pkg_700310_start_time 13990703085132
+F avg_business_voice_usage 41876.33
+F is_smart_phone_user No
+F onnet_to_offnet_rev 5.02
+F model 
+F arpu 3615143.68
+F data_package_size xl
+F subscriber_segment SHVC
+F brand 
+F tenure 216
+F monthly_data_pkg_start_time 14010121032752
+F portout_propensity 
+F peak_type_data peak
+F os 
+F enterprise_national_id 2240208783
+F avg_daily_2g_data_usage 2
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 143
+F voice_pkg_700310_end_time 13990803085130
+F roam_int_rev_to_arpu 930457.01
+F payment_type postpaid
+F avg_daily_4g_data_usage 1417
+F avg_onnet_voice_min 2032.06
+F avg_non_business_data_usage 16878.85
+F avg_data_usage 96013433066
+F pkg_to_payg_data 0.95
+F provience گلستان
+F avg_business_data_usage 10416.18
+F age 334
+F status Active
+.
+F profileId 195141709
+F id 989111788628
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 210 L1_new_60_min
+F 243 BALANCE_100_L1-Topup_NID
+F 212 new_30_min
+F 244 BALANCE_50_L1-Topup_NID
+F 77 L1_balance_LT_20000R
+F 88 L1_5T10_arpu
+F 213 roaming
+F 89 L2_5T10_arpu
+F 78 L2_balance_LT_20000R
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 211
+F DISCARD_REASON Action Action_L2_new_60_min-80374415 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046444813
+.

@@ -1,0 +1,119 @@
+RECORD
+#source_id 
+F eventType 8
+F eventId {{!!NULL!!}}
+F callingNumber 989911794370
+F callingNumberType 0
+F calledNumber {{!!NULL!!}}
+F calledNumberType {{!!NULL!!}}
+F callingCountry 98
+F calledCountry {{!!NULL!!}}
+F eventDuration {{!!NULL!!}}
+F eventVolume 35114
+F internationalCall 0
+F onnet 0
+F isRoaming 0
+F eventStartTimestamp 20241027150110
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum 0
+F subBalance 51130398
+F cost 0
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046436583
+F @filename RTD_OCSPOST-OCS-61463-20241027195523.csv
+B profiles
+B subscriber
+B extensions
+F version 1728435902967775232
+B actions
+B Balance_50000_niod-4a78175f
+F sentTime 1728435902966
+.
+B Zarrebin2-5eae5c9b
+F sentTime 1662526559489
+.
+B ZarebinTest_action-e4ab93c6
+F sentTime 1635250271015
+.
+B Action_L2_new_60_min-80374415
+F sentTime 1727809815990
+.
+B action_L1_100Percent-6c30318b
+F sentTime 1569404393646
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1727766982546
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241026212244
+F gender Male
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry 
+F sub_balance 57401115
+F avg_offnet_voice_min 1203.14
+F vas_cost_to_arpu 1203.8
+F is_multi_sim_phone Yes
+F avg_nmb_sms_sent 180008.77
+F avg_non_business_voice_usage 3966.17
+F churn_propensity High
+F is_smart_phone_user No
+F onnet_to_offnet_rev 1.28
+F avg_business_voice_usage 3477.83
+F model K800i
+F arpu 1203.8
+F subscriber_segment HVR
+F brand Sony Ericsson Mobile Communications AB
+F tenure 5
+F portout_propensity High
+F peak_type_data peak
+F os Not Known
+F enterprise_national_id 4360670990
+F avg_daily_2g_data_usage 0
+F arpu_segment Low ARPU
+F avg_daily_3g_data_usage 117
+F avg_monthly_topup_cost 241666.67
+F roam_int_rev_to_arpu 28380.8
+F avg_monthly_topup_nmb 1.33
+F payment_type prepaid
+F avg_onnet_voice_min 40.22
+F avg_non_business_data_usage 6921.36
+F avg_daily_4g_data_usage 2502
+F avg_data_usage 3458913141
+F pkg_to_payg_data 0.25
+F provience تهران
+F avg_business_data_usage 5877.82
+F age 232
+F status Active
+.
+F profileId 216315266
+F id 989911794370
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 78 L2_balance_LT_20000R
+F 77 L1_balance_LT_20000R
+F 243 BALANCE_100_L1-Topup_NID
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 244 BALANCE_50_L1-Topup_NID
+F 213 roaming
+F 212 new_30_min
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 211
+F DISCARD_REASON Action Action_L2_new_60_min-80374415 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046436604
+.

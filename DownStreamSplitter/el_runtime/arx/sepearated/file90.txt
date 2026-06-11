@@ -1,0 +1,138 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989191853109
+F callingNumberType 0
+F calledNumber 989372004824
+F calledNumberType 1
+F callingCountry 98
+F calledCountry 98
+F eventDuration 1036
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 0
+F isRoaming 0
+F eventStartTimestamp 20241027154449
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 572407561
+F cost 11376627
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046426019
+F @filename RTD_OCSPOST-RECLIVE-61578-20241027195526.csv
+B profiles
+B subscriber
+B extensions
+F version 1727434688952336384
+B actions
+B Balance_50000_niod-4a78175f
+F sentTime 1724512834409
+.
+B Age_45_60-6314e334
+F sentTime 1725466053541
+.
+B ACTION_L2_balance_LT_20000R-f4ae35a9
+F sentTime 1727434688948
+.
+B new_30_min-5fda87d2
+F sentTime 1696868087657
+.
+B BonTest_Balance_L1_20_50-493742c0
+F sentTime 1710052230281
+.
+B testL1B250-9a6c08a2
+F sentTime 1705943018893
+.
+B testL2-f5299f11
+F sentTime 1705943018893
+.
+B ACTION_L1_balance_LT_20000R-f25260df
+F sentTime 1696924852865
+.
+B testL1B20-77847e22
+F sentTime 1705757506250
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241026205614
+F gender Female
+F weekly_data_pkg_start_time 14020820215507
+F weekly_data_pkg_end_time 14020827215507
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F sub_balance 594282704
+F avg_offnet_voice_min 416680.23
+F vas_cost_to_arpu 468400.06
+F monthly_data_pkg_end_time {{!!NULL!!}}
+F avg_nmb_sms_sent 1080283.32
+F is_multi_sim_phone Yes
+F churn_propensity Low
+F avg_non_business_voice_usage 9375.17
+F is_smart_phone_user No
+F onnet_to_offnet_rev 0.24
+F avg_business_voice_usage 11750.17
+F model 1280
+F arpu 468400.06
+F data_package_size l
+F subscriber_segment HVR
+F brand Nokia Corporation
+F tenure 199
+F monthly_data_pkg_start_time {{!!NULL!!}}
+F portout_propensity Low
+F peak_type_data peak
+F os Not Known
+F enterprise_national_id 5089374902
+F avg_daily_2g_data_usage 0
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 19
+F avg_monthly_topup_cost 400000
+F roam_int_rev_to_arpu 195319.9
+F avg_monthly_topup_nmb 1.83
+F payment_type prepaid
+F avg_onnet_voice_min 168.69
+F avg_daily_4g_data_usage 12
+F avg_non_business_data_usage 107.04
+F avg_data_usage 181976409
+F pkg_to_payg_data 
+F provience قزوین
+F avg_business_data_usage 65.12
+F age 528
+F status Disconnected
+.
+F profileId 199719059
+F id 989191853109
+.
+B target
+F errorCode 100
+F errorMessage Profile for subscriber '989372004824' was not found
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 210 L1_new_60_min
+F 243 BALANCE_100_L1-Topup_NID
+F 212 new_30_min
+F 244 BALANCE_50_L1-Topup_NID
+F 77 L1_balance_LT_20000R
+F 88 L1_5T10_arpu
+F 213 roaming
+F 89 L2_5T10_arpu
+F 211 L2_new_60_min
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 78
+F DISCARD_REASON Action ACTION_L2_balance_LT_20000R-f4ae35a9 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046426030
+.

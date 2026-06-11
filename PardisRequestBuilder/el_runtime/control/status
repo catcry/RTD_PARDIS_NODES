@@ -1,0 +1,16 @@
+Nodeid 1 start 2024-09-10 18:31:56
+Pid : 30925
+
+Input directories : 
+IN:/comptel/elink/catcry/PardisRequestBuilder/in
+#:/comptel/elink/catcry/PardisRequestBuilder/reprocess
+
+Output directories : 
+OUT -> /comptel/elink/catcry/PardisRequestBuilder/out/OUT
+LOOKUP_ERROR -> /comptel/elink/catcry/PardisRequestBuilder/rejected/LOOKUP_ERROR (rejected)
+WRITE_ERROR -> /comptel/elink/catcry/PardisRequestBuilder/rejected/WRITE_ERROR (rejected)
+
+Internal storage dir : /comptel/elink/catcry/PardisRequestBuilder/storage
+Discarded files dir : /comptel/elink/catcry/PardisRequestBuilder/discarded
+Auditfile path : /comptel/elink/catcry/PardisRequestBuilder/audit
+Pidfile : /comptel/elink/catcry/PardisRequestBuilder/control/pidfile

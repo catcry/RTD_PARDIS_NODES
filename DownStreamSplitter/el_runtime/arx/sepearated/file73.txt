@@ -1,0 +1,192 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989918302896
+F callingNumberType 0
+F calledNumber 989195990815
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 21
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 1
+F isRoaming 0
+F eventStartTimestamp 20241027160309
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 461587132
+F cost 0
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046419147
+F @filename RTD_OCSPOST-RECLIVE-61449-20241027195523.csv
+B profiles
+B subscriber
+B extensions
+F version 1728543307724029952
+B actions
+B Balance_50000_niod-4a78175f
+F sentTime 1728543307724
+.
+B Zarrebin2-5eae5c9b
+F sentTime 1671086940449
+.
+B ZarebinTest_action-e4ab93c6
+F sentTime 1635250398912
+.
+B Action_L2_new_60_min-80374415
+F sentTime 1728210920797
+.
+B ACTION_L1_balance_LT_20000R-f25260df
+F sentTime 1671859679907
+.
+B testL1B20-77847e22
+F sentTime 1706089358551
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1728156795942
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027144201
+F voice_pkg_400289_end_time 20191223173230
+F gender Male
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F sub_balance 461587132
+F avg_offnet_voice_min 5471.79
+F vas_cost_to_arpu 7037.79
+F monthly_data_pkg_end_time 14010203121515
+F churn_propensity High
+F avg_nmb_sms_sent 16909.82
+F is_multi_sim_phone Yes
+F avg_non_business_voice_usage 122.5
+F avg_business_voice_usage 60.67
+F is_smart_phone_user Yes
+F onnet_to_offnet_rev 0
+F model SM-A300H/DS
+F arpu 7037.79
+F data_package_size xl
+F subscriber_segment MASS
+F brand Samsung Korea
+F tenure 78
+F monthly_data_pkg_start_time 14010104121515
+F voice_pkg_400289_start_time 20191222173230
+F portout_propensity Low
+F peak_type_data peak
+F os Android
+F enterprise_national_id 4324002428
+F avg_daily_2g_data_usage 0
+F arpu_segment Low ARPU
+F avg_daily_3g_data_usage 0
+F avg_monthly_topup_cost 8333.33
+F roam_int_rev_to_arpu 91751.87
+F avg_monthly_topup_nmb 0.17
+F payment_type prepaid
+F avg_daily_4g_data_usage 0
+F avg_onnet_voice_min 8.55
+F avg_non_business_data_usage 0
+F avg_data_usage 0
+F pkg_to_payg_data -999.00
+F provience قزوین
+F avg_business_data_usage 0
+F age 525
+F status Active
+.
+F profileId 273459065
+F id 989918302896
+.
+B target
+B extensions
+F version 1639558485504032768
+B actions
+B Zarrebin2-5eae5c9b
+F sentTime 1639558477790
+.
+B ZarebinTest_action-e4ab93c6
+F sentTime 1634971911956
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20220102023653
+F gender Female
+F weekly_data_pkg_start_time 14020927182144
+F weekly_data_pkg_end_time 14021004182144
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F sub_balance 940337437
+F avg_offnet_voice_min 38632.22
+F vas_cost_to_arpu 1034480.09
+F monthly_data_pkg_end_time 14030820084424
+F churn_propensity 
+F avg_nmb_sms_sent 132533.31
+F is_multi_sim_phone Yes
+F avg_non_business_voice_usage 13862
+F pkg_to_payg_voice 0.83
+F avg_business_voice_usage 13679
+F is_smart_phone_user No
+F onnet_to_offnet_rev 138.3
+F model 
+F daily_data_pkg_end_time 14030128201941
+F arpu 1034480.09
+F daily_data_pkg_start_time 14030127201943
+F data_package_size xl
+F subscriber_segment SHVC
+F brand 
+F tenure 172
+F monthly_data_pkg_start_time 14030720084425
+F portout_propensity 
+F peak_type_data peak
+F os 
+F enterprise_national_id 4322284541
+F avg_daily_2g_data_usage 0
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 128
+F avg_monthly_topup_cost 
+F roam_int_rev_to_arpu 276091.85
+F avg_monthly_topup_nmb 
+F payment_type postpaid
+F avg_daily_4g_data_usage 1369
+F avg_onnet_voice_min 585.98
+F avg_non_business_data_usage 14979.72
+F avg_data_usage 109427032084
+F pkg_to_payg_data 
+F provience قزوین
+F avg_business_data_usage 16988.43
+F age 505
+F status Active
+.
+F profileId 232710874
+F id 989195990815
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 78 L2_balance_LT_20000R
+F 77 L1_balance_LT_20000R
+F 243 BALANCE_100_L1-Topup_NID
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 244 BALANCE_50_L1-Topup_NID
+F 213 roaming
+F 212 new_30_min
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 211
+F DISCARD_REASON Action Action_L2_new_60_min-80374415 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046419228
+.

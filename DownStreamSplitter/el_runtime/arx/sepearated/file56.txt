@@ -1,0 +1,122 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989175104925
+F callingNumberType 0
+F calledNumber 989023433963
+F calledNumberType 1
+F callingCountry 98
+F calledCountry 98
+F eventDuration 28
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 0
+F isRoaming 0
+F eventStartTimestamp 20241027161039
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 1075396317
+F cost 307476
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046415952
+F @filename RTD_OCSPOST-RECLIVE-61326-20241027195520.csv
+B profiles
+B subscriber
+B extensions
+F version 1728927761814126592
+B actions
+B ACTION_L2_balance_LT_20000R-f4ae35a9
+F sentTime 1728662543400
+.
+B Action_L2_new_60_min-80374415
+F sentTime 1728662543400
+.
+B ACTION_L1_balance_LT_20000R-f25260df
+F sentTime 1699892867693
+.
+B action_L1_none3-8f234163
+F sentTime 1728927761812
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1699892867693
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241026221517
+F gender Male
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F sub_balance 96666768
+F avg_offnet_voice_min 
+F vas_cost_to_arpu 
+F churn_propensity 
+F is_multi_sim_phone No
+F avg_non_business_voice_usage 0
+F avg_nmb_sms_sent 
+F avg_business_voice_usage 0
+F is_smart_phone_user No
+F onnet_to_offnet_rev 
+F model 
+F arpu 
+F subscriber_segment 
+F brand 
+F tenure 18
+F portout_propensity 
+F peak_type_data peak
+F os 
+F enterprise_national_id 4240569737
+F avg_daily_2g_data_usage 0
+F arpu_segment 
+F avg_daily_3g_data_usage 0
+F avg_monthly_topup_cost 33333.33
+F roam_int_rev_to_arpu 
+F avg_monthly_topup_nmb 0.33
+F payment_type prepaid
+F avg_daily_4g_data_usage 0
+F avg_non_business_data_usage 0.43
+F avg_onnet_voice_min 
+F avg_data_usage 
+F provience کهکیلویه و بویراحمد
+F avg_business_data_usage 0.58
+F age 247
+F status Active
+.
+F profileId 305965374
+F id 989175104925
+.
+B target
+F errorCode 100
+F errorMessage Profile for subscriber '989023433963' was not found
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 77 L1_balance_LT_20000R
+F 243 BALANCE_100_L1-Topup_NID
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 244 BALANCE_50_L1-Topup_NID
+F 210 L1_new_60_min
+F 213 roaming
+F 212 new_30_min
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 78
+F DISCARD_REASON Action ACTION_L2_balance_LT_20000R-f4ae35a9 was removed from the event because of resend frequency restriction.
+.
+B LOGIC
+F ID 211
+F DISCARD_REASON Action Action_L2_new_60_min-80374415 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046416115
+.

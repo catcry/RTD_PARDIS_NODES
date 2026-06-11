@@ -1,0 +1,159 @@
+RECORD
+#source_id 
+F eventType 8
+F eventId {{!!NULL!!}}
+F callingNumber 989159615175
+F callingNumberType 0
+F calledNumber {{!!NULL!!}}
+F calledNumberType {{!!NULL!!}}
+F callingCountry 98
+F calledCountry {{!!NULL!!}}
+F eventDuration {{!!NULL!!}}
+F eventVolume 298618
+F internationalCall 0
+F onnet 0
+F isRoaming 0
+F eventStartTimestamp 20241027063041
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum 0
+F subBalance 864934449
+F cost 0
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046406157
+F @filename RTD_OCSPOST-OCS-61182-20241027195517.csv
+B profiles
+B subscriber
+B extensions
+F version 1729944738265169920
+B actions
+B Balance_50000_niod-4a78175f
+F sentTime 1715848223858
+.
+B Zarrebin2-5eae5c9b
+F sentTime 1674583264832
+.
+B NDU_MASS_ACTION-d6258716
+F sentTime 1600076199118
+.
+B ZarebinTest_action-e4ab93c6
+F sentTime 1634461475790
+.
+B Action_L2_new_60_min-80374415
+F sentTime 1729944738264
+.
+B Zarebin1_action-e275ce6a
+F sentTime 1634588798130
+.
+B Final_60_min_per_day-0f58f786
+F sentTime 1564468383765
+.
+B Final_Dream_Friday-53a44cc0
+F sentTime 1597247884561
+.
+B testL1-fd6c1b3b
+F sentTime 1710157880547
+.
+B action_L1_none3-8f234163
+F sentTime 1716740446879
+.
+B testL1B20-77847e22
+F sentTime 1705824509293
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1697476330613
+.
+B action_PAYG_DATA-0a179f57
+F sentTime 1640983796463
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027185634
+F sub_balance 866394962
+F voice_pkg_400642_start_time {{!!NULL!!}}
+F monthly_data_pkg_end_time 14001127015123
+F avg_nmb_sms_sent 1400662.15
+F is_multi_sim_phone Yes
+F avg_business_voice_usage 30552
+F onnet_to_offnet_rev 4.22
+F voice_pkg_700700_start_time 14010230105623
+F model 
+F daily_data_pkg_end_time 14010428211151
+F data_package_size s
+F daily_data_pkg_start_time 14010427211153
+F subscriber_segment SHVC
+F brand 
+F tenure 208
+F monthly_data_pkg_start_time 14001126015930
+F portout_propensity High
+F arpu_segment High ARPU
+F avg_monthly_topup_cost 450000
+F voice_pkg_400642_end_time {{!!NULL!!}}
+F payment_type prepaid
+F avg_non_business_data_usage 11595.58
+F avg_data_usage 93486095101
+F provience خراسان جنوبی
+F avg_business_data_usage 7095.16
+F voice_pkg_700337_end_time 13990622112230
+F status Disconnected
+F gender Male
+F weekly_data_pkg_start_time 14010920180659
+F weekly_data_pkg_end_time 14010927180659
+F peak_type_voice peak
+F voice_pkg_700785_end_time 14010410185749
+F payg_data_rev_to_arpu 0.34
+F industry Others
+F avg_offnet_voice_min 577594.45
+F vas_cost_to_arpu 1914890.08
+F voice_pkg_700785_start_time 14010311185751
+F voice_pkg_700700_end_time 14010329105621
+F churn_propensity Low
+F avg_non_business_voice_usage 28819.83
+F pkg_to_payg_voice 
+F is_smart_phone_user No
+F voice_pkg_700337_start_time 13990523112231
+F arpu 1914890.08
+F peak_type_data peak
+F os 
+F enterprise_national_id 5639840420
+F avg_daily_2g_data_usage 1
+F avg_daily_3g_data_usage 61
+F roam_int_rev_to_arpu 506545.43
+F avg_monthly_topup_nmb 1.5
+F voice_pkg_400644_start_time {{!!NULL!!}}
+F avg_daily_4g_data_usage 601
+F avg_onnet_voice_min 1729.59
+F pkg_to_payg_data 0.51
+F voice_pkg_400644_end_time {{!!NULL!!}}
+F age 689
+.
+F profileId 235884083
+F id 989159615175
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 78 L2_balance_LT_20000R
+F 77 L1_balance_LT_20000R
+F 243 BALANCE_100_L1-Topup_NID
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 244 BALANCE_50_L1-Topup_NID
+F 210 L1_new_60_min
+F 213 roaming
+F 212 new_30_min
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 211
+F DISCARD_REASON Action Action_L2_new_60_min-80374415 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046406187
+.

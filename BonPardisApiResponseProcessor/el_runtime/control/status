@@ -1,0 +1,17 @@
+Nodeid 1 start 2025-03-22 05:23:25
+Pid : 4208
+
+Input directories : 
+IN:/comptel/elink/catcry/PardisResponseHandler/in
+#:/comptel/elink/catcry/PardisResponseHandler/reprocess
+
+Output directories : 
+SUCCEED -> /comptel/elink/catcry/PardisResponseHandler/out/SUCCEED
+OUT_PARDIS -> /comptel/elink/catcry/PardisResponseHandler/out/OUT_PARDIS
+FAILED -> /comptel/elink/catcry/PardisResponseHandler/out/FAILED
+REJECTED -> /comptel/elink/catcry/PardisResponseHandler/rejected/REJECTED (rejected)
+
+Internal storage dir : /comptel/elink/catcry/PardisResponseHandler/storage
+Discarded files dir : /comptel/elink/catcry/PardisResponseHandler/discarded
+Auditfile path : /comptel/elink/catcry/PardisResponseHandler/audit
+Pidfile : /comptel/elink/catcry/PardisResponseHandler/control/pidfile

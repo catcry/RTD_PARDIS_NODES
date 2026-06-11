@@ -1,0 +1,198 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989188121698
+F callingNumberType 0
+F calledNumber 989188194053
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 14
+F eventVolume {{!!NULL!!}}
+F internationalCall 1
+F onnet 1
+F isRoaming 1
+F eventStartTimestamp 20241027160641
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 2699619745
+F cost 253000000
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046408807
+F @filename RTD_OCSPOST-RECLIVE-61226-20241027195518.csv
+B profiles
+B subscriber
+B extensions
+F version 1729663897885933568
+B actions
+B Dormant_MASS-c0fe6136
+F sentTime 1650177633671
+.
+B Age_45_60-6314e334
+F sentTime 1725457052776
+.
+B NDU_MASS_ACTION-d6258716
+F sentTime 1635322319724
+.
+B Arbaeen_Roaming-0da60d4f
+F sentTime 1729663897883
+.
+B Notify_Nondata-03fc65dd
+F sentTime 1587540061011
+.
+.
+.
+B rtd
+F voice_pkg_400289_end_time 14030405095514
+F gender Male
+F weekly_data_pkg_start_time 14010811085750
+F voice_pkg_219_start_time 14021105124840
+F weekly_data_pkg_end_time 14010818085750
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F avg_offnet_voice_min 77670.74
+F vas_cost_to_arpu 89243.35
+F monthly_data_pkg_end_time 14010218231113
+F churn_propensity Low
+F avg_nmb_sms_sent 249506.14
+F is_multi_sim_phone No
+F avg_non_business_voice_usage 4143.5
+F avg_business_voice_usage 4494.83
+F is_smart_phone_user No
+F onnet_to_offnet_rev 4
+F voice_pkg_400295_end_time 13990316134801
+F model 
+F arpu 89243.35
+F data_package_size xl
+F subscriber_segment MASS
+F brand 
+F voice_pkg_400295_start_time 13990217134802
+F tenure 250
+F voice_pkg_400289_start_time 14030404095515
+F monthly_data_pkg_start_time 14010119231113
+F portout_propensity Low
+F peak_type_data peak
+F os 
+F enterprise_national_id 5029819525
+F avg_daily_2g_data_usage 0
+F arpu_segment Medium ARPU
+F avg_daily_3g_data_usage 0
+F roam_int_rev_to_arpu 69786.17
+F voice_pkg_219_end_time 14021106124912
+F payment_type postpaid
+F avg_daily_4g_data_usage 0
+F avg_onnet_voice_min 176.67
+F avg_non_business_data_usage 0
+F avg_data_usage 5760
+F provience همدان
+F avg_business_data_usage 0
+F age 651
+F status Active
+.
+F profileId 216172801
+F id 989188121698
+.
+B target
+B extensions
+F version 1729664001471152128
+B actions
+B Arbaeen_Roaming-0da60d4f
+F sentTime 1729664001467
+.
+.
+.
+B rtd
+F voice_pkg_400289_end_time 13990810110003
+F gender Male
+F weekly_data_pkg_start_time 14010815162148
+F weekly_data_pkg_end_time 14010822162148
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F avg_offnet_voice_min 33372.17
+F vas_cost_to_arpu 33372.17
+F monthly_data_pkg_end_time 14010208133556
+F churn_propensity Low
+F avg_nmb_sms_sent 107276.32
+F is_multi_sim_phone No
+F avg_non_business_voice_usage 2091.33
+F avg_business_voice_usage 1167.33
+F is_smart_phone_user No
+F onnet_to_offnet_rev 4.69
+F model 
+F daily_data_pkg_end_time 14020712111238
+F arpu 33372.17
+F data_package_size xl
+F daily_data_pkg_start_time 14020711111238
+F subscriber_segment MASS
+F brand 
+F tenure 215
+F voice_pkg_400289_start_time 13990809110004
+F monthly_data_pkg_start_time 14010109133556
+F portout_propensity Low
+F peak_type_data peak
+F os 
+F enterprise_national_id 5029371052
+F avg_daily_2g_data_usage 0
+F arpu_segment Low ARPU
+F avg_daily_3g_data_usage 0
+F roam_int_rev_to_arpu 27508.16
+F payment_type postpaid
+F avg_daily_4g_data_usage 0
+F avg_onnet_voice_min 62.75
+F avg_non_business_data_usage 0
+F avg_data_usage 0
+F provience همدان
+F avg_business_data_usage 0
+F age 742
+F status Active
+.
+F profileId 207134173
+F id 989188194053
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+B COUNTER
+F ID monthly.moc_cost_roaming
+F LOGIC_ID 213
+F COMPONENT_ID moc_roaming_cost_monthly
+F MODE UPDATE
+F SOURCE_FIELD cost
+.
+.
+B FAILED_LOGICS
+F 210 L1_new_60_min
+F 243 BALANCE_100_L1-Topup_NID
+F 212 new_30_min
+F 244 BALANCE_50_L1-Topup_NID
+F 77 L1_balance_LT_20000R
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 211 L2_new_60_min
+F 78 L2_balance_LT_20000R
+.
+.
+B counters
+B 213
+B monthly
+B moc_cost_roaming
+F used 1771000000.000000
+F left 2523967300.000000
+.
+.
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 213
+F DISCARD_REASON Action Arbaeen_Roaming-0da60d4f was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046408956
+.

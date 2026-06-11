@@ -1,0 +1,139 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989108445270
+F callingNumberType 0
+F calledNumber 989366901087
+F calledNumberType 1
+F callingCountry 98
+F calledCountry 98
+F eventDuration 132
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 0
+F isRoaming 0
+F eventStartTimestamp 20241027160624
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 497495503
+F cost 1449532
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046418424
+F @filename RTD_OCSPOST-RECLIVE-61427-20241027195522.csv
+B profiles
+B subscriber
+B extensions
+F version 1727762815144755200
+B actions
+B Zarrebin2-5eae5c9b
+F sentTime 1675030618339
+.
+B ZarebinTest_action-e4ab93c6
+F sentTime 1634114714501
+.
+B Action_L2_new_60_min-80374415
+F sentTime 1727762815140
+.
+B Zarebin1_action-e275ce6a
+F sentTime 1634197259914
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1692069315180
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027174837
+F sub_balance 501679379
+F monthly_data_pkg_end_time 14020226201748
+F is_multi_sim_phone No
+F avg_nmb_sms_sent 481178.64
+F avg_business_voice_usage 7579.67
+F onnet_to_offnet_rev 0.95
+F voice_pkg_700700_start_time 13990426201530
+F model SM-A205F_GALAXY A20_
+F daily_data_pkg_end_time 14000528224804
+F data_package_size s
+F daily_data_pkg_start_time 14000527224806
+F subscriber_segment SHVC
+F brand SAMSUNG
+F tenure 137
+F monthly_data_pkg_start_time 14020225201751
+F portout_propensity High
+F voice_pkg_700705_end_time 14000529163505
+F arpu_segment High ARPU
+F avg_monthly_topup_cost 274400
+F voice_pkg_400218_start_time 14010703121551
+F payment_type prepaid
+F voice_pkg_700702_start_time 14000122131401
+F avg_non_business_data_usage 16038.87
+F avg_data_usage 119714808279
+F provience البرز
+F avg_business_data_usage 16575.48
+F status Disconnected
+F gender Male
+F weekly_data_pkg_start_time 14020522151108
+F weekly_data_pkg_end_time 14020529151108
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F avg_offnet_voice_min 186133.04
+F vas_cost_to_arpu 346900.68
+F voice_pkg_700700_end_time 13990525201529
+F churn_propensity Low
+F avg_non_business_voice_usage 8084.33
+F pkg_to_payg_voice 
+F is_smart_phone_user No
+F arpu 346900.68
+F peak_type_data peak
+F os Android
+F enterprise_national_id 011093363138
+F avg_daily_2g_data_usage 0
+F avg_daily_3g_data_usage 22
+F roam_int_rev_to_arpu 56202.3
+F voice_pkg_700705_start_time 14000430163506
+F voice_pkg_400218_end_time 14010703230000
+F voice_pkg_400644_start_time {{!!NULL!!}}
+F avg_monthly_topup_nmb 0.67
+F avg_daily_4g_data_usage 671
+F avg_onnet_voice_min 97.87
+F pkg_to_payg_data 
+F voice_pkg_400644_end_time {{!!NULL!!}}
+F voice_pkg_700702_end_time 14000221131400
+F age 448
+.
+F profileId 227701858
+F id 989108445270
+.
+B target
+F errorCode 100
+F errorMessage Profile for subscriber '989366901087' was not found
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 78 L2_balance_LT_20000R
+F 77 L1_balance_LT_20000R
+F 243 BALANCE_100_L1-Topup_NID
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 244 BALANCE_50_L1-Topup_NID
+F 210 L1_new_60_min
+F 213 roaming
+F 212 new_30_min
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 211
+F DISCARD_REASON Action Action_L2_new_60_min-80374415 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046418537
+.

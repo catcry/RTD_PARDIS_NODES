@@ -1,0 +1,192 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989119805404
+F callingNumberType 0
+F calledNumber 989111764846
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 29
+F eventVolume {{!!NULL!!}}
+F internationalCall 1
+F onnet 1
+F isRoaming 1
+F eventStartTimestamp 20241027160752
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 685642693
+F cost 159500000
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046420787
+F @filename RTD_OCSPOST-RECLIVE-61488-20241027195524.csv
+B profiles
+B subscriber
+B extensions
+F version 1729842999379099648
+B actions
+B ZarebinTest_action-e4ab93c6
+F sentTime 1634358247825
+.
+B Zarebin1_action-e275ce6a
+F sentTime 1634893203691
+.
+B Arbaeen_Roaming-0da60d4f
+F sentTime 1729842999377
+.
+B testL1-fd6c1b3b
+F sentTime 1632218521888
+.
+B action_NoInterconnect-56005937
+F sentTime 1621834250015
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20211031223525
+F gender Male
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F sub_balance 868161025
+F avg_offnet_voice_min 121628.89
+F vas_cost_to_arpu 139801.03
+F churn_propensity Low
+F avg_nmb_sms_sent 356266.36
+F is_multi_sim_phone Yes
+F avg_non_business_voice_usage 6073.67
+F avg_business_voice_usage 6373.67
+F is_smart_phone_user No
+F onnet_to_offnet_rev 6.41
+F model 
+F daily_data_pkg_end_time 20190827094253
+F arpu 139801.03
+F daily_data_pkg_start_time 20190826094253
+F subscriber_segment MASS
+F brand 
+F tenure 196
+F portout_propensity Low
+F peak_type_data peak
+F os 
+F enterprise_national_id 2020035863
+F avg_daily_2g_data_usage 0
+F arpu_segment Medium ARPU
+F avg_daily_3g_data_usage 0
+F avg_monthly_topup_cost 
+F roam_int_rev_to_arpu 200024.41
+F avg_monthly_topup_nmb 
+F payment_type postpaid
+F avg_daily_4g_data_usage 0
+F avg_onnet_voice_min 216.83
+F avg_non_business_data_usage 0.02
+F avg_data_usage 146149
+F pkg_to_payg_data 
+F provience گلستان
+F avg_business_data_usage 0.02
+F age 445
+F status Active
+.
+F profileId 187059509
+F id 989119805404
+.
+B target
+B extensions
+F version 1647528565193900032
+B actions
+B NDU_MASS_ACTION-d6258716
+F sentTime 1647528564090
+.
+B Notify_Nondata-03fc65dd
+F sentTime 1585555871088
+.
+.
+.
+B rtd
+F gender Male
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0.12
+F industry Others
+F avg_offnet_voice_min 8137.15
+F vas_cost_to_arpu 13276.85
+F monthly_data_pkg_end_time 14021130182643
+F churn_propensity Low
+F avg_nmb_sms_sent 41805.82
+F is_multi_sim_phone Yes
+F avg_non_business_voice_usage 560.67
+F avg_business_voice_usage 599.83
+F is_smart_phone_user No
+F onnet_to_offnet_rev 7.68
+F model 
+F arpu 13276.85
+F data_package_size xl
+F subscriber_segment MASS
+F brand 
+F tenure 205
+F monthly_data_pkg_start_time 14021030182633
+F portout_propensity Low
+F peak_type_data peak
+F os 
+F enterprise_national_id 2031773399
+F avg_daily_2g_data_usage 0
+F arpu_segment Low ARPU
+F avg_daily_3g_data_usage 0
+F roam_int_rev_to_arpu 40389.22
+F payment_type postpaid
+F avg_daily_4g_data_usage 0
+F avg_onnet_voice_min 20.73
+F avg_non_business_data_usage 1.19
+F avg_data_usage 5683722
+F pkg_to_payg_data 0.96
+F provience گلستان
+F avg_business_data_usage 2.79
+F age 494
+F status Active
+.
+F profileId 191614566
+F id 989111764846
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+B COUNTER
+F ID monthly.moc_cost_roaming
+F LOGIC_ID 213
+F COMPONENT_ID moc_roaming_cost_monthly
+F MODE UPDATE
+F SOURCE_FIELD cost
+.
+.
+B FAILED_LOGICS
+F 78 L2_balance_LT_20000R
+F 77 L1_balance_LT_20000R
+F 243 BALANCE_100_L1-Topup_NID
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 244 BALANCE_50_L1-Topup_NID
+F 210 L1_new_60_min
+F 211 L2_new_60_min
+F 212 new_30_min
+.
+.
+B counters
+B 213
+B monthly
+B moc_cost_roaming
+F used 1595000000.000000
+F left 2699967300.000000
+.
+.
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 213
+F DISCARD_REASON Action Arbaeen_Roaming-0da60d4f was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046421127
+.

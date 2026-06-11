@@ -1,0 +1,130 @@
+RECORD
+#source_id 
+F eventType 8
+F eventId {{!!NULL!!}}
+F callingNumber 989115302756
+F callingNumberType 0
+F calledNumber {{!!NULL!!}}
+F calledNumberType {{!!NULL!!}}
+F callingCountry 98
+F calledCountry {{!!NULL!!}}
+F eventDuration {{!!NULL!!}}
+F eventVolume 868186
+F internationalCall 0
+F onnet 0
+F isRoaming 0
+F eventStartTimestamp 20241027041702
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum 0
+F subBalance 898822163
+F cost 0
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046430058
+F @filename RTD_OCSPOST-OCS-61313-20241027195519.csv
+B profiles
+B subscriber
+B extensions
+F version 1727568016321282048
+B actions
+B Age_45_60-6314e334
+F sentTime 1725460073546
+.
+B Action_L2_new_60_min-80374415
+F sentTime 1727568016318
+.
+B testL2-f5299f11
+F sentTime 1705512722044
+.
+B Final_Dream_Friday-53a44cc0
+F sentTime 1597247849454
+.
+B testL1-fd6c1b3b
+F sentTime 1706395545169
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1688971305641
+.
+B action_PAYG_DATA-0a179f57
+F sentTime 1704987976552
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027001318
+F gender Male
+F weekly_data_pkg_start_time 14020930201934
+F weekly_data_pkg_end_time 14021007201934
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0.55
+F industry Others
+F sub_balance 900119617
+F avg_offnet_voice_min 74145.74
+F vas_cost_to_arpu 207214.32
+F monthly_data_pkg_end_time {{!!NULL!!}}
+F is_multi_sim_phone No
+F avg_nmb_sms_sent 179939.6
+F churn_propensity Low
+F avg_non_business_voice_usage 3725.5
+F is_smart_phone_user Yes
+F onnet_to_offnet_rev 1.22
+F avg_business_voice_usage 1849.67
+F model iPhone X _A1865_
+F daily_data_pkg_end_time 14011019203747
+F arpu 207214.32
+F data_package_size l
+F daily_data_pkg_start_time 14011018203747
+F subscriber_segment SHVC
+F brand Apple Inc
+F tenure 77
+F monthly_data_pkg_start_time {{!!NULL!!}}
+F portout_propensity High
+F peak_type_data peak
+F os iOS
+F enterprise_national_id 2110599601
+F avg_daily_2g_data_usage 1
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 49
+F avg_monthly_topup_cost 
+F roam_int_rev_to_arpu 40795.53
+F avg_monthly_topup_nmb 
+F payment_type prepaid
+F avg_onnet_voice_min 88.53
+F avg_daily_4g_data_usage 478
+F avg_non_business_data_usage 7732.83
+F avg_data_usage 25264234891
+F pkg_to_payg_data 
+F provience گلستان
+F avg_business_data_usage 4077.51
+F age 346
+F status Disconnected
+.
+F profileId 226251677
+F id 989115302756
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 78 L2_balance_LT_20000R
+F 77 L1_balance_LT_20000R
+F 243 BALANCE_100_L1-Topup_NID
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 244 BALANCE_50_L1-Topup_NID
+F 210 L1_new_60_min
+F 213 roaming
+F 212 new_30_min
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 211
+F DISCARD_REASON Action Action_L2_new_60_min-80374415 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046430082
+.

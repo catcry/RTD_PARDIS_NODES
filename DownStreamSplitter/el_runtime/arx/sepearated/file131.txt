@@ -1,0 +1,145 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989143551405
+F callingNumberType 0
+F calledNumber 989045334259
+F calledNumberType 1
+F callingCountry 98
+F calledCountry 98
+F eventDuration 7
+F eventVolume {{!!NULL!!}}
+F internationalCall 1
+F onnet 0
+F isRoaming 1
+F eventStartTimestamp 20241027160904
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 1332544820
+F cost 253000000
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046436056
+F @filename RTD_OCSPOST-RECLIVE-61684-20241027195529.csv
+B profiles
+B subscriber
+B extensions
+F version 1728845189464915968
+B actions
+B action2_atrisk_hvr-7a3f4730
+F sentTime 1677149042410
+.
+B Age_45_60-6314e334
+F sentTime 1725451289298
+.
+B action2_atrisk_shvc-e80e7a78
+F sentTime 1673519384126
+.
+B Arbaeen_Roaming-0da60d4f
+F sentTime 1728845189464
+.
+.
+.
+B rtd
+F monthly_data_pkg_end_time 13990425094945
+F avg_nmb_sms_sent 665675.44
+F is_multi_sim_phone Yes
+F voice_pkg_700310_start_time 14020730165810
+F avg_business_voice_usage 7419
+F onnet_to_offnet_rev 78.83
+F model 
+F daily_data_pkg_end_time 14011209231345
+F data_package_size m
+F daily_data_pkg_start_time 14011208231345
+F subscriber_segment SHVC
+F brand 
+F tenure 226
+F monthly_data_pkg_start_time 13990326094945
+F portout_propensity Low
+F voice_pkg_700705_end_time 20191123222027
+F arpu_segment High ARPU
+F voice_pkg_400218_start_time 13991211043142
+F payment_type postpaid
+F avg_non_business_data_usage 5098.23
+F avg_data_usage 28422390341
+F provience اردبیل
+F avg_business_data_usage 2724.97
+F status Active
+F gender Female
+F weekly_data_pkg_start_time {{!!NULL!!}}
+F weekly_data_pkg_end_time {{!!NULL!!}}
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F avg_offnet_voice_min 160821.14
+F vas_cost_to_arpu 865626.43
+F churn_propensity Low
+F avg_non_business_voice_usage 10083
+F pkg_to_payg_voice 0.21
+F is_smart_phone_user No
+F arpu 865626.43
+F peak_type_data peak
+F os 
+F enterprise_national_id 5048797019
+F avg_daily_2g_data_usage 9
+F avg_daily_3g_data_usage 30
+F voice_pkg_700310_end_time 14020830165808
+F roam_int_rev_to_arpu 161809.46
+F voice_pkg_700705_start_time 20191024222027
+F voice_pkg_400218_end_time 13991211230000
+F avg_daily_4g_data_usage 286
+F avg_onnet_voice_min 489.88
+F pkg_to_payg_data 1
+F age 627
+.
+F profileId 202309407
+F id 989143551405
+.
+B target
+F errorCode 100
+F errorMessage Profile for subscriber '989045334259' was not found
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+B COUNTER
+F ID monthly.moc_cost_roaming
+F LOGIC_ID 213
+F COMPONENT_ID moc_roaming_cost_monthly
+F MODE UPDATE
+F SOURCE_FIELD cost
+.
+.
+B FAILED_LOGICS
+F 78 L2_balance_LT_20000R
+F 77 L1_balance_LT_20000R
+F 243 BALANCE_100_L1-Topup_NID
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 244 BALANCE_50_L1-Topup_NID
+F 210 L1_new_60_min
+F 211 L2_new_60_min
+F 212 new_30_min
+.
+.
+B counters
+B 213
+B monthly
+B moc_cost_roaming
+F used 2189000000.000000
+F left 2105967300.000000
+.
+.
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 213
+F DISCARD_REASON Action Arbaeen_Roaming-0da60d4f was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046436096
+.

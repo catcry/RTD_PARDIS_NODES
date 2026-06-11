@@ -1,0 +1,135 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989934046427
+F callingNumberType 0
+F calledNumber 989377866808
+F calledNumberType 1
+F callingCountry 98
+F calledCountry 98
+F eventDuration 8
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 0
+F isRoaming 0
+F eventStartTimestamp 20241027161601
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 2480646003
+F cost 87850
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046434739
+F @filename RTD_OCSPOST-RECLIVE-61661-20241027195528.csv
+B profiles
+B subscriber
+B extensions
+F version 1724353161755885568
+B actions
+B ACTION_L2_balance_LT_20000R-f4ae35a9
+F sentTime 1724353161755
+.
+B Zarrebin2-5eae5c9b
+F sentTime 1675077009351
+.
+B ZarebinTest_action-e4ab93c6
+F sentTime 1635250717118
+.
+B ACTION_L1_balance_LT_20000R-f25260df
+F sentTime 1689081600089
+.
+B testL1-fd6c1b3b
+F sentTime 1705654588354
+.
+B testL1B20-77847e22
+F sentTime 1705747986930
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027164548
+F gender Male
+F weekly_data_pkg_start_time 14021005144751
+F weekly_data_pkg_end_time 14021012144751
+F peak_type_voice offpeak
+F payg_data_rev_to_arpu 0.04
+F industry Others
+F sub_balance 37678470
+F avg_offnet_voice_min 1478405.6
+F vas_cost_to_arpu 1672790.71
+F churn_propensity Low
+F is_multi_sim_phone No
+F avg_non_business_voice_usage 63140.17
+F avg_nmb_sms_sent 4803227.76
+F avg_business_voice_usage 24920.33
+F is_smart_phone_user No
+F onnet_to_offnet_rev 0.74
+F model 
+F daily_data_pkg_end_time 14020613233424
+F arpu 1672790.71
+F daily_data_pkg_start_time 14020612233424
+F subscriber_segment SHVC
+F brand 
+F tenure 22
+F portout_propensity High
+F peak_type_data peak
+F os 
+F enterprise_national_id 0910211183
+F avg_daily_2g_data_usage 0
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 108
+F avg_monthly_topup_cost 1416666.67
+F roam_int_rev_to_arpu 613994.36
+F avg_monthly_topup_nmb 27.17
+F payment_type prepaid
+F avg_daily_4g_data_usage 877
+F avg_non_business_data_usage 10768.35
+F avg_onnet_voice_min 979.54
+F voice_pkg_400297_end_time 14000608000000
+F avg_data_usage 60569153487
+F pkg_to_payg_data 
+F provience تهران
+F avg_business_data_usage 9039.36
+F voice_pkg_400297_start_time 14000508000000
+F age 275
+F status Active
+.
+F profileId 295084440
+F id 989934046427
+.
+B target
+F errorCode 100
+F errorMessage Profile for subscriber '989377866808' was not found
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 210 L1_new_60_min
+F 243 BALANCE_100_L1-Topup_NID
+F 212 new_30_min
+F 244 BALANCE_50_L1-Topup_NID
+F 77 L1_balance_LT_20000R
+F 88 L1_5T10_arpu
+F 213 roaming
+F 89 L2_5T10_arpu
+F 211 L2_new_60_min
+.
+.
+B __RULE_ENGINE__
+B TRIGGERED_ACTIONS
+F 78 ACTION_L2_balance_LT_20000R-f4ae35a9
+.
+B ACTIONS
+B ACTION_L2_balance_LT_20000R-f4ae35a9
+F CONTENT_ID L2_balance_LT_20000R
+F DOWNSTREAM cms
+F CHANNEL sms
+F RESEND_FREQUENCY month
+.
+.
+.
+F @distributed 1730046434756
+.

@@ -1,0 +1,179 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989964136717
+F callingNumberType 0
+F calledNumber 989137916696
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 13
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 1
+F isRoaming 0
+F eventStartTimestamp 20241027160733
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 691576642
+F cost 142757
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046410957
+F @filename RTD_OCSPOST-RECLIVE-61237-20241027195518.csv
+B profiles
+B subscriber
+B extensions
+F version 1728934891373658112
+B actions
+B Action_L2_new_60_min-80374415
+F sentTime 1728934891374
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1727790978686
+.
+B action_PAYG_DATA-0a179f57
+F sentTime 1708192392887
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027194318
+F gender Female
+F weekly_data_pkg_start_time 14020926150657
+F weekly_data_pkg_end_time 14021003150657
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F sub_balance 177196001
+F avg_offnet_voice_min 12674.12
+F vas_cost_to_arpu 14083.52
+F is_multi_sim_phone Yes
+F avg_non_business_voice_usage 4531.33
+F avg_nmb_sms_sent 365093.76
+F churn_propensity High
+F avg_business_voice_usage 244.83
+F is_smart_phone_user No
+F onnet_to_offnet_rev 8.99
+F model LG-K520DY
+F arpu 14083.52
+F subscriber_segment MASS
+F brand LG Electronics Inc.
+F tenure 14
+F portout_propensity High
+F peak_type_data peak
+F os Android
+F enterprise_national_id 1091346216
+F avg_daily_2g_data_usage 0
+F arpu_segment Low ARPU
+F avg_daily_3g_data_usage 14
+F avg_monthly_topup_cost 75000
+F roam_int_rev_to_arpu 70820.11
+F avg_monthly_topup_nmb 0.67
+F payment_type prepaid
+F avg_daily_4g_data_usage 2600
+F avg_non_business_data_usage 8413.26
+F avg_onnet_voice_min 141.67
+F avg_data_usage 3998807755
+F pkg_to_payg_data 0.84
+F provience اصفهان
+F avg_business_data_usage 4450.24
+F age 500
+F status Active
+.
+F profileId 307141205
+F id 989964136717
+.
+B target
+B extensions
+F version 1705758807480008704
+B actions
+B new_30_min-5fda87d2
+F sentTime 1666057258515
+.
+B testL1-fd6c1b3b
+F sentTime 1705614382713
+.
+B testL1B20-77847e22
+F sentTime 1705758860378
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027123517
+F gender Male
+F weekly_data_pkg_start_time 14020904163510
+F weekly_data_pkg_end_time 14020911163510
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0.61
+F industry Others
+F sub_balance 81512940
+F avg_offnet_voice_min 22431.05
+F vas_cost_to_arpu 67588.35
+F monthly_data_pkg_end_time 14000802140703
+F churn_propensity Low
+F avg_nmb_sms_sent 22431.05
+F is_multi_sim_phone Yes
+F avg_non_business_voice_usage 241
+F avg_business_voice_usage 227.67
+F is_smart_phone_user No
+F onnet_to_offnet_rev 22
+F model M1906G7G
+F daily_data_pkg_end_time 14020710142308
+F arpu 67588.35
+F daily_data_pkg_start_time 14020709142308
+F data_package_size l
+F subscriber_segment MASS
+F brand XIAOMI
+F tenure 181
+F monthly_data_pkg_start_time 14000702140703
+F portout_propensity High
+F peak_type_data peak
+F os Android
+F enterprise_national_id 1091352471
+F avg_daily_2g_data_usage 0
+F arpu_segment Medium ARPU
+F avg_daily_3g_data_usage 3
+F avg_monthly_topup_cost 25000
+F roam_int_rev_to_arpu 294656.93
+F avg_monthly_topup_nmb 0.5
+F payment_type prepaid
+F avg_daily_4g_data_usage 316
+F avg_onnet_voice_min 12.49
+F avg_non_business_data_usage 848.57
+F avg_data_usage 1272242785
+F pkg_to_payg_data 
+F provience اصفهان
+F avg_business_data_usage 1428.24
+F age 498
+F status Active
+.
+F profileId 240088717
+F id 989137916696
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 243 BALANCE_100_L1-Topup_NID
+F 212 new_30_min
+F 244 BALANCE_50_L1-Topup_NID
+F 77 L1_balance_LT_20000R
+F 88 L1_5T10_arpu
+F 213 roaming
+F 89 L2_5T10_arpu
+F 78 L2_balance_LT_20000R
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 211
+F DISCARD_REASON Action Action_L2_new_60_min-80374415 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046411067
+.

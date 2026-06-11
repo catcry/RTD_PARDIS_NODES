@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration elversion="6.1">
+    <name>RTD_ACTION_SPLITTER_NODE</name>
+    <version major="2" minor="0" defect="0" patch=""/>
+    <description>cc LogicID Extract and Add. The Triggered action extraction logic changed</description>
+    <type>
+        <collector>false</collector>
+        <intermediate>false</intermediate>
+        <decoder>false</decoder>
+        <businesslogic>true</businesslogic>
+        <blt>false</blt>
+        <encoder>false</encoder>
+        <distributor>false</distributor>
+        <standalone>false</standalone>
+        <interface>false</interface>
+    </type>
+    <nodebase>c_node</nodebase>
+    <attributes>
+        <application_commit>false</application_commit>
+        <schedulable>false</schedulable>
+        <realtime>false</realtime>
+    </attributes>
+    <scalability>
+        <free></free>
+    </scalability>
+    <parameters>
+    </parameters>
+    <files>
+        <file os="Linux" path="./" editable="true" name="AnyOS/app_rtd_action_splitter.so">
+            <export>
+                <libpath>true</libpath>
+                <perl5lib>false</perl5lib>
+            </export>
+        </file>
+    </files>
+    <messages/>
+    <docs>
+    </docs>
+    <libraries>
+    </libraries>
+    <storages>
+    </storages>
+    <links>
+        <link>OUT_PARDIS</link>
+        <link>OUT_CMS</link>
+    </links>
+    <auditkeys>
+    </auditkeys>
+</configuration>

@@ -1,0 +1,6500 @@
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232000
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232001
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232002
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232003
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232004
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232005
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232006
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232007
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232008
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232009
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232010
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232011
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232012
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232013
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232014
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232015
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232016
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232017
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232018
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232019
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232020
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232021
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232022
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232023
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232024
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232025
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232026
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232027
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232028
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232029
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232030
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232031
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232032
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232033
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232034
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232035
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232036
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232037
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232038
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232039
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232040
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232041
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232042
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232043
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232044
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232045
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232046
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232047
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232048
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232049
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232050
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232051
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232052
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232053
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232054
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232055
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232056
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232057
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232058
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232059
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232060
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232061
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232062
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232063
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232064
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232065
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232066
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232067
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232068
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232069
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232070
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232071
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232072
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232073
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232074
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232075
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232076
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232077
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232078
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232079
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232080
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232081
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232082
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232083
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232084
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232085
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232086
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232087
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232088
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232089
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232090
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232091
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232092
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232093
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232094
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232095
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232096
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232097
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232098
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232099
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232100
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232101
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232102
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232103
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232104
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232105
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232106
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232107
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232108
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232109
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232110
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232111
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232112
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232113
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232114
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232115
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232116
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232117
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232118
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232119
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232120
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232121
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232122
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232123
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232124
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232125
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232126
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232127
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232128
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232129
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232130
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232131
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232132
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232133
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232134
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232135
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232136
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232137
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232138
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232139
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232140
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232141
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232142
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232143
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232144
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232145
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232146
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232147
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232148
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232149
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232150
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232151
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232152
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232153
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232154
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232155
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232156
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232157
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232158
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232159
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232160
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232161
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232162
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232163
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232164
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232165
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232166
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232167
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232168
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232169
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232170
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232171
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232172
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232173
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232174
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232175
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232176
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232177
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232178
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232179
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232180
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232181
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232182
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232183
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232184
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232185
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232186
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232187
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232188
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232189
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232190
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232191
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232192
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232193
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232194
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232195
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232196
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232197
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232198
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232199
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232200
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232201
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232202
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232203
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232204
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232205
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232206
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232207
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232208
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232209
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232210
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232211
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232212
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232213
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232214
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232215
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232216
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232217
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232218
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232219
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232220
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232221
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232222
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232223
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232224
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232225
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232226
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232227
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232228
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232229
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232230
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232231
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232232
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232233
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232234
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232235
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232236
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232237
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232238
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232239
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232240
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232241
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232242
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232243
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232244
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232245
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232246
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232247
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232248
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232249
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232250
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232251
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232252
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232253
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232254
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232255
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232256
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232257
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232258
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232259
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232260
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232261
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232262
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232263
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232264
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232265
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232266
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232267
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232268
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232269
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232270
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232271
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232272
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232273
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232274
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232275
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232276
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232277
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232278
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232279
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232280
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232281
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232282
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232283
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232284
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232285
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232286
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232287
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232288
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232289
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232290
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232291
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232292
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232293
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232294
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232295
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232296
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232297
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232298
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232299
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232300
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232301
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232302
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232303
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232304
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232305
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232306
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232307
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232308
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232309
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232310
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232311
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232312
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232313
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232314
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232315
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232316
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232317
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232318
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232319
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232320
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232321
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232322
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232323
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232324
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232325
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232326
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232327
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232328
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232329
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232330
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232331
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232332
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232333
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232334
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232335
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232336
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232337
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232338
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232339
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232340
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232341
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232342
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232343
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232344
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232345
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232346
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232347
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232348
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232349
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232350
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232351
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232352
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232353
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232354
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232355
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232356
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232357
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232358
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232359
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232360
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232361
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232362
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232363
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232364
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232365
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232366
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232367
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232368
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232369
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232370
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232371
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232372
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232373
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232374
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232375
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232376
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232377
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232378
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232379
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232380
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232381
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232382
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232383
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232384
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232385
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232386
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232387
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232388
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232389
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232390
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232391
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232392
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232393
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232394
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232395
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232396
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232397
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232398
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232399
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232400
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232401
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232402
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232403
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232404
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232405
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232406
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232407
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232408
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232409
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232410
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232411
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232412
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232413
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232414
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232415
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232416
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232417
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232418
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232419
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232420
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232421
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232422
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232423
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232424
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232425
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232426
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232427
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232428
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232429
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232430
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232431
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232432
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232433
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232434
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232435
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232436
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232437
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232438
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232439
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232440
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232441
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232442
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232443
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232444
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232445
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232446
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232447
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232448
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232449
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232450
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232451
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232452
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232453
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232454
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232455
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232456
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232457
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232458
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232459
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232460
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232461
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232462
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232463
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232464
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232465
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232466
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232467
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232468
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232469
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232470
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232471
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232472
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232473
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232474
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232475
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232476
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232477
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232478
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232479
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232480
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232481
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_8
+F content_id general_loan_content_8
+F msisdn 09191232482
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_3
+F content_id general_loan_content_3
+F msisdn 09191232483
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232484
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232485
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232486
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_4
+F content_id general_loan_content_4
+F msisdn 09191232487
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_9
+F content_id general_loan_content_9
+F msisdn 09191232488
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232489
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232490
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232491
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232492
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_10
+F content_id general_loan_content_10
+F msisdn 09191232493
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_2
+F content_id general_loan_content_2
+F msisdn 09191232494
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_5
+F content_id general_loan_content_5
+F msisdn 09191232495
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_6
+F content_id general_loan_content_6
+F msisdn 09191232496
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232497
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_1
+F content_id general_loan_content_1
+F msisdn 09191232498
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F action_id general_loan_action_7
+F content_id general_loan_content_7
+F msisdn 09191232499
+F retry_count 0
+.

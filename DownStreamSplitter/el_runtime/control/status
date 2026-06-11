@@ -1,0 +1,15 @@
+Nodeid 1 start 2025-03-22 23:54:11
+Pid : 4877
+
+Input directories : 
+IN:/comptel/elink/catcry/DownstreamSplitter/in
+#:/comptel/elink/catcry/DownstreamSplitter/reprocess
+
+Output directories : 
+OUT_PARDIS -> /comptel/elink/catcry/DownstreamSplitter/out/OUT_PARDIS
+OUT_CMS -> /comptel/elink/catcry/DownstreamSplitter/out/OUT_CMS
+
+Internal storage dir : /comptel/elink/catcry/DownstreamSplitter/storage
+Discarded files dir : /comptel/elink/catcry/DownstreamSplitter/discarded
+Auditfile path : /comptel/elink/catcry/DownstreamSplitter/audit
+Pidfile : /comptel/elink/catcry/DownstreamSplitter/control/pidfile

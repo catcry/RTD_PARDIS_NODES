@@ -1,0 +1,264 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989920649196
+F callingNumberType 0
+F calledNumber 989920822123
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 5
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 1
+F isRoaming 0
+F eventStartTimestamp 20241027160353
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 842731233
+F cost 54907
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046396509
+F @filename RTD_OCSPOST-RECLIVE-61074-20241027195515.csv
+B profiles
+B subscriber
+B extensions
+F version 1728576748510117888
+B actions
+B Balance_50000_niod-4a78175f
+F sentTime 1728576748510
+.
+B Age_45_60-6314e334
+F sentTime 1725462949912
+.
+B new_30_min-5fda87d2
+F sentTime 1680275531726
+.
+B Action_L2_new_60_min-80374415
+F sentTime 1727453144491
+.
+B action_L2_high2_20000-8e45907c
+F sentTime 1595682606969
+.
+B action2_atrisk_shvc-e80e7a78
+F sentTime 1646222872676
+.
+B testL1B20-77847e22
+F sentTime 1705865096357
+.
+B Zarrebin2-5eae5c9b
+F sentTime 1654334010246
+.
+B ZarebinTest_action-e4ab93c6
+F sentTime 1635250461288
+.
+B testL1B250-9a6c08a2
+F sentTime 1705752484560
+.
+B action_L1_high2_20000-23e91c8c
+F sentTime 1595142514666
+.
+B ACTION_L1_tenure_LT_3-b0cced75
+F sentTime 1589374934905
+.
+B testL1-fd6c1b3b
+F sentTime 1632216600916
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1727426729467
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027005501
+F voice_pkg_700701_end_time 13991205202212
+F sub_balance 855498895
+F monthly_data_pkg_end_time 14010215234727
+F voice_pkg_700316_start_time 14010123222046
+F is_multi_sim_phone Yes
+F avg_nmb_sms_sent 33605.37
+F avg_business_voice_usage 1551.83
+F onnet_to_offnet_rev 2.9
+F voice_pkg_700786_start_time 13990506172506
+F model 
+F data_package_size xl
+F brand 
+F subscriber_segment MASS
+F tenure 55
+F monthly_data_pkg_start_time 14010116234727
+F portout_propensity High
+F arpu_segment Low ARPU
+F avg_monthly_topup_cost 33333.33
+F voice_pkg_700701_start_time 13991105202214
+F voice_pkg_700786_end_time 13990605172502
+F payment_type prepaid
+F avg_non_business_data_usage 4143.53
+F avg_data_usage 28701
+F voice_pkg_400297_end_time 13990320000000
+F provience قزوین
+F avg_business_data_usage 1738
+F voice_pkg_400297_start_time 13990220000000
+F status Active
+F gender Female
+F weekly_data_pkg_start_time 14000920041353
+F weekly_data_pkg_end_time 14000927041353
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F avg_offnet_voice_min 1779.98
+F vas_cost_to_arpu 3659.18
+F churn_propensity High
+F avg_non_business_voice_usage 2501.67
+F pkg_to_payg_voice 0.9
+F is_smart_phone_user No
+F arpu 3659.18
+F peak_type_data peak
+F os 
+F enterprise_national_id 0061554995
+F avg_daily_2g_data_usage 0
+F avg_daily_3g_data_usage 73
+F roam_int_rev_to_arpu 849297.89
+F avg_monthly_topup_nmb 0.17
+F voice_pkg_400644_start_time 13990406150944
+F avg_daily_4g_data_usage 1187
+F avg_onnet_voice_min 16.52
+F pkg_to_payg_data 
+F voice_pkg_700316_end_time 14010222222045
+F voice_pkg_400644_end_time 13990505150942
+F age 575
+.
+F profileId 283579317
+F id 989920649196
+.
+B target
+B extensions
+F version 1727014234153484288
+B actions
+B Balance_50000_niod-4a78175f
+F sentTime 1727014234152
+.
+B Age_45_60-6314e334
+F sentTime 1725457517727
+.
+B Zarrebin2-5eae5c9b
+F sentTime 1675068420710
+.
+B ZarebinTest_action-e4ab93c6
+F sentTime 1635250461120
+.
+B testL1B250-9a6c08a2
+F sentTime 1705752624702
+.
+B testL2-f5299f11
+F sentTime 1709625421942
+.
+B Zarebin1_action-e275ce6a
+F sentTime 1635713021726
+.
+B action2_atrisk_shvc-e80e7a78
+F sentTime 1677926488712
+.
+B testL1-fd6c1b3b
+F sentTime 1709884866546
+.
+B action_L1_none3-8f234163
+F sentTime 1714542925677
+.
+B testL1B20-77847e22
+F sentTime 1705906303628
+.
+B action_PAYG_DATA-0a179f57
+F sentTime 1625955314207
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241026200519
+F sub_balance 346993486
+F monthly_data_pkg_end_time 14010723110838
+F voice_pkg_700316_start_time 14010127105546
+F is_multi_sim_phone Yes
+F avg_nmb_sms_sent 3282547.64
+F voice_pkg_700773_start_time 13990504133854
+F avg_business_voice_usage 29430.83
+F onnet_to_offnet_rev 2.92
+F model 
+F daily_data_pkg_end_time 14000229013053
+F data_package_size l
+F daily_data_pkg_start_time 14000228013054
+F brand 
+F subscriber_segment SHVC
+F tenure 54
+F monthly_data_pkg_start_time 14010624110838
+F portout_propensity 
+F voice_pkg_700705_end_time 13991127221912
+F arpu_segment High ARPU
+F avg_monthly_topup_cost 1350000
+F payment_type prepaid
+F avg_non_business_data_usage 20098.39
+F avg_data_usage 115467618722
+F voice_pkg_400297_end_time 13990320000000
+F provience قزوین
+F avg_business_data_usage 13448.69
+F voice_pkg_400297_start_time 13990220000000
+F status Active
+F gender Female
+F weekly_data_pkg_start_time 13990816204944
+F weekly_data_pkg_end_time 13990916204944
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F voice_pkg_700773_end_time 13990603133852
+F avg_offnet_voice_min 982648.1
+F vas_cost_to_arpu 1748152.46
+F churn_propensity 
+F avg_non_business_voice_usage 29203.67
+F pkg_to_payg_voice 
+F is_smart_phone_user No
+F arpu 1748152.46
+F voice_pkg_700317_start_time 14010205150333
+F peak_type_data peak
+F os 
+F enterprise_national_id 0061554995
+F avg_daily_2g_data_usage 7
+F avg_daily_3g_data_usage 544
+F roam_int_rev_to_arpu 915371.43
+F voice_pkg_700705_start_time 13991027221913
+F voice_pkg_700317_end_time 14010304150331
+F avg_monthly_topup_nmb 4.83
+F voice_pkg_400644_start_time 13990418171202
+F avg_daily_4g_data_usage 1683
+F avg_onnet_voice_min 1396.18
+F pkg_to_payg_data 
+F voice_pkg_700316_end_time 14010226105545
+F voice_pkg_400644_end_time 13990517171200
+F age 574
+.
+F profileId 283619672
+F id 989920822123
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 243 BALANCE_100_L1-Topup_NID
+F 212 new_30_min
+F 244 BALANCE_50_L1-Topup_NID
+F 77 L1_balance_LT_20000R
+F 88 L1_5T10_arpu
+F 213 roaming
+F 89 L2_5T10_arpu
+F 78 L2_balance_LT_20000R
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 211
+F DISCARD_REASON Action Action_L2_new_60_min-80374415 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046396573
+.

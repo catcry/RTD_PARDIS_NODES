@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<library elversion="6.1">
+    <name>EL_LIB_FNL</name>
+    <param_prefix>EL_LIB_FNL</param_prefix>
+    <version major="1" minor="5" defect="3" patch=""/>
+    <parameters/>
+    <files>
+        <file os="Linux" path="./" name="Linux/libfnl.so">
+            <export>
+                <libpath>true</libpath>
+                <perl5lib>false</perl5lib>
+            </export>
+        </file>
+    </files>
+    <messages>
+        <message key="FNL009" type="E">
+            <text>String to number conversion error: %s</text>
+            <explanation>Unable to convert a string representation into a number representation.</explanation>
+        </message>
+        <message key="FNL003" type="E">
+            <text>Invalid sequence reset interval: %s</text>
+            <explanation>Invalid sequence reset interval given. Check the given value.</explanation>
+        </message>
+        <message key="FNL006" type="E">
+            <text>Unable to read status info.</text>
+            <explanation>The status info was unavailable or the contents were corrupted.</explanation>
+        </message>
+        <message key="FNL008" type="E">
+            <text>Unable to allocate memory: %s</text>
+            <explanation>Unable to allocate memory for output name string elements. </explanation>
+        </message>
+        <message key="FNL004" type="E">
+            <text>Invalid syntax in regular expression '%s' : %s</text>
+            <explanation>The regular expression syntax is incorrect. It can not be compiled.</explanation>
+        </message>
+        <message key="FNL010" type="E">
+            <text>Invalid syntax in output name string: %s</text>
+            <explanation>Output name string contains invalid literals. Check the format of the output name string.</explanation>
+        </message>
+        <message key="FNL005" type="E">
+            <text>Error parsing output name string.</text>
+            <explanation>The parsing of output name string failed.</explanation>
+        </message>
+        <message key="FNL011" type="E">
+            <text>Unrecognized literal string: %s</text>
+            <explanation>Literal string was not recognized. Check that output name string syntax is correct.</explanation>
+        </message>
+        <message key="FNL100" type="I">
+            <text>Regular expression didn't match any part of the filename.</text>
+            <explanation>The regular expression did not match any part of the filename. Verify that the regular expression is correct and designed for the filename used in this case.</explanation>
+        </message>
+        <message key="FNL015" type="E">
+            <text>Too long sequence width. Maximum width is 19 digits, found %s digits.</text>
+            <explanation>Sequence can contain at maximum 19 digits. Refine sequence width to fit in the limits.</explanation>
+        </message>
+        <message key="FNL014" type="E">
+            <text>Unable to create filename.</text>
+            <explanation>Unable to create filename. One or more items in the output name string can not be created.</explanation>
+        </message>
+        <message key="FNL012" type="E">
+            <text>Too many regular expression captures. Only 10 is allowed (found %s)</text>
+            <explanation>User has defined too many regular expression captures. Ten (10) is the maxmimum allowed amount. Refine your regular expression.</explanation>
+        </message>
+        <message key="FNL016" type="E">
+            <text>Unable to initialise counter: %s</text>
+            <explanation>Unable to initialise counter for outputname creation. Check that literal syntax is correct.</explanation>
+        </message>
+        <message key="FNL001" type="E">
+            <text>Counter Management Library not initialized.</text>
+            <explanation>Node application using File Naming Library does not initiliaze CML.</explanation>
+        </message>
+        <message key="FNL052" type="W">
+            <text>Unable to form a date string. The resulting string is too large ( &gt; %s characters) to be placed into a filename.</text>
+            <explanation>Date string can not be formatted. Refine date string to fit into filename length restrictions.</explanation>
+        </message>
+        <message key="FNL051" type="W">
+            <text>A regular expression capture did not capture anything. Index of the ineffective capture is: %s</text>
+            <explanation>A regular expresson capture did not capture anything. Check that the capture indexing starts from 1 and that the regular expressions are correct.</explanation>
+        </message>
+        <message key="FNL053" type="W">
+            <text>Invalid epoch 0 retrieved for %s. Using current time instead.</text>
+            <explanation>Invalid epoch value retrived from the internal storage. In order to avoid duplicate file names current time is used. Contact the vendor.</explanation>
+        </message>
+        <message key="FNL007" type="E">
+            <text>Corrupted status info: %s %s</text>
+            <explanation>The status file is corrupted. Correct the contents or remove the status file.</explanation>
+        </message>
+        <message key="FNL013" type="E">
+            <text>Unable to write status file.</text>
+            <explanation>Unable to write status file. Can not maintain integrity between executions. Check user write permissions.</explanation>
+        </message>
+        <message key="FNL050" type="W">
+            <text>'fnl_init' -function called more than once.</text>
+            <explanation>Initialization function should be called only once.</explanation>
+        </message>
+        <message key="FNL002" type="E">
+            <text>Undefined value given as a source id.</text>
+            <explanation>Source id has to be a non-null string. Correct the function call.</explanation>
+        </message>
+        <message key="FNL054" type="W">
+            <text>Unable to form an output filename component %s string. The resulting string is too large ( &gt; %s characters) to be placed into a filename.</text>
+            <explanation>One of the filename component strings can not be fit into defined space. Refine the OutputFileNameCreationMask parameter definition to have enough space for all components.</explanation>
+        </message>
+        <message key="FNL017" type="E">
+            <text>Unable to read stored sequence value. Storage content possibly corrupted.</text>
+            <explanation>Correct the content of storage or remove it.</explanation>
+        </message>
+    </messages>
+    <docs/>
+    <libraries/>
+    <auditkeys/>
+</library>

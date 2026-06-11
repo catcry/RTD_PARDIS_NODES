@@ -1,0 +1,107 @@
+RECORD
+#source_id 
+F eventType 8
+F eventId {{!!NULL!!}}
+F callingNumber 989192073708
+F callingNumberType 0
+F calledNumber {{!!NULL!!}}
+F calledNumberType {{!!NULL!!}}
+F callingCountry 98
+F calledCountry {{!!NULL!!}}
+F eventDuration {{!!NULL!!}}
+F eventVolume 7491360
+F internationalCall 0
+F onnet 0
+F isRoaming 0
+F eventStartTimestamp 20241027124448
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum 0
+F subBalance 401580207
+F cost 0
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046435651
+F @filename RTD_OCSPOST-OCS-61442-20241027195523.csv
+B profiles
+B subscriber
+B extensions
+F version 1730019644043952128
+B actions
+B new_30_min-5fda87d2
+F sentTime 1730019166158
+.
+B action_L1_none3-8f234163
+F sentTime 1730019644044
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027122246
+F gender Male
+F peak_type_voice peak
+F payg_data_rev_to_arpu 
+F industry Others
+F sub_balance 1398000207
+F avg_offnet_voice_min 0
+F vas_cost_to_arpu 0
+F is_multi_sim_phone Yes
+F avg_non_business_voice_usage 80.33
+F avg_nmb_sms_sent 0
+F churn_propensity High
+F is_smart_phone_user Yes
+F onnet_to_offnet_rev 0
+F avg_business_voice_usage 2
+F model SM-A720F/DS
+F arpu 0
+F brand Samsung Korea
+F subscriber_segment MASS
+F tenure 6
+F portout_propensity Low
+F peak_type_data peak
+F os Android
+F enterprise_national_id 3420231008
+F avg_daily_2g_data_usage 0
+F arpu_segment Low ARPU
+F avg_daily_3g_data_usage 0
+F avg_monthly_topup_cost 
+F roam_int_rev_to_arpu 64903.36
+F avg_monthly_topup_nmb 
+F payment_type prepaid
+F avg_non_business_data_usage 470.55
+F avg_onnet_voice_min 0
+F avg_daily_4g_data_usage 32
+F avg_data_usage 1359414000
+F provience تهران
+F avg_business_data_usage 19.31
+F age 528
+F status Active
+.
+F profileId 198538234
+F id 989192073708
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 78 L2_balance_LT_20000R
+F 77 L1_balance_LT_20000R
+F 243 BALANCE_100_L1-Topup_NID
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 244 BALANCE_50_L1-Topup_NID
+F 210 L1_new_60_min
+F 213 roaming
+F 211 L2_new_60_min
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 212
+F DISCARD_REASON Action new_30_min-5fda87d2 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046435720
+.

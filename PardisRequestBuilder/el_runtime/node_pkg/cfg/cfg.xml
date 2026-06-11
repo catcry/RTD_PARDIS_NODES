@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration elversion="6.1">
+    <name>MCI_CFG_BON_PARDIS_REQUEST_BUILDER</name>
+    <version major="1" minor="0" defect="0" patch="PRE1"/>
+    <description>
+
+	</description>
+    <type>
+        <collector>false</collector>
+        <intermediate>false</intermediate>
+        <decoder>false</decoder>
+        <businesslogic>true</businesslogic>
+        <blt>false</blt>
+        <encoder>false</encoder>
+        <distributor>false</distributor>
+        <standalone>false</standalone>
+        <interface>false</interface>
+    </type>
+    <nodebase>java_node</nodebase>
+    <attributes>
+        <application_commit>false</application_commit>
+        <schedulable>true</schedulable>
+        <realtime>false</realtime>
+    </attributes>
+    <scalability>
+        <free></free>
+    </scalability>
+    <parameters>
+        <parameter name="ApplicationClass">
+            <value>com.bonyan.rtd.PardisRequestBuilder</value>
+            <description>Node application class</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>true</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+
+        <parameter name="Lookup_Server">
+            <value>ContentServer</value>
+            <description>Lookup Server for Content Lookup</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="Lookup_Table">
+            <value>LT_ACTION_PARAMETERS</value>
+            <description>Lookup Table for Content Lookup</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="channel">
+            <value>Pardis</value>
+            <description>Action Channel</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="SMS_Source_No">
+            <value>988082</value>
+            <description>Source SMS Number</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="SMS_Class">
+            <value>NORMAL</value>
+            <description>Pardis smsClass Variable</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="SMS_Language">
+            <value>Persian</value>
+            <description>Pardis SMS content Language</description>
+            <value_type>
+                <list>
+                    <element>Persian</element>
+                    <element>English</element>
+                </list>
+            </value_type>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="MaxJavaHeapSize">
+            <value>128M</value>
+            <description>Defines the maximum size of java heap memory.
+			</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="InitialJavaHeapSize">
+            <value>128M</value>
+            <description>Defines the initial size of java heap memory.
+			</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+    </parameters>
+    <files>
+        <file os="AnyOS" path="./" editable="false" name="AnyOS/app_AdapterNode.jar">
+            <export>
+                <libpath>false</libpath>
+                <perl5lib>false</perl5lib>
+            </export>
+        </file>
+    </files>
+    <messages/>
+    <docs>
+        <file name="docs/index.html"/>
+    </docs>
+    <libraries>
+        <library name="MCP_LIB_JAVANODE" min_major="1" min_minor="0" min_defect="0" exactversion="false"/>
+        <library name="EL_LIB_LOOKUP" min_major="3" min_minor="2" min_defect="6" exactversion="false"/>
+    </libraries>
+    <storages>
+        <storage name="LOOKUP_ERROR">
+            <description>Storage for Lookup Errors</description>
+        </storage>
+        <storage name="WRITE_ERROR">
+            <description>Building/Writing Record failed</description>
+        </storage>
+    </storages>
+    <links>
+        <link>OUT</link>
+    </links>
+    <auditkeys/>
+</configuration>

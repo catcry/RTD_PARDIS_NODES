@@ -1,0 +1,115 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989107500465
+F callingNumberType 0
+F calledNumber 989338870703
+F calledNumberType 1
+F callingCountry 98
+F calledCountry 98
+F eventDuration 14
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 0
+F isRoaming 0
+F eventStartTimestamp 20241027160235
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 3487181705
+F cost 153738
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046410107
+F @filename RTD_OCSPOST-RECLIVE-61233-20241027195518.csv
+B profiles
+B subscriber
+B extensions
+F version 1727427131849244672
+B actions
+B new_30_min-5fda87d2
+F sentTime 1727427131853
+.
+B Action_L2_new_60_min-80374415
+F sentTime 1692611535664
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1663154008058
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027160726
+F gender Female
+F peak_type_voice peak
+F payg_data_rev_to_arpu 1
+F industry Others
+F sub_balance 25686606
+F avg_offnet_voice_min 0
+F vas_cost_to_arpu 15.18
+F avg_nmb_sms_sent 0
+F is_multi_sim_phone Yes
+F avg_non_business_voice_usage 2041.67
+F churn_propensity High
+F avg_business_voice_usage 1858.5
+F is_smart_phone_user No
+F onnet_to_offnet_rev 0
+F model 
+F arpu 15.18
+F subscriber_segment MASS
+F brand 
+F tenure 32
+F portout_propensity Low
+F peak_type_data peak
+F os 
+F enterprise_national_id 3230735021
+F avg_daily_2g_data_usage 0
+F arpu_segment Low ARPU
+F avg_daily_3g_data_usage 0
+F avg_monthly_topup_cost 33333.33
+F roam_int_rev_to_arpu 115.37
+F avg_monthly_topup_nmb 0.17
+F payment_type prepaid
+F avg_daily_4g_data_usage 0
+F avg_onnet_voice_min 0
+F avg_non_business_data_usage 1.27
+F avg_data_usage 23060
+F pkg_to_payg_data 
+F provience کرمانشاه
+F avg_business_data_usage 0.39
+F age 481
+F status Active
+.
+F profileId 200149387
+F id 989107500465
+.
+B target
+F errorCode 100
+F errorMessage Profile for subscriber '989338870703' was not found
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 210 L1_new_60_min
+F 243 BALANCE_100_L1-Topup_NID
+F 244 BALANCE_50_L1-Topup_NID
+F 77 L1_balance_LT_20000R
+F 88 L1_5T10_arpu
+F 213 roaming
+F 89 L2_5T10_arpu
+F 211 L2_new_60_min
+F 78 L2_balance_LT_20000R
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 212
+F DISCARD_REASON Action new_30_min-5fda87d2 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046410201
+.

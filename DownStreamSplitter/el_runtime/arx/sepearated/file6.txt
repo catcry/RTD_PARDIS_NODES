@@ -1,0 +1,239 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989100479885
+F callingNumberType 0
+F calledNumber 989191826959
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 19
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 1
+F isRoaming 0
+F eventStartTimestamp 20241027160837
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 666526201
+F cost 208645
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046397604
+F @filename RTD_OCSPOST-RECLIVE-61078-20241027195515.csv
+B profiles
+B subscriber
+B extensions
+F version 1729632698133970944
+B actions
+B Zarrebin2-5eae5c9b
+F sentTime 1668437517748
+.
+B NDU_MASS_ACTION-d6258716
+F sentTime 1601651720729
+.
+B ZarebinTest_action-e4ab93c6
+F sentTime 1633877977876
+.
+B Action_L2_new_60_min-80374415
+F sentTime 1729632698132
+.
+B Zarebin1_action-e275ce6a
+F sentTime 1633947684852
+.
+B action2_atrisk_shvc-e80e7a78
+F sentTime 1668437517748
+.
+B testL1-fd6c1b3b
+F sentTime 1632208749604
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1696280059517
+.
+B action_PAYG_DATA-0a179f57
+F sentTime 1659821613162
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027005445
+F sub_balance 703358749
+F voice_pkg_400642_start_time {{!!NULL!!}}
+F monthly_data_pkg_end_time 14030502075008
+F voice_pkg_400651_end_time 14010602102502
+F voice_pkg_700316_start_time 14020217171414
+F avg_nmb_sms_sent 2355873.29
+F is_multi_sim_phone Yes
+F onnet_to_offnet_rev 15.06
+F avg_business_voice_usage 50094.83
+F voice_pkg_700700_start_time 13990407231901
+F model 
+F daily_data_pkg_end_time 14020520111735
+F daily_data_pkg_start_time 14020519111735
+F data_package_size xl
+F subscriber_segment SHVC
+F brand 
+F voice_pkg_700315_end_time 14020825085449
+F tenure 132
+F monthly_data_pkg_start_time 14030403075010
+F portout_propensity High
+F voice_pkg_700705_end_time 14000315211412
+F arpu_segment High ARPU
+F voice_pkg_400650_start_time 14010111145706
+F avg_monthly_topup_cost 
+F voice_pkg_400642_end_time {{!!NULL!!}}
+F payment_type prepaid
+F voice_pkg_700702_start_time 13991110225010
+F avg_non_business_data_usage 570.38
+F avg_data_usage 7914375879
+F provience قزوین
+F avg_business_data_usage 755.94
+F voice_pkg_400651_start_time 14010503102504
+F status Disconnected
+F gender Male
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0.27
+F industry Others
+F avg_offnet_voice_min 558728.57
+F vas_cost_to_arpu 1710319.18
+F voice_pkg_700700_end_time 13990506231900
+F churn_propensity Low
+F avg_non_business_voice_usage 36610.67
+F pkg_to_payg_voice 
+F is_smart_phone_user No
+F arpu 1710319.18
+F voice_pkg_400650_end_time 14010210145704
+F peak_type_data peak
+F os 
+F enterprise_national_id 011095632373
+F avg_daily_2g_data_usage 0
+F avg_daily_3g_data_usage 1
+F roam_int_rev_to_arpu 650440
+F voice_pkg_700705_start_time 14000216211413
+F avg_monthly_topup_nmb 
+F voice_pkg_400644_start_time 20190111143703
+F avg_onnet_voice_min 1606.84
+F avg_daily_4g_data_usage 0
+F pkg_to_payg_data 0.6
+F voice_pkg_700316_end_time 14020316171413
+F voice_pkg_400644_end_time 20190210143703
+F voice_pkg_700702_end_time 13991210225009
+F voice_pkg_700315_start_time 14020725085450
+F age 389
+.
+F profileId 208158932
+F id 989100479885
+.
+B target
+B extensions
+F version 1705750093809123328
+B actions
+B Zarrebin2-5eae5c9b
+F sentTime 1674458706643
+.
+B ZarebinTest_action-e4ab93c6
+F sentTime 1634971768625
+.
+B Zarebin1_action-e275ce6a
+F sentTime 1634976160424
+.
+B testL1-fd6c1b3b
+F sentTime 1705441251941
+.
+B testL1B20-77847e22
+F sentTime 1705750094604
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027181921
+F sub_balance 19645131
+F monthly_data_pkg_end_time 13990414152442
+F voice_pkg_700316_start_time 14010814190320
+F avg_nmb_sms_sent 166906.14
+F is_multi_sim_phone No
+F avg_business_voice_usage 5528.17
+F onnet_to_offnet_rev 1.89
+F daily_data_pkg_end_time 14011229132151
+F model SM-A705FN_GALAXY A70_
+F data_package_size xl
+F daily_data_pkg_start_time 14011228132151
+F subscriber_segment SHVC
+F voice_pkg_700315_end_time 14020921132806
+F brand SAMSUNG
+F tenure 202
+F monthly_data_pkg_start_time 13990315152442
+F portout_propensity High
+F arpu_segment Medium ARPU
+F avg_monthly_topup_cost 100000
+F voice_pkg_400218_start_time 14020917112406
+F payment_type prepaid
+F voice_pkg_700702_start_time 14000320101612
+F avg_non_business_data_usage 31960.71
+F avg_data_usage 149582280058
+F provience قزوین
+F avg_business_data_usage 32218.98
+F status Active
+F voice_pkg_400649_start_time 13990616111605
+F gender Male
+F weekly_data_pkg_start_time 14020321165552
+F weekly_data_pkg_end_time 14020328165552
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F voice_pkg_400649_end_time 13990715111604
+F avg_offnet_voice_min 85125.92
+F vas_cost_to_arpu 105912.99
+F churn_propensity Low
+F avg_non_business_voice_usage 5695.5
+F pkg_to_payg_voice 0.77
+F is_smart_phone_user No
+F arpu 105912.99
+F voice_pkg_700317_start_time 13990920175930
+F peak_type_data peak
+F os Android
+F enterprise_national_id 5909952196
+F avg_daily_2g_data_usage 0
+F avg_daily_3g_data_usage 453
+F roam_int_rev_to_arpu 52179.8
+F voice_pkg_700317_end_time 13991020175929
+F voice_pkg_400218_end_time 14020917230000
+F avg_monthly_topup_nmb 1
+F avg_daily_4g_data_usage 2551
+F avg_onnet_voice_min 255.18
+F pkg_to_payg_data 
+F voice_pkg_700316_end_time 14010914190318
+F voice_pkg_700702_end_time 14000419101611
+F voice_pkg_700315_start_time 14020821132807
+F age 485
+.
+F profileId 269701302
+F id 989191826959
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 210 L1_new_60_min
+F 243 BALANCE_100_L1-Topup_NID
+F 212 new_30_min
+F 244 BALANCE_50_L1-Topup_NID
+F 77 L1_balance_LT_20000R
+F 88 L1_5T10_arpu
+F 213 roaming
+F 89 L2_5T10_arpu
+F 78 L2_balance_LT_20000R
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 211
+F DISCARD_REASON Action Action_L2_new_60_min-80374415 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046397620
+.

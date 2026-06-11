@@ -1,0 +1,170 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989908547219
+F callingNumberType 0
+F calledNumber 989189757291
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 92
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 1
+F isRoaming 0
+F eventStartTimestamp 20241027161314
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 513785408
+F cost 1010280
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046439836
+F @filename RTD_OCSPOST-RECLIVE-61733-20241027195530.csv
+B profiles
+B subscriber
+B extensions
+F version 1727460722105057280
+B actions
+B NDU_MASS_ACTION-d6258716
+F sentTime 1665600793795
+.
+B Action_L2_new_60_min-80374415
+F sentTime 1727460722102
+.
+B action_L1_100Percent-6c30318b
+F sentTime 1569320836115
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1693087772243
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027102814
+F gender Male
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F sub_balance 580403056
+F avg_offnet_voice_min 438724.91
+F vas_cost_to_arpu 489842
+F monthly_data_pkg_end_time 14010709125034
+F is_multi_sim_phone Yes
+F avg_nmb_sms_sent 533888.85
+F churn_propensity Low
+F avg_non_business_voice_usage 69780.83
+F pkg_to_payg_voice 0.06
+F is_smart_phone_user No
+F onnet_to_offnet_rev 28.15
+F avg_business_voice_usage 98531.67
+F model 
+F arpu 489842
+F data_package_size xl
+F subscriber_segment HVR
+F brand 
+F tenure 97
+F monthly_data_pkg_start_time 14010610125034
+F portout_propensity Low
+F peak_type_data peak
+F os 
+F enterprise_national_id 3849893073
+F avg_daily_2g_data_usage 0
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 0
+F avg_monthly_topup_cost 83333.33
+F roam_int_rev_to_arpu 423351.09
+F avg_monthly_topup_nmb 0.33
+F payment_type prepaid
+F avg_onnet_voice_min 6636.54
+F avg_daily_4g_data_usage 0
+F avg_non_business_data_usage 2658.58
+F avg_data_usage 19744617987
+F provience کردستان
+F avg_business_data_usage 1455.65
+F age 431
+F status Disconnected
+.
+F profileId 255488614
+F id 989908547219
+.
+B target
+B extensions
+F version 1619429580516950016
+B actions
+B NDU_HVR_ACTION-6b8ed944
+F sentTime 1619429578917
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20240909214815
+F gender Male
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F sub_balance 686183450
+F avg_offnet_voice_min 877197.25
+F vas_cost_to_arpu 879176.05
+F churn_propensity Low
+F avg_nmb_sms_sent 2764322.75
+F is_multi_sim_phone Yes
+F avg_non_business_voice_usage 32846.67
+F avg_business_voice_usage 36791.83
+F is_smart_phone_user No
+F onnet_to_offnet_rev 82.17
+F model SM-A750GN_GALAXY A7_
+F arpu 879176.05
+F subscriber_segment SHVC
+F brand SAMSUNG
+F tenure 94
+F portout_propensity Low
+F peak_type_data peak
+F os Android
+F enterprise_national_id 3849893073
+F avg_daily_2g_data_usage 0
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 0
+F avg_monthly_topup_cost 
+F roam_int_rev_to_arpu 888113.54
+F avg_monthly_topup_nmb 
+F payment_type postpaid
+F avg_daily_4g_data_usage 0
+F avg_onnet_voice_min 2076.5
+F avg_non_business_data_usage 0
+F avg_data_usage 29764
+F provience کردستان
+F avg_business_data_usage 0
+F age 431
+F status Active
+.
+F profileId 271380665
+F id 989189757291
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 78 L2_balance_LT_20000R
+F 77 L1_balance_LT_20000R
+F 243 BALANCE_100_L1-Topup_NID
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 244 BALANCE_50_L1-Topup_NID
+F 210 L1_new_60_min
+F 213 roaming
+F 212 new_30_min
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 211
+F DISCARD_REASON Action Action_L2_new_60_min-80374415 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046439900
+.

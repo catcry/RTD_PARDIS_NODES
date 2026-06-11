@@ -1,0 +1,187 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989916290376
+F callingNumberType 0
+F calledNumber 989921359703
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 57
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 1
+F isRoaming 0
+F eventStartTimestamp 20241027160640
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 188443141
+F cost 625934
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046416174
+F @filename RTD_OCSPOST-RECLIVE-61328-20241027195520.csv
+B profiles
+B subscriber
+B extensions
+F version 1728031228664479744
+B actions
+B Action_L2_new_60_min-80374415
+F sentTime 1728031228664
+.
+B action_L1_100Percent-6c30318b
+F sentTime 1569218120416
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1689593689823
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027194335
+F gender Female
+F peak_type_voice 
+F payg_data_rev_to_arpu 
+F sub_balance 70269262
+F industry Others
+F avg_offnet_voice_min 
+F vas_cost_to_arpu 
+F avg_nmb_sms_sent 
+F is_multi_sim_phone No
+F avg_non_business_voice_usage 
+F churn_propensity 
+F pkg_to_payg_voice 
+F avg_business_voice_usage 
+F is_smart_phone_user No
+F onnet_to_offnet_rev 
+F model 
+F arpu 
+F subscriber_segment 
+F brand 
+F tenure 15
+F portout_propensity 
+F peak_type_data 
+F os 
+F enterprise_national_id 1200092120
+F avg_daily_2g_data_usage 
+F arpu_segment 
+F avg_daily_3g_data_usage 
+F avg_monthly_topup_cost 
+F roam_int_rev_to_arpu 
+F avg_monthly_topup_nmb 
+F payment_type prepaid
+F avg_daily_4g_data_usage 
+F avg_onnet_voice_min 
+F avg_non_business_data_usage 
+F avg_data_usage 
+F pkg_to_payg_data 
+F provience اصفهان
+F avg_business_data_usage 
+F age 422
+F status Disconnected
+.
+F profileId 200241323
+F id 989916290376
+.
+B target
+B extensions
+F version 1705775114398531584
+B actions
+B action_referral-c48432a6
+F sentTime 1628747468002
+.
+B Zarrebin2-5eae5c9b
+F sentTime 1670648154660
+.
+B ZarebinTest_action-e4ab93c6
+F sentTime 1635250472322
+.
+B testL1-fd6c1b3b
+F sentTime 1632229453322
+.
+B testL1B20-77847e22
+F sentTime 1705775154836
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241019152138
+F sub_balance 23856680
+F monthly_data_pkg_end_time 14020628183804
+F is_multi_sim_phone Yes
+F avg_nmb_sms_sent 9180.09
+F avg_business_voice_usage 533.17
+F onnet_to_offnet_rev 76.84
+F voice_pkg_400295_end_time 14000224113708
+F model SM-A105G_GALAXY A10_
+F daily_data_pkg_end_time 14021201181710
+F data_package_size s
+F daily_data_pkg_start_time 14021130181712
+F subscriber_segment SHVC
+F brand SAMSUNG
+F voice_pkg_400295_start_time 14000125113709
+F tenure 67
+F monthly_data_pkg_start_time 14020627183806
+F portout_propensity Low
+F arpu_segment Low ARPU
+F avg_monthly_topup_cost 108333.33
+F payment_type prepaid
+F avg_non_business_data_usage 9602.07
+F avg_data_usage 68269323853
+F provience اصفهان
+F avg_business_data_usage 9801.85
+F status Active
+F gender Male
+F weekly_data_pkg_start_time 13990501050201
+F weekly_data_pkg_end_time 13990508050200
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0.19
+F industry 
+F avg_offnet_voice_min 3263.3
+F vas_cost_to_arpu 15758.84
+F churn_propensity Low
+F avg_non_business_voice_usage 137.17
+F is_smart_phone_user No
+F arpu 15758.84
+F peak_type_data peak
+F os Android
+F enterprise_national_id 1272403181
+F avg_daily_2g_data_usage 0
+F avg_daily_3g_data_usage 5
+F roam_int_rev_to_arpu 1587179.94
+F avg_monthly_topup_nmb 1
+F avg_daily_4g_data_usage 750
+F avg_onnet_voice_min 4.64
+F pkg_to_payg_data 
+F age 329
+.
+F profileId 277233460
+F id 989921359703
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 210 L1_new_60_min
+F 243 BALANCE_100_L1-Topup_NID
+F 212 new_30_min
+F 244 BALANCE_50_L1-Topup_NID
+F 77 L1_balance_LT_20000R
+F 88 L1_5T10_arpu
+F 213 roaming
+F 89 L2_5T10_arpu
+F 78 L2_balance_LT_20000R
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 211
+F DISCARD_REASON Action Action_L2_new_60_min-80374415 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046416341
+.

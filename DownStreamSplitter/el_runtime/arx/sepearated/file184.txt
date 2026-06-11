@@ -1,0 +1,183 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989172826048
+F callingNumberType 0
+F calledNumber 989176336164
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 120
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 1
+F isRoaming 0
+F eventStartTimestamp 20241027160851
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 833369372
+F cost 1317756
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046444632
+F @filename RTD_OCSPOST-RECLIVE-61761-20241027195531.csv
+B profiles
+B subscriber
+B extensions
+F version 1727756215249600512
+B actions
+B new_30_min-5fda87d2
+F sentTime 1727756215246
+.
+B action_L1_none3-8f234163
+F sentTime 1727079315841
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241026195145
+F gender Male
+F peak_type_voice peak
+F industry Others
+F sub_balance 850363711
+F avg_offnet_voice_min 0
+F monthly_data_pkg_end_time 14030827162121
+F vas_cost_to_arpu 0
+F is_multi_sim_phone Yes
+F avg_non_business_voice_usage 1491.83
+F churn_propensity High
+F avg_nmb_sms_sent 0
+F is_smart_phone_user No
+F avg_business_voice_usage 1174.67
+F onnet_to_offnet_rev 0
+F model 101_ Nokia 1010
+F arpu 0
+F data_package_size xl
+F subscriber_segment MASS
+F brand Nokia Corporation
+F tenure 1
+F monthly_data_pkg_start_time 14030727162121
+F portout_propensity Low
+F peak_type_data peak
+F os Not Known
+F enterprise_national_id 2400236089
+F avg_daily_2g_data_usage 5
+F arpu_segment Low ARPU
+F avg_daily_3g_data_usage 28
+F avg_monthly_topup_cost 52500
+F roam_int_rev_to_arpu 469560.42
+F avg_monthly_topup_nmb 0.33
+F payment_type prepaid
+F avg_daily_4g_data_usage 965
+F avg_non_business_data_usage 3149.62
+F avg_onnet_voice_min 0
+F avg_data_usage 0
+F provience فارس
+F avg_business_data_usage 1692.02
+F age 318
+F status Active
+.
+F profileId 226713577
+F id 989172826048
+.
+B target
+B extensions
+F version 1725446425369116672
+B actions
+B Age_45_60-6314e334
+F sentTime 1725446425369
+.
+B testL1-fd6c1b3b
+F sentTime 1705518735040
+.
+B testL1B20-77847e22
+F sentTime 1705744422025
+.
+B action_PAYG_DATA-0a179f57
+F sentTime 1685478086327
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027095053
+F voice_pkg_400289_end_time 20191123132948
+F voice_pkg_700704_end_time 14010517113412
+F sub_balance 182338019
+F monthly_data_pkg_end_time 14010526105434
+F avg_nmb_sms_sent 593696.08
+F is_multi_sim_phone Yes
+F avg_business_voice_usage 9479.17
+F onnet_to_offnet_rev 11.35
+F model MI 9 SE
+F daily_data_pkg_end_time 14000902095706
+F data_package_size l
+F daily_data_pkg_start_time 14000901095707
+F subscriber_segment SHVC
+F brand XIAOMI
+F tenure 189
+F monthly_data_pkg_start_time 14010427105434
+F portout_propensity Low
+F arpu_segment High ARPU
+F avg_monthly_topup_cost 508333.33
+F payment_type prepaid
+F avg_non_business_data_usage 10737.16
+F avg_data_usage 56491275559
+F provience فارس
+F avg_business_data_usage 7928.02
+F status Active
+F gender Female
+F weekly_data_pkg_start_time 14020720194855
+F weekly_data_pkg_end_time 14020727194855
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0.12
+F industry Others
+F avg_offnet_voice_min 165646.61
+F vas_cost_to_arpu 716339.28
+F churn_propensity Low
+F avg_non_business_voice_usage 7929
+F voice_pkg_700704_start_time 14010418113414
+F is_smart_phone_user No
+F arpu 716339.28
+F voice_pkg_400289_start_time 20191122132948
+F peak_type_data peak
+F os Android
+F enterprise_national_id 2410508995
+F avg_daily_2g_data_usage 7
+F avg_daily_3g_data_usage 30
+F roam_int_rev_to_arpu 637061.25
+F avg_monthly_topup_nmb 4.83
+F avg_daily_4g_data_usage 584
+F avg_onnet_voice_min 355.09
+F pkg_to_payg_data 0.83
+F age 682
+.
+F profileId 206501087
+F id 989176336164
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 78 L2_balance_LT_20000R
+F 77 L1_balance_LT_20000R
+F 243 BALANCE_100_L1-Topup_NID
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 244 BALANCE_50_L1-Topup_NID
+F 210 L1_new_60_min
+F 213 roaming
+F 211 L2_new_60_min
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 212
+F DISCARD_REASON Action new_30_min-5fda87d2 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046444902
+.

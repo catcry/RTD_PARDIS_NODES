@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application elversion="6.1">
+    <name>MCI_APP_BON_PARDIS_REST_INTERFACE</name>
+    <version major="1" minor="0" defect="0" patch="PRE_08"/>
+    <description>Simple java example logic that reads a greeting from
+        parameters and name from input and writes a combined greeting message
+        to output</description>
+    <type>
+        <collector>false</collector>
+        <intermediate>false</intermediate>
+        <decoder>false</decoder>
+        <businesslogic>false</businesslogic>
+        <blt>false</blt>
+        <encoder>false</encoder>
+        <distributor>false</distributor>
+        <standalone>false</standalone>
+        <interface>true</interface>
+    </type>
+    <nodebase>java_node</nodebase>
+    <parameters>
+        <parameter name="ClientResponseContentBufferSize">
+            <value>2097152</value>
+            <description>The maximum length of the response content (in bytes) </description>
+            <value_type>
+                <numeric min_value="1"/>
+            </value_type>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="ApplicationClass">
+            <value>com.bonyan.rtd.RestClient</value>
+            <description>Node application class</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>true</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="MaxNumberOfServerThreads">
+            <value>200</value>
+            <description>The maximum number of threads allocated by the server.</description>
+            <value_type>
+                <numeric min_value="20"/>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>true</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="UseJettyStdErrLog">
+            <value>No</value>
+            <description>Set to &quot;Yes&quot; to send Jetty diagnostics to the stderr log.</description>
+            <value_type>
+                <list>
+                    <element>Yes</element>
+                    <element>No</element>
+                </list>
+            </value_type>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>true</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="JettyDiagnosticLevel">
+            <value>INFO</value>
+            <description>Jetty Diagnostic Logging Level</description>
+            <value_type>
+                <list>
+                    <element>ALL</element>
+                    <element>DEBUG</element>
+                    <element>INFO</element>
+                    <element>WARN</element>
+                    <element>OFF</element>
+                </list>
+            </value_type>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>true</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="ServerRequestSleepTime">
+            <value>10</value>
+            <description>Sleep time for server request while waiting for answer (in milliseconds).</description>
+            <value_type>
+                <numeric/>
+            </value_type>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>true</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="ServerGracefulShutdownWait">
+            <value>300000</value>
+            <description>Graceful stop time for the REST server (in milliseconds).</description>
+            <value_type>
+                <numeric/>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>true</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="ServerRequestTimeout">
+            <value>10000</value>
+            <description>Request timeout for server (in milliseconds).</description>
+            <value_type>
+                <numeric/>
+            </value_type>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>true</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="ClientRequestTimeout">
+            <value>5000</value>
+            <description>Request timeout in milliseconds for client</description>
+            <value_type>
+                <numeric min_value="1"/>
+            </value_type>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="SendRequestWaitTime">
+            <value>50</value>
+            <description>Sleep time after each request for controlling tps(in milliseconds).</description>
+            <check_regexp pattern="" />
+            <value_type>
+                <numeric/>
+            </value_type>
+            <attributes>
+                <mandatory>true</mandatory>
+                <installation_specific>true</installation_specific>
+                <environment>false</environment>
+                <hidden>false</hidden>
+            </attributes>
+        </parameter>
+
+        <parameter name="UseToken">
+            <value>No</value>
+            <description>Set to &quot;Yes&quot; to load Token before api call.</description>
+            <value_type>
+                <list>
+                    <element>Yes</element>
+                    <element>No</element>
+                </list>
+            </value_type>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>true</installation_specific>
+            </attributes>
+        </parameter>
+
+        <parameter name="Token-Request-Id">
+            <description>Define get token api request id.</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <dependency parameter="UseToken" values="Yes"/>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+
+        <parameter name="Token-Request-URI">
+            <description>Define token api request URI.</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <dependency parameter="UseToken" values="Yes"/>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+
+        <parameter name="Token-Method">
+            <value>Post</value>
+            <description>Define token api method.</description>
+            <value_type>
+                <list>
+                    <element>Post</element>
+                    <element>Get</element>
+                </list>
+            </value_type>
+            <dependency parameter="UseToken" values="Yes"/>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+
+        <parameter name="TokenType">
+            <value>PARDIS</value>
+            <description>Define token type.</description>
+            <value_type>
+                <list>
+                    <element>PARDIS</element>
+                </list>
+            </value_type>
+            <dependency parameter="UseToken" values="Yes"/>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+
+        <parameter name="TokenDurationType">
+            <value>SECOND</value>
+            <description>Define token duration type.</description>
+            <value_type>
+                <list>
+                    <element>MILLISECOND</element>
+                    <element>SECOND</element>
+                    <element>MINUTE</element>
+                    <element>HOUR</element>
+                </list>
+            </value_type>
+            <dependency parameter="UseToken" values="Yes"/>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+
+        <parameter name="ExpirationDuration">
+            <value>300</value>
+            <description>Define token validity duration time.</description>
+            <value_type>
+                <numeric/>
+            </value_type>
+            <dependency parameter="UseToken" values="Yes"/>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+
+        <parameter name="RenewalMarginPercentage">
+            <value>10</value>
+            <description>Define token renewal margin percentage.</description>
+            <value_type>
+                <numeric/>
+            </value_type>
+            <dependency parameter="UseToken" values="Yes"/>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+
+    </parameters>
+    <files>
+        <file os="AnyOS" path="./" name="AnyOS/jetty-io-9.2.18.v20160721.jar">
+            <export>
+                <libpath>false</libpath>
+                <perl5lib>false</perl5lib>
+            </export>
+        </file>
+        <file os="AnyOS" path="./" name="AnyOS/jetty-http-9.2.18.v20160721.jar">
+            <export>
+                <libpath>false</libpath>
+                <perl5lib>false</perl5lib>
+            </export>
+        </file>
+        <file os="AnyOS" path="./" name="AnyOS/jetty-client-9.2.18.v20160721.jar">
+            <export>
+                <libpath>false</libpath>
+                <perl5lib>false</perl5lib>
+            </export>
+        </file>
+        <file os="AnyOS" path="./" name="AnyOS/app_AdapterNode.jar">
+            <export>
+                <libpath>false</libpath>
+                <perl5lib>false</perl5lib>
+            </export>
+        </file>
+        <file os="AnyOS" path="./" name="AnyOS/jetty-server-9.2.18.v20160721.jar">
+            <export>
+                <libpath>false</libpath>
+                <perl5lib>false</perl5lib>
+            </export>
+        </file>
+        <file os="AnyOS" path="./" name="AnyOS/jetty-util-9.2.18.v20160721.jar">
+            <export>
+                <libpath>false</libpath>
+                <perl5lib>false</perl5lib>
+            </export>
+        </file>
+        <file os="AnyOS" path="./" name="AnyOS/javax.servlet-api-3.1.0.jar">
+            <export>
+                <libpath>false</libpath>
+                <perl5lib>false</perl5lib>
+            </export>
+        </file>
+    </files>
+    <messages>
+        <message key="uriSyntaxException" type="E">
+            <text>URI syntax exception: '%s'</text>
+            <explanation>URI syntax exception</explanation>
+        </message>
+        <message key="RESTIF006" type="E">
+            <text>Empty key pass: '%s'</text>
+            <explanation>Empty key pass</explanation>
+        </message>
+        <message key="RESTIF009" type="E">
+            <text>Unable to start jetty server: '%s'</text>
+            <explanation>Unable to start jetty server</explanation>
+        </message>
+        <message key="RESTIF100" type="W">
+            <text>Error in latch.await InterruptedException: '%s'</text>
+            <explanation>Failed to receive a message from the network.</explanation>
+        </message>
+        <message key="RESTIF101" type="W">
+            <text>Transaction rebind failed '%s'</text>
+            <explanation>Transaction rebind failed</explanation>
+        </message>
+        <message key="RESTIF001" type="E">
+            <text>Invalid configuration.xml: no '%s' defined.</text>
+            <explanation>Wrong definition in the configuration.xml file</explanation>
+        </message>
+        <message key="RESTIF104" type="W">
+            <text>Realm or UserId field missing in input record</text>
+            <explanation>Missing ER Realm or UserId field</explanation>
+        </message>
+        <message key="RESTIF010" type="E">
+            <text>Validation error for field: '%s', invalid value: '%s'</text>
+            <explanation>Input record validation error!</explanation>
+        </message>
+        <message key="RESTIF005" type="E">
+            <text>Empty key store pass: '%s'</text>
+            <explanation>Empty key store pass</explanation>
+        </message>
+        <message key="RESTIF014" type="E">
+            <text>Protocol not supported: '%s'</text>
+            <explanation>Protocol not supported</explanation>
+        </message>
+        <message key="RESTIF007" type="E">
+            <text>Unable to create XML parser: '%s'</text>
+            <explanation>Unable to create XML parser</explanation>
+        </message>
+        <message key="RESTIF012" type="E">
+            <text>Unable to initialize client connection.: '%s' - '%s'</text>
+            <explanation>Unable to initialize client connection</explanation>
+        </message>
+        <message key="RESTIF105" type="W">
+            <text>User Credentials cannot be found in from storage</text>
+            <explanation>User Credentials cannot be found in from storage</explanation>
+        </message>
+        <message key="RESTIF109" type="W">
+            <text>Total timeout elapsed.</text>
+            <explanation>Client timed out while waiting for response.</explanation>
+        </message>
+        <message key="RESTIF011" type="E">
+            <text>URI building error: '%s'</text>
+            <explanation>URI building error</explanation>
+        </message>
+        <message key="RESTIF107" type="W">
+            <text>EventRecord cannot be associated with Transaction because does not have required information</text>
+            <explanation>EventRecord cannot be associated with Transaction because does not have required information</explanation>
+        </message>
+        <message key="RESTIF108" type="W">
+            <text>EventRecord cannot be associated with Transaction, because of unknown problem '%s'</text>
+            <explanation>EventRecord cannot be associated with Transaction, because of unknown problem</explanation>
+        </message>
+        <message key="RESTIF003" type="E">
+            <text>File does not exist: '%s'</text>
+            <explanation>No configuration file on specified location.</explanation>
+        </message>
+        <message key="RESTIF013" type="E">
+            <text>Client cleanup failed: '%s' - '%s'</text>
+            <explanation>Client cleanup failed</explanation>
+        </message>
+        <message key="RESTIF106" type="W">
+            <text>Unknown authentication method in the ER field '%s'</text>
+            <explanation>Unknown authentication method in the ER field</explanation>
+        </message>
+        <message key="RESTIF102" type="W">
+            <text>Server timed out while waiting for answer to requestId = '%s'</text>
+            <explanation>Server timed out while waiting for answer to requestId</explanation>
+        </message>
+        <message key="RESTIF015" type="E">
+            <text>Input ERs can not be stored</text>
+            <explanation>Map of input records isn't allocated.</explanation>
+        </message>
+        <message key="RESTIF103" type="W">
+            <text>Unsupported cipher suite: '%s'</text>
+            <explanation>Unsupported cipher suite:</explanation>
+        </message>
+        <message key="RESTIF002" type="E">
+            <text>Missing File: '%s'</text>
+            <explanation>The keystore file is missing.</explanation>
+        </message>
+        <message key="RESTIF008" type="E">
+            <text>Unable to parse configuration file: '%s'</text>
+            <explanation>Unable to parse configuration file</explanation>
+        </message>
+        <message key="RESTIF004" type="E">
+            <text>Empty or invalid key store location: '%s'</text>
+            <explanation>Wrong key store location or empty key store</explanation>
+        </message>
+    </messages>
+    <docs>
+        <file name="docs/index.html"/>
+    </docs>
+    <libraries>
+        <library name="MCP_LIB_JAVANODE" min_major="1" min_minor="0" min_defect="0" exactversion="false"/>
+    </libraries>
+    <auditkeys/>
+</application>

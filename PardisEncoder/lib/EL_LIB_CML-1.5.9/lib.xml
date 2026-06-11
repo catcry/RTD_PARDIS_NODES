@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<library elversion="6.1">
+    <name>EL_LIB_CML</name>
+    <param_prefix>EL_LIB_CML</param_prefix>
+    <version major="1" minor="5" defect="9" patch=""/>
+    <parameters/>
+    <files>
+        <file os="Linux" path="./" name="Linux/libcml.so">
+            <export>
+                <libpath>true</libpath>
+                <perl5lib>false</perl5lib>
+            </export>
+        </file>
+    </files>
+    <messages/>
+    <docs/>
+    <libraries/>
+    <auditkeys/>
+</library>

@@ -1,0 +1,28 @@
+RECORD
+#input_id 1721052846x004_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename 2024-07-07_17-11-54.401.06_001_OUT.collected
+F msisdn 989932767207
+F logic_id 22
+F action_id GeneralLoan
+F content_id general_loan_content
+F retry_count 0
+.
+RECORD
+#input_id 1721052846x004_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename 2024-07-07_17-11-54.401.06_001_OUT.collected
+F msisdn 989932767207
+F logic_id 23
+F action_id PardisDownstreamTest-97791791
+F content_id PardisContent
+F retry_count 0
+.

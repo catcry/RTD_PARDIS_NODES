@@ -1,0 +1,210 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989930425011
+F callingNumberType 0
+F calledNumber 989915102461
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 30
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 1
+F isRoaming 0
+F eventStartTimestamp 20241027160913
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 630804551
+F cost 329439
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046415062
+F @filename RTD_OCSPOST-RECLIVE-61288-20241027195519.csv
+B profiles
+B subscriber
+B extensions
+F version 1726930173397696512
+B actions
+B Age_45_60-6314e334
+F sentTime 1725698902358
+.
+B ACTION_L2_balance_LT_20000R-f4ae35a9
+F sentTime 1726047323383
+.
+B Action_L2_new_60_min-80374415
+F sentTime 1726930173396
+.
+B ACTION_L1_balance_LT_20000R-f25260df
+F sentTime 1698857971012
+.
+B ACTION_L1_tenure_LT_3-b0cced75
+F sentTime 1594039823014
+.
+B action_L1_5_to_10-20fc9ce6
+F sentTime 1639235312718
+.
+B testL1B20-77847e22
+F sentTime 1705825310955
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1697483275481
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027130048
+F gender Female
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F sub_balance 16429104
+F avg_offnet_voice_min 115418.55
+F vas_cost_to_arpu 115418.55
+F churn_propensity Low
+F is_multi_sim_phone No
+F avg_non_business_voice_usage 2702.5
+F avg_nmb_sms_sent 326626.41
+F pkg_to_payg_voice 0.22
+F avg_business_voice_usage 2034.5
+F is_smart_phone_user No
+F onnet_to_offnet_rev 
+F model RM-1011_ Nokia 225 Dual Sim
+F arpu 115418.55
+F brand Microsoft Mobile Oy
+F subscriber_segment MASS
+F tenure 53
+F portout_propensity Low
+F peak_type_data peak
+F os S30
+F enterprise_national_id 5979774890
+F avg_daily_2g_data_usage 0
+F arpu_segment Medium ARPU
+F avg_daily_3g_data_usage 0
+F avg_monthly_topup_cost 66666.67
+F roam_int_rev_to_arpu 115418.55
+F avg_monthly_topup_nmb 0.83
+F payment_type prepaid
+F avg_daily_4g_data_usage 0
+F avg_non_business_data_usage 0
+F avg_onnet_voice_min 165.15
+F voice_pkg_400297_end_time 13990511000000
+F avg_data_usage 0
+F pkg_to_payg_data 0.13
+F provience سیستان و بلوچستان
+F avg_business_data_usage 0
+F voice_pkg_400297_start_time 13990411000000
+F age 679
+F status Active
+.
+F profileId 285027664
+F id 989930425011
+.
+B target
+B extensions
+F version 1712772071122337792
+B actions
+B Action_L2_new_60_min-80374415
+F sentTime 1712772071122
+.
+B testL1B20-77847e22
+F sentTime 1706305741492
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1683761219644
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241019203201
+F sub_balance 100001932
+F monthly_data_pkg_end_time 14020427205900
+F is_multi_sim_phone Yes
+F avg_nmb_sms_sent 4466.43
+F avg_business_voice_usage 0
+F onnet_to_offnet_rev 275.48
+F voice_pkg_700700_start_time {{!!NULL!!}}
+F daily_data_pkg_end_time 14001001020440
+F model 
+F daily_data_pkg_start_time 14000930020441
+F data_package_size s
+F subscriber_segment MASS
+F brand 
+F tenure 70
+F monthly_data_pkg_start_time 14020426205902
+F portout_propensity 
+F voice_pkg_400220_start_time 20191108110453
+F arpu_segment Low ARPU
+F voice_pkg_400220_end_time 20200506110453
+F avg_monthly_topup_cost 16666.67
+F payment_type prepaid
+F avg_non_business_data_usage 234.03
+F avg_data_usage 1025739804
+F provience سیستان و بلوچستان
+F avg_business_data_usage 32.5
+F status Active
+F gender Male
+F weekly_data_pkg_start_time 20181203215851
+F weekly_data_pkg_end_time 20181210215851
+F peak_type_voice 
+F payg_data_rev_to_arpu 0
+F avg_offnet_voice_min 13.19
+F vas_cost_to_arpu 13.19
+F voice_pkg_700700_end_time {{!!NULL!!}}
+F churn_propensity 
+F avg_non_business_voice_usage 42.83
+F pkg_to_payg_voice -999.00
+F is_smart_phone_user No
+F arpu 13.19
+F peak_type_data 
+F os 
+F enterprise_national_id 6990005300
+F avg_daily_2g_data_usage 
+F avg_daily_3g_data_usage 
+F roam_int_rev_to_arpu 190084.82
+F avg_monthly_topup_nmb 0.17
+F avg_daily_4g_data_usage 
+F avg_onnet_voice_min 3.46
+F pkg_to_payg_data 
+F age 293
+.
+F profileId 274511318
+F id 989915102461
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 210 L1_new_60_min
+F 243 BALANCE_100_L1-Topup_NID
+F 212 new_30_min
+F 244 BALANCE_50_L1-Topup_NID
+F 77 L1_balance_LT_20000R
+F 88 L1_5T10_arpu
+F 213 roaming
+F 89 L2_5T10_arpu
+.
+.
+B __RULE_ENGINE__
+B TRIGGERED_ACTIONS
+F 78 ACTION_L2_balance_LT_20000R-f4ae35a9
+F 211 Action_L2_new_60_min-80374415
+.
+B ACTIONS
+B ACTION_L2_balance_LT_20000R-f4ae35a9
+F CONTENT_ID L2_balance_LT_20000R
+F DOWNSTREAM cms
+F CHANNEL sms
+F RESEND_FREQUENCY month
+.
+B Action_L2_new_60_min-80374415
+F CONTENT_ID L2_new_60_min
+F DOWNSTREAM cms
+F CHANNEL sms
+F RESEND_FREQUENCY month
+.
+.
+.
+F @distributed 1730046415209
+.

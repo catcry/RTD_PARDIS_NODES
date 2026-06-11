@@ -1,0 +1,129 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989121115811
+F callingNumberType 0
+F calledNumber 9647812521359
+F calledNumberType 1
+F callingCountry 98
+F calledCountry 964
+F eventDuration 45
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 0
+F isRoaming 1
+F eventStartTimestamp 20241027160842
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 8459336673
+F cost 253000000
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046397607
+F @filename RTD_OCSPOST-RECLIVE-61078-20241027195515.csv
+B profiles
+B subscriber
+B extensions
+F version 1689581847400873984
+B actions
+B roaming_post-bf9cb923
+F sentTime 1689581847400
+.
+.
+.
+B rtd
+F gender Male
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0.93
+F industry Others
+F avg_offnet_voice_min 434903.42
+F vas_cost_to_arpu 6377493.4
+F monthly_data_pkg_end_time 14010205141031
+F avg_nmb_sms_sent 1462939.79
+F is_multi_sim_phone Yes
+F avg_non_business_voice_usage 20065.5
+F churn_propensity Low
+F avg_business_voice_usage 13658.33
+F is_smart_phone_user No
+F onnet_to_offnet_rev 5.36
+F model 
+F arpu 6377493.4
+F data_package_size xl
+F subscriber_segment SHVC
+F brand 
+F tenure 359
+F monthly_data_pkg_start_time 14010106141031
+F portout_propensity Low
+F peak_type_data peak
+F os 
+F enterprise_national_id 3934463592
+F avg_daily_2g_data_usage 9
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 8
+F roam_int_rev_to_arpu 750231.46
+F payment_type postpaid
+F avg_daily_4g_data_usage 1628
+F avg_onnet_voice_min 1004.47
+F avg_non_business_data_usage 9157.67
+F avg_data_usage 15943437447
+F provience تهران
+F avg_business_data_usage 4128.51
+F age 458
+F status Active
+.
+F profileId 237109268
+F id 989121115811
+.
+B target
+F errorCode 100
+F errorMessage Profile for subscriber '9647812521359' was not found
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+B COUNTER
+F ID monthly.moc_cost_roaming
+F LOGIC_ID 213
+F COMPONENT_ID moc_roaming_cost_monthly
+F MODE UPDATE
+F SOURCE_FIELD cost
+.
+.
+B FAILED_LOGICS
+F 210 L1_new_60_min
+F 243 BALANCE_100_L1-Topup_NID
+F 212 new_30_min
+F 244 BALANCE_50_L1-Topup_NID
+F 77 L1_balance_LT_20000R
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 211 L2_new_60_min
+F 78 L2_balance_LT_20000R
+.
+.
+B counters
+B 213
+B monthly
+B moc_cost_roaming
+F used 506000000.000000
+F left 3788967300.000000
+.
+.
+.
+.
+B __RULE_ENGINE__
+B TRIGGERED_ACTIONS
+F 213 Arbaeen_Roaming-0da60d4f
+.
+B ACTIONS
+B Arbaeen_Roaming-0da60d4f
+F CONTENT_ID arbaeen
+F DOWNSTREAM cms
+F CHANNEL sms
+F RESEND_FREQUENCY month
+.
+.
+.
+F @distributed 1730046397639
+.

@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application elversion="6.1">
+    <name>PARDIS_APP_MULTI_FORMAT_ENCODER</name>
+    <version major="1" minor="0" defect="0" patch="Pre_01"/>
+    <description>Multi-format data encoder</description>
+    <type>
+        <collector>false</collector>
+        <intermediate>false</intermediate>
+        <decoder>false</decoder>
+        <businesslogic>false</businesslogic>
+        <blt>false</blt>
+        <encoder>true</encoder>
+        <distributor>false</distributor>
+        <standalone>false</standalone>
+        <interface>false</interface>
+    </type>
+    <nodebase>c_node</nodebase>
+    <parameters>
+        <parameter name="OutputDescriptionFileName">
+            <value>output_description.xml</value>
+            <description>Defines the name of the output description file.</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="RecordLimit">
+            <description>Defines the maximum number of records in a file before it will be closed.</description>
+            <value_type>
+                <numeric/>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="TargetLinksConfigurationFileName">
+            <description>Defines the name of the output link configurations XML file.</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="SeparateSequenceNumbersInOutput">
+            <value>1</value>
+            <description>Defines if the file and record sequence counters in encoded output data have common or independent sequence numbering.</description>
+            <value_type>
+                <list>
+                    <element>0</element>
+                    <element>1</element>
+                </list>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="InputFileNameExtractionMask">
+            <description>Defines the regular expression that is used extract information from original input file name for the output file name.</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="CloseFilesAtSchedule">
+            <value>1</value>
+            <description>Defines if the output files can be closed in schedule.</description>
+            <value_type>
+                <list>
+                    <element>0</element>
+                    <element>1</element>
+                </list>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="CreateEmptyOutputFileOnFlush">
+            <description>Defines whether an empty output files shall be created when node is flushed.</description>
+            <value_type>
+                <list>
+                    <element>0</element>
+                    <element>1</element>
+                </list>
+            </value_type>
+            <dependency parameter="CreateEmptyOutputFiles" values="1"/>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="ResetInterval">
+            <value>0</value>
+            <description>Defines how often the file sequence numbers in output file names are reset.</description>
+            <value_type>
+                <list>
+                    <element>0</element>
+                    <element>1</element>
+                    <element>2</element>
+                    <element>3</element>
+                    <element>4</element>
+                    <element>5</element>
+                    <element>6</element>
+                </list>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="DefaultOutputFilesLink">
+            <description>Default output link if no rule matches on output links configurations.</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="FileSizeLimit">
+            <description>Defines the maximum size of an output file.</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="OutputFileNameCreationMask">
+            <description>Defines the output file name creation pattern to be used for output files. </description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="RealTimeDelivery">
+            <value>0</value>
+            <description>Defines whether a control record is created containing the output record's length and offset in the output file.</description>
+            <value_type>
+                <list>
+                    <element>0</element>
+                    <element>1</element>
+                </list>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="RecordWaitingTimeLimit">
+            <description>Defines the maximum period of time that a file can be open after last record has been written to it.</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="CreateEmptyOutputFileOnSeparation">
+            <description>Defines whether the handling of an input file that does not contain any records or contains the control records only is indicated to the following node with an empty output file.</description>
+            <value_type>
+                <list>
+                    <element>0</element>
+                    <element>1</element>
+                </list>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="MinAgeOfFile">
+            <description>Defines the minimum period that a file must be open after its creation before it can be closed.</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="RemoveFileTemplatesTimeout">
+            <description>Defines the period of time that the output files memory structures are kept waiting for further files to be created after the file has been sent.</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <dependency parameter="RemoveFileTemplates" values="1"/>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="CreateEmptyOutputFiles">
+            <description>Defines whether an empty output files shall be created.</description>
+            <value_type>
+                <list>
+                    <element>0</element>
+                    <element>1</element>
+                </list>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="UniqueOutputFileNames">
+            <value>1</value>
+            <description>Defines if unique output file names are required.</description>
+            <value_type>
+                <list>
+                    <element>0</element>
+                    <element>1</element>
+                </list>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="SeparateSourceID">
+            <value>0</value>
+            <description>Defines whether the input records from different sources are written to separate output files.</description>
+            <value_type>
+                <list>
+                    <element>0</element>
+                    <element>1</element>
+                </list>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>true</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="RemoveFileTemplates">
+            <value>0</value>
+            <description>Defines whether memory structures of the output files are deleted after the file is sent.</description>
+            <value_type>
+                <list>
+                    <element>0</element>
+                    <element>1</element>
+                </list>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="SeparationCondition">
+            <description>Defines whether input records with different values for metadata or input field are written to separate output files.</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="SeparateSequenceNumbersInFileNames">
+            <value>0</value>
+            <description>Defines if the output file names have common or independent sequence numbering.</description>
+            <value_type>
+                <list>
+                    <element>0</element>
+                    <element>1</element>
+                </list>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="MaxAgeOfFile">
+            <description>Defines the maximum period of time that a file can be open after creation.</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+    </parameters>
+    <files>
+        <file os="Linux" path="./" name="Linux/app_mf_encoder.so">
+            <export>
+                <libpath>true</libpath>
+                <perl5lib>false</perl5lib>
+            </export>
+        </file>
+    </files>
+    <messages>
+        <message key="MFE022" type="E">
+            <text>Encoder can support only one output link.</text>
+            <explanation>Verify that the configuration does have only one output link for Encoder.</explanation>
+        </message>
+        <message key="MFE007" type="E">
+            <text>Parsing error: %s</text>
+            <explanation>Verify that the element in output description is correct.</explanation>
+        </message>
+        <message key="MFE027" type="E">
+            <text>Unable to create an unique output file from OutputFileNameCreationMask '%s'.</text>
+            <explanation>It was not possible to have a output file name different from the name of the previous file. Verify that your output name creation mask makes it possible to have unique output file names.</explanation>
+        </message>
+        <message key="MFE200" type="W">
+            <text>File '%s' contains %s invalid format records that cannot be encoded. Please see the Rejected storage 'REJ' for detailed reason for the rejection.</text>
+            <explanation>EventLink Multi-format Encoder has rejected invalid records. See the Rejected Data Storage for the rejected data file.</explanation>
+        </message>
+        <message key="MFE302" type="E">
+            <text>Failed to parse or validate output links configuration XML (%s) - %s</text>
+            <explanation>Error parsing or validate the configuration XML.</explanation>
+        </message>
+        <message key="MFE003" type="E">
+            <text>Unknown attribute '%s' at line %s.</text>
+            <explanation>Verify that the element in output description is correct.</explanation>
+        </message>
+        <message key="MFE030" type="E">
+            <text>Unable to remove sequence number counter for separation value '%s'.</text>
+            <explanation>It was not possible to remove the given counter. This error message should be accompanied with error message that provides the reason for error.</explanation>
+        </message>
+        <message key="MFE012" type="E">
+            <text>No elements described in output description '%s'.</text>
+            <explanation>Verify that the value for substitution in output description is correct.</explanation>
+        </message>
+        <message key="MFE004" type="E">
+            <text>Unknown order '%s' at line %s.</text>
+            <explanation>Verify that the element in output description is correct.</explanation>
+        </message>
+        <message key="MFE011" type="E">
+            <text>Unknown substitution '%s' at line %s.</text>
+            <explanation>Verify that the value for substitution in output description is correct.</explanation>
+        </message>
+        <message key="MFE300" type="E">
+            <text>%s is not a output link.</text>
+            <explanation>The output link is not valid.</explanation>
+        </message>
+        <message key="MFE303" type="I">
+            <text>File %s does not exist. Multiple output links feature is not activated.</text>
+            <explanation>A value is given in parameter TargetLinksConfigurationFileName, but the file is not exists.</explanation>
+        </message>
+        <message key="MFE053" type="W">
+            <text>File %s contained %s invalid field(s) in its headers and trailers.</text>
+            <explanation>A number of fields of headers and trailers could not be written because their value is invalid. Verify the output description.</explanation>
+        </message>
+        <message key="MFE031" type="E">
+            <text>%s</text>
+            <explanation>The header alone is larger than the defined file size limit.</explanation>
+        </message>
+        <message key="MFE029" type="E">
+            <text>Unable to create sequence number counter for separation value '%s'.</text>
+            <explanation>It was not possible to add new counter to the memory. This error message should be accompanied with error message that provides the reason for error.</explanation>
+        </message>
+        <message key="MFE005" type="E">
+            <text>Unknown orientation '%s' at line %s.</text>
+            <explanation>Verify that the element in output description is correct.</explanation>
+        </message>
+        <message key="MFE051" type="W">
+            <text>Unable to open the temporary output file '%s'. Storing it as '%s'.</text>
+            <explanation>An open temporary output file was found from the internal storage directory, but a file tag for it was not found. The file is renamed and stored in internal storage directory.</explanation>
+        </message>
+        <message key="MFE008" type="E">
+            <text>Conversion error: %s</text>
+            <explanation>Encoder was unable to convert the input data according to output description.</explanation>
+        </message>
+        <message key="MFE001" type="E">
+            <text>Unable to open output description file '%s'.</text>
+            <explanation>Verify that the output description exists and that the permissions are correct.</explanation>
+        </message>
+        <message key="MFE002" type="E">
+            <text>Unknown element '%s' at line %s.</text>
+            <explanation>Verify that the element in output description is correct.</explanation>
+        </message>
+        <message key="MFE024" type="E">
+            <text>Unknown length type '%s' at line %s.</text>
+            <explanation>Verify that the element in output description is correct.</explanation>
+        </message>
+        <message key="MFE023" type="E">
+            <text>%s</text>
+            <explanation>Encoder was unable to initialise counter defined in the output description.</explanation>
+        </message>
+        <message key="MFE021" type="E">
+            <text>Unable to load configuration parameter %s.</text>
+            <explanation>Encoder was unable to load a configuration parameter. Verify that the parameter exists and is valid.</explanation>
+        </message>
+        <message key="MFE006" type="E">
+            <text>Unknown value type '%s' at line %s.</text>
+            <explanation>Verify that the element in output description is correct.</explanation>
+        </message>
+        <message key="MFE020" type="E">
+            <text>Unable to load configuration parameter %s.</text>
+            <explanation>Encoder was unable to load a configuration parameter. Verify that the parameter exists and is valid.</explanation>
+        </message>
+        <message key="MFE028" type="E">
+            <text>Unable to write data to temporary output file '%s'.</text>
+            <explanation>It was not possible to write to the temporary output file. This error message should be accompanied by an error message that provides the reason for error.</explanation>
+        </message>
+        <message key="MFE050" type="W">
+            <text>Lower limit %s defined for the set was not reached.</text>
+            <explanation>The defined minimum number of elements that must be present in the encoding was not rached.</explanation>
+        </message>
+        <message key="MFE010" type="E">
+            <text>Unable to initialise XML parser.</text>
+            <explanation>Encoder was unable to initialise XML Parser for reading the output description.</explanation>
+        </message>
+        <message key="MFE032" type="E">
+            <text>Record name %s is reserved for internal use.</text>
+            <explanation>The record name is reserved. Use another record name in the whole stream or convert the record name to another in an intermediate node.</explanation>
+        </message>
+        <message key="MFE301" type="E">
+            <text>Default output files link '%s' is not valid.</text>
+            <explanation>Output link defined in parameter DefaultOutputFilesLink is not a valid link.</explanation>
+        </message>
+        <message key="MFE052" type="W">
+            <text>%s</text>
+            <explanation>The input record alone is larger than the defined file size limit.</explanation>
+        </message>
+        <message key="MFE025" type="E">
+            <text>Unable to close an output file.</text>
+            <explanation>It was not possible to close the file.</explanation>
+        </message>
+        <message key="MFE009" type="E">
+            <text>Unable to allocate memory.</text>
+            <explanation>Encoder was unable to allocate memory.</explanation>
+        </message>
+        <message key="MFE100" type="W">
+            <text>Unable to use temporary output file '%s'. Storing it as '%s'.</text>
+            <explanation>A temporary output file was found from the storage, but it can not be used because a tag for it was not found or the output description has changed. It will be renamed and stored in the internal storage directory.</explanation>
+        </message>
+        <message key="MFE026" type="E">
+            <text>Unable to obtain a unique creation time.</text>
+            <explanation>It was not possible to have a creation time different from the creation time of the previous file.</explanation>
+        </message>
+    </messages>
+    <docs>
+        <file name="docs/index.html"/>
+    </docs>
+    <libraries>
+        <library name="EL_LIB_CML" min_major="1" min_minor="5" min_defect="8" exactversion="false"/>
+        <library name="EL_LIB_FNL" min_major="1" min_minor="5" min_defect="3" exactversion="false"/>
+    </libraries>
+    <auditkeys/>
+</application>

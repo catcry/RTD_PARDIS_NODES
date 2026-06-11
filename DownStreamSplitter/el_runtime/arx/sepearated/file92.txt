@@ -1,0 +1,131 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989130097858
+F callingNumberType 0
+F calledNumber 983142741771
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 53
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 1
+F isRoaming 0
+F eventStartTimestamp 20241027160520
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 831678357
+F cost 582009
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046427470
+F @filename RTD_OCSPOST-RECLIVE-61598-20241027195526.csv
+B profiles
+B subscriber
+B extensions
+F version 1728542511535751168
+B actions
+B BonTest_Balance_L1_20_50-493742c0
+F sentTime 1709972724930
+.
+B testL1B250-9a6c08a2
+F sentTime 1705942441251
+.
+B Action_L2_new_60_min-80374415
+F sentTime 1728542511533
+.
+B testL2-f5299f11
+F sentTime 1705942441251
+.
+B testL1-fd6c1b3b
+F sentTime 1705444639482
+.
+B action_L1_none3-8f234163
+F sentTime 1722240307663
+.
+B testL1B20-77847e22
+F sentTime 1705745782853
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1696488395892
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027133417
+F gender Male
+F weekly_data_pkg_start_time 14021003011532
+F weekly_data_pkg_end_time 14021010011532
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F sub_balance 834822765
+F avg_offnet_voice_min 244389.04
+F vas_cost_to_arpu 120821.39
+F is_multi_sim_phone Yes
+F avg_non_business_voice_usage 9632.17
+F avg_nmb_sms_sent 734262.73
+F churn_propensity Low
+F is_smart_phone_user No
+F onnet_to_offnet_rev 13.48
+F avg_business_voice_usage 11891
+F arpu 120821.39
+F subscriber_segment SHVC
+F voice_pkg_700338_end_time 14020814125202
+F tenure 161
+F portout_propensity High
+F peak_type_data peak
+F enterprise_national_id 4819845144
+F avg_daily_2g_data_usage 0
+F arpu_segment Medium ARPU
+F avg_daily_3g_data_usage 126
+F avg_monthly_topup_cost 473166.67
+F roam_int_rev_to_arpu 371940.7
+F avg_monthly_topup_nmb 1.67
+F payment_type prepaid
+F avg_non_business_data_usage 15812.25
+F avg_onnet_voice_min 344.12
+F avg_daily_4g_data_usage 662
+F avg_data_usage 33992368281
+F pkg_to_payg_data 
+F provience اصفهان
+F avg_business_data_usage 8777.11
+F voice_pkg_700338_start_time 14020714125203
+F age 468
+F status Disconnected
+.
+F profileId 273513834
+F id 989130097858
+.
+B target
+F errorCode 100
+F errorMessage Profile for subscriber '983142741771' was not found
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 78 L2_balance_LT_20000R
+F 77 L1_balance_LT_20000R
+F 243 BALANCE_100_L1-Topup_NID
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 244 BALANCE_50_L1-Topup_NID
+F 210 L1_new_60_min
+F 213 roaming
+F 212 new_30_min
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 211
+F DISCARD_REASON Action Action_L2_new_60_min-80374415 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046427486
+.

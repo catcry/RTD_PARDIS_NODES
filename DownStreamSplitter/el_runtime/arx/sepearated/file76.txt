@@ -1,0 +1,128 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989184163499
+F callingNumberType 0
+F calledNumber 989219447548
+F calledNumberType 1
+F callingCountry 98
+F calledCountry 98
+F eventDuration 59
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 0
+F isRoaming 0
+F eventStartTimestamp 20241027160439
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 223407637
+F cost 647897
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046419365
+F @filename RTD_OCSPOST-RECLIVE-61452-20241027195523.csv
+B profiles
+B subscriber
+B extensions
+F version 1727437614356299776
+B actions
+B Age_45_60-6314e334
+F sentTime 1725531175749
+.
+B Action_L2_new_60_min-80374415
+F sentTime 1727437614353
+.
+B L1_none2_LT_7000-9d951be9
+F sentTime 1623065698195
+.
+B testL1B20-77847e22
+F sentTime 1705817597677
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1692015121781
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027125645
+F gender Male
+F weekly_data_pkg_start_time {{!!NULL!!}}
+F weekly_data_pkg_end_time {{!!NULL!!}}
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0.09
+F industry Others
+F sub_balance 247156601
+F avg_offnet_voice_min 767142.65
+F vas_cost_to_arpu 1816768.08
+F monthly_data_pkg_end_time 14030530171359
+F churn_propensity Low
+F avg_nmb_sms_sent 1910746.25
+F is_multi_sim_phone No
+F avg_non_business_voice_usage 21811
+F avg_business_voice_usage 21351.33
+F is_smart_phone_user No
+F onnet_to_offnet_rev 3.95
+F model 
+F daily_data_pkg_end_time 14030627171803
+F arpu 1816768.08
+F daily_data_pkg_start_time 14030626171805
+F data_package_size s
+F subscriber_segment HMR
+F brand 
+F tenure 85
+F monthly_data_pkg_start_time 14030529171401
+F portout_propensity High
+F peak_type_data peak
+F os 
+F enterprise_national_id 3859708252
+F avg_daily_2g_data_usage 18
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 38
+F avg_monthly_topup_cost 172500
+F roam_int_rev_to_arpu 622584.81
+F avg_monthly_topup_nmb 0.67
+F payment_type prepaid
+F avg_daily_4g_data_usage 653
+F avg_onnet_voice_min 1105.08
+F avg_non_business_data_usage 8503.42
+F avg_data_usage 40388156238
+F pkg_to_payg_data 0.83
+F provience کردستان
+F avg_business_data_usage 7363.27
+F age 612
+F status Disconnected
+.
+F profileId 253110168
+F id 989184163499
+.
+B target
+F errorCode 100
+F errorMessage Profile for subscriber '989219447548' was not found
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 210 L1_new_60_min
+F 243 BALANCE_100_L1-Topup_NID
+F 212 new_30_min
+F 244 BALANCE_50_L1-Topup_NID
+F 77 L1_balance_LT_20000R
+F 88 L1_5T10_arpu
+F 213 roaming
+F 89 L2_5T10_arpu
+F 78 L2_balance_LT_20000R
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 211
+F DISCARD_REASON Action Action_L2_new_60_min-80374415 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046419428
+.

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration elversion="6.1">
+    <name>MCI_CFG_BON_PARADISS_ENC</name>
+    <version major="1" minor="0" defect="0" patch="PRE2"/>
+    <description>Initial Version.</description>
+    <type>
+        <collector>false</collector>
+        <intermediate>false</intermediate>
+        <decoder>false</decoder>
+        <businesslogic>false</businesslogic>
+        <blt>false</blt>
+        <encoder>false</encoder>
+        <distributor>false</distributor>
+        <standalone>false</standalone>
+        <interface>false</interface>
+    </type>
+    <application name="PARDIS_APP_MULTI_FORMAT_ENCODER" min_major="1" min_minor="0" min_defect="0" exactversion="false"/>
+    <attributes>
+        <application_commit>false</application_commit>
+        <schedulable>true</schedulable>
+        <realtime>false</realtime>
+    </attributes>
+    <scalability>
+        <none></none>
+    </scalability>
+    <parameters/>
+    <files>
+        <file os="AnyOS" path="./" editable="true" name="AnyOS/output_description.xml">
+            <export>
+                <libpath>false</libpath>
+                <perl5lib>false</perl5lib>
+            </export>
+        </file>
+    </files>
+    <messages/>
+    <docs/>
+    <libraries/>
+    <storages>
+        <storage name="REJ">
+            <description>Storage for rejected records.</description>
+        </storage>
+    </storages>
+    <links>
+        <link>PARDIS_ENC_OUT</link>
+    </links>
+    <auditkeys/>
+</configuration>

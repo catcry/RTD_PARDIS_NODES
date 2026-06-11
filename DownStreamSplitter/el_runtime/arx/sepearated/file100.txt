@@ -1,0 +1,190 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989129598589
+F callingNumberType 0
+F calledNumber 989122852283
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 46
+F eventVolume {{!!NULL!!}}
+F internationalCall 1
+F onnet 1
+F isRoaming 1
+F eventStartTimestamp 20241027161128
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 12128070406
+F cost 159500000
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046430091
+F @filename RTD_OCSPOST-RECLIVE-61616-20241027195527.csv
+B profiles
+B subscriber
+B extensions
+F version 1728983201236189184
+B actions
+B Arbaeen_Roaming-0da60d4f
+F sentTime 1728983201235
+.
+B action_PAYG_DATA-0a179f57
+F sentTime 1642778048790
+.
+.
+.
+B rtd
+F voice_pkg_700312_end_time {{!!NULL!!}}
+F gender Male
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F avg_offnet_voice_min 468495.22
+F voice_pkg_700312_start_time {{!!NULL!!}}
+F vas_cost_to_arpu 923685.15
+F monthly_data_pkg_end_time 14000314135153
+F churn_propensity Low
+F avg_nmb_sms_sent 2050527.2
+F is_multi_sim_phone No
+F avg_non_business_voice_usage 32888.67
+F pkg_to_payg_voice -999.00
+F avg_business_voice_usage 34070.83
+F is_smart_phone_user No
+F onnet_to_offnet_rev 4.23
+F model 
+F daily_data_pkg_end_time 14000608153612
+F arpu 923685.15
+F data_package_size l
+F daily_data_pkg_start_time 14000607153612
+F subscriber_segment SHVC
+F brand 
+F tenure 84
+F monthly_data_pkg_start_time 14000215135153
+F portout_propensity Low
+F peak_type_data peak
+F os 
+F enterprise_national_id 1740690001
+F avg_daily_2g_data_usage 0
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 0
+F roam_int_rev_to_arpu 415181
+F payment_type postpaid
+F avg_daily_4g_data_usage 136
+F avg_onnet_voice_min 1222.53
+F avg_non_business_data_usage 4008.24
+F avg_data_usage 43303011122
+F pkg_to_payg_data 
+F provience تهران
+F avg_business_data_usage 8027.08
+F age 401
+F status Active
+.
+F profileId 247375905
+F id 989129598589
+.
+B target
+B extensions
+F version 1624107690234675200
+B actions
+B Dormant_MASS-c0fe6136
+F sentTime 1619942953321
+.
+B NDU_MASS_ACTION-d6258716
+F sentTime 1618467370108
+.
+B action2_atrisk_mass-3c6d105f
+F sentTime 1624107688730
+.
+.
+.
+B rtd
+F gender Male
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0.72
+F industry Others
+F avg_offnet_voice_min 550426.7
+F vas_cost_to_arpu 5749925.43
+F monthly_data_pkg_end_time 20190211200521
+F churn_propensity Low
+F avg_nmb_sms_sent 1791972.52
+F is_multi_sim_phone Yes
+F avg_non_business_voice_usage 23413.83
+F avg_business_voice_usage 15095.67
+F is_smart_phone_user No
+F onnet_to_offnet_rev 5.57
+F model GT-I9300I
+F daily_data_pkg_end_time 14000103135716
+F arpu 5749925.43
+F data_package_size xl
+F daily_data_pkg_start_time 14000102135718
+F subscriber_segment SHVC
+F brand Samsung Korea
+F tenure 235
+F monthly_data_pkg_start_time 20190112200521
+F portout_propensity Low
+F peak_type_data peak
+F os Android
+F enterprise_national_id 0046926747
+F avg_daily_2g_data_usage 16
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 53
+F roam_int_rev_to_arpu 488437.26
+F payment_type postpaid
+F avg_daily_4g_data_usage 907
+F avg_onnet_voice_min 1030.38
+F avg_non_business_data_usage 12174.85
+F avg_data_usage 97351810687
+F pkg_to_payg_data 0.2
+F provience تهران
+F avg_business_data_usage 11233.56
+F age 666
+F status Disconnected
+.
+F profileId 221210292
+F id 989122852283
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+B COUNTER
+F ID monthly.moc_cost_roaming
+F LOGIC_ID 213
+F COMPONENT_ID moc_roaming_cost_monthly
+F MODE UPDATE
+F SOURCE_FIELD cost
+.
+.
+B FAILED_LOGICS
+F 78 L2_balance_LT_20000R
+F 77 L1_balance_LT_20000R
+F 243 BALANCE_100_L1-Topup_NID
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 244 BALANCE_50_L1-Topup_NID
+F 210 L1_new_60_min
+F 211 L2_new_60_min
+F 212 new_30_min
+.
+.
+B counters
+B 213
+B monthly
+B moc_cost_roaming
+F used 1595000000.000000
+F left 2699967300.000000
+.
+.
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 213
+F DISCARD_REASON Action Arbaeen_Roaming-0da60d4f was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046430157
+.

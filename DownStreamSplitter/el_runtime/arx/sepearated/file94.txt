@@ -1,0 +1,212 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989144126276
+F callingNumberType 0
+F calledNumber 989147314952
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 16
+F eventVolume {{!!NULL!!}}
+F internationalCall 1
+F onnet 1
+F isRoaming 1
+F eventStartTimestamp 20241027160935
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 1942755523
+F cost 253000000
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046428189
+F @filename RTD_OCSPOST-RECLIVE-61609-20241027195527.csv
+B profiles
+B subscriber
+B extensions
+F version 1605432816517840896
+B actions
+B action_atrisk_mass-65b15eef
+F sentTime 1595053555299
+.
+B action2_atrisk_mass-3c6d105f
+F sentTime 1605432816516
+.
+.
+.
+B rtd
+F voice_pkg_400289_end_time 14020410172902
+F gender Male
+F weekly_data_pkg_start_time 14020210191305
+F weekly_data_pkg_end_time 14020217191305
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F avg_offnet_voice_min 62044.35
+F vas_cost_to_arpu 483769.55
+F churn_propensity 
+F avg_nmb_sms_sent 206009.21
+F is_multi_sim_phone Yes
+F avg_non_business_voice_usage 3025.17
+F avg_business_voice_usage 3098
+F is_smart_phone_user No
+F onnet_to_offnet_rev 42.51
+F model 
+F arpu 483769.55
+F subscriber_segment HDR
+F brand 
+F tenure 250
+F voice_pkg_400289_start_time 14020409172904
+F portout_propensity 
+F peak_type_data peak
+F os 
+F enterprise_national_id 1501081764
+F avg_daily_2g_data_usage 0
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 11
+F roam_int_rev_to_arpu 500764.61
+F payment_type postpaid
+F avg_daily_4g_data_usage 397
+F avg_onnet_voice_min 151.47
+F avg_non_business_data_usage 2291.89
+F avg_data_usage 15911409554
+F pkg_to_payg_data 
+F provience آذربایجان شرقی
+F avg_business_data_usage 2622.57
+F age 794
+F status Active
+.
+F profileId 246780600
+F id 989144126276
+.
+B target
+B extensions
+F version 1725445577517629440
+B actions
+B Dormant_MASS-c0fe6136
+F sentTime 1594611975941
+.
+B Age_45_60-6314e334
+F sentTime 1725445577517
+.
+B NDU_MASS_ACTION-d6258716
+F sentTime 1699477907552
+.
+B BonTest_Balance_L1_20_50-493742c0
+F sentTime 1709293381928
+.
+B testL1B250-9a6c08a2
+F sentTime 1705745197313
+.
+B testL1-fd6c1b3b
+F sentTime 1710064279392
+.
+B Dormant_HVR-f1ead8c0
+F sentTime 1595734270110
+.
+B NDU_HVR_ACTION-6b8ed944
+F sentTime 1597901611468
+.
+B Notify_Nondata-03fc65dd
+F sentTime 1573915886824
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241026213417
+F gender Male
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F sub_balance 245770613
+F avg_offnet_voice_min 101953.33
+F vas_cost_to_arpu 123001.49
+F voice_pkg_700700_end_time 13990328120120
+F churn_propensity Low
+F avg_nmb_sms_sent 297668.78
+F is_multi_sim_phone Yes
+F avg_non_business_voice_usage 2594.5
+F pkg_to_payg_voice 
+F avg_business_voice_usage 4012.17
+F is_smart_phone_user Yes
+F onnet_to_offnet_rev 
+F voice_pkg_700700_start_time 13990229120121
+F model PROOFINGS W3
+F daily_data_pkg_end_time 13991030184449
+F arpu 123001.49
+F daily_data_pkg_start_time 13991029184451
+F subscriber_segment MASS
+F brand Shenzhen Kenxinda Technology Co Ltd
+F tenure 172
+F portout_propensity Low
+F peak_type_data peak
+F os Android
+F enterprise_national_id 1501088017
+F avg_daily_2g_data_usage 0
+F arpu_segment Medium ARPU
+F avg_daily_3g_data_usage 0
+F avg_monthly_topup_cost 66666.67
+F roam_int_rev_to_arpu 131537.26
+F avg_monthly_topup_nmb 0.33
+F payment_type prepaid
+F avg_daily_4g_data_usage 0
+F avg_onnet_voice_min 146.65
+F avg_non_business_data_usage 0.07
+F avg_data_usage 226192581
+F provience آذربایجان شرقی
+F avg_business_data_usage 37.63
+F age 607
+F status Disconnected
+.
+F profileId 248516405
+F id 989147314952
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+B COUNTER
+F ID monthly.moc_cost_roaming
+F LOGIC_ID 213
+F COMPONENT_ID moc_roaming_cost_monthly
+F MODE UPDATE
+F SOURCE_FIELD cost
+.
+.
+B FAILED_LOGICS
+F 210 L1_new_60_min
+F 243 BALANCE_100_L1-Topup_NID
+F 212 new_30_min
+F 244 BALANCE_50_L1-Topup_NID
+F 77 L1_balance_LT_20000R
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 211 L2_new_60_min
+F 78 L2_balance_LT_20000R
+.
+.
+B counters
+B 213
+B monthly
+B moc_cost_roaming
+F used 506000000.000000
+F left 3788967300.000000
+.
+.
+.
+.
+B __RULE_ENGINE__
+B TRIGGERED_ACTIONS
+F 213 Arbaeen_Roaming-0da60d4f
+.
+B ACTIONS
+B Arbaeen_Roaming-0da60d4f
+F CONTENT_ID arbaeen
+F DOWNSTREAM cms
+F CHANNEL sms
+F RESEND_FREQUENCY month
+.
+.
+.
+F @distributed 1730046428285
+.

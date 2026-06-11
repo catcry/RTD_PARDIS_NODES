@@ -1,0 +1,181 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989185115436
+F callingNumberType 0
+F calledNumber 989185113414
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 37
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 1
+F isRoaming 0
+F eventStartTimestamp 20241027161331
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 900649217
+F cost 406308
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046439831
+F @filename RTD_OCSPOST-RECLIVE-61733-20241027195530.csv
+B profiles
+B subscriber
+B extensions
+F version 1728743807139577856
+B actions
+B testL1B250-9a6c08a2
+F sentTime 1705805825147
+.
+B Action_L2_new_60_min-80374415
+F sentTime 1728743807137
+.
+B testL2-f5299f11
+F sentTime 1705805825147
+.
+B testL1-fd6c1b3b
+F sentTime 1709537412978
+.
+B action_L1_none3-8f234163
+F sentTime 1713430947233
+.
+B testL1B20-77847e22
+F sentTime 1705743154970
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1691338315474
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027170612
+F gender Male
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F sub_balance 910360702
+F avg_offnet_voice_min 71762.8
+F vas_cost_to_arpu 893686.86
+F is_multi_sim_phone Yes
+F churn_propensity Low
+F avg_non_business_voice_usage 9910.5
+F avg_nmb_sms_sent 403409.07
+F pkg_to_payg_voice 
+F is_smart_phone_user Yes
+F avg_business_voice_usage 8141.67
+F onnet_to_offnet_rev 15.57
+F daily_data_pkg_end_time 14020708002341
+F model iPhone X _A1901_
+F arpu 893686.86
+F daily_data_pkg_start_time 14020707002341
+F subscriber_segment SHVC
+F brand Apple Inc
+F tenure 155
+F portout_propensity Low
+F peak_type_data peak
+F os iOS
+F enterprise_national_id 4559946851
+F avg_daily_2g_data_usage 11
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 59
+F avg_monthly_topup_cost 208333.33
+F roam_int_rev_to_arpu 135514.38
+F avg_monthly_topup_nmb 0.5
+F payment_type prepaid
+F avg_daily_4g_data_usage 433
+F avg_non_business_data_usage 8610.7
+F avg_onnet_voice_min 396.79
+F avg_data_usage 41368093301
+F pkg_to_payg_data 
+F provience ایلام
+F avg_business_data_usage 4269.44
+F age 439
+F status Disconnected
+.
+F profileId 253264049
+F id 989185115436
+.
+B target
+B extensions
+F version 1727249728165838848
+B actions
+B Balance_50000_niod-4a78175f
+F sentTime 1727249728166
+.
+B BonTest_Balance_L1_20_50-493742c0
+F sentTime 1709206522808
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027142619
+F gender Male
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F sub_balance 3377738
+F avg_offnet_voice_min 88273.85
+F vas_cost_to_arpu 1112675.98
+F is_multi_sim_phone Yes
+F avg_non_business_voice_usage 22549.33
+F avg_nmb_sms_sent 462679.55
+F churn_propensity Low
+F pkg_to_payg_voice 0.84
+F is_smart_phone_user No
+F onnet_to_offnet_rev 15.75
+F avg_business_voice_usage 27690.67
+F arpu 1112675.98
+F subscriber_segment SHVC
+F tenure 7
+F portout_propensity Low
+F peak_type_data peak
+F enterprise_national_id 3750521999
+F avg_daily_2g_data_usage 0
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 4
+F avg_monthly_topup_cost 458333.33
+F roam_int_rev_to_arpu 135514.38
+F avg_monthly_topup_nmb 2.83
+F payment_type prepaid
+F avg_non_business_data_usage 2959.64
+F avg_onnet_voice_min 1315.23
+F avg_daily_4g_data_usage 231
+F avg_data_usage 17242919158
+F pkg_to_payg_data 1
+F provience کردستان
+F avg_business_data_usage 1126.71
+F age 307
+F status Active
+.
+F profileId 261544650
+F id 989185113414
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 210 L1_new_60_min
+F 243 BALANCE_100_L1-Topup_NID
+F 212 new_30_min
+F 244 BALANCE_50_L1-Topup_NID
+F 77 L1_balance_LT_20000R
+F 88 L1_5T10_arpu
+F 213 roaming
+F 89 L2_5T10_arpu
+F 78 L2_balance_LT_20000R
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 211
+F DISCARD_REASON Action Action_L2_new_60_min-80374415 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046439884
+.

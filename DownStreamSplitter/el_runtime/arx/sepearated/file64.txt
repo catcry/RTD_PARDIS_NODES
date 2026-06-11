@@ -1,0 +1,169 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989124277800
+F callingNumberType 0
+F calledNumber 989121266856
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 127
+F eventVolume {{!!NULL!!}}
+F internationalCall 1
+F onnet 1
+F isRoaming 1
+F eventStartTimestamp 20241027155923
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 21640578402
+F cost 0
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046416667
+F @filename RTD_OCSPOST-RECLIVE-61358-20241027195521.csv
+B profiles
+B subscriber
+B extensions
+F version 1729753889621475328
+B actions
+B roaming_post-bf9cb923
+F sentTime 1710664078977
+.
+B Arbaeen_Roaming-0da60d4f
+F sentTime 1729753889618
+.
+.
+.
+B rtd
+F voice_pkg_400289_end_time 13990629085527
+F gender Male
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0.1
+F industry Others
+F avg_offnet_voice_min 2144560.12
+F vas_cost_to_arpu 2461247.43
+F churn_propensity Low
+F avg_nmb_sms_sent 5698482.28
+F is_multi_sim_phone No
+F avg_non_business_voice_usage 51801.83
+F avg_business_voice_usage 101429.17
+F is_smart_phone_user No
+F onnet_to_offnet_rev 3.66
+F model 
+F arpu 2461247.43
+F subscriber_segment SHVC
+F brand 
+F tenure 217
+F voice_pkg_400289_start_time 13990628085528
+F portout_propensity Low
+F peak_type_data peak
+F os 
+F enterprise_national_id 2391147244
+F avg_daily_2g_data_usage 0
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 14
+F roam_int_rev_to_arpu 1710798.76
+F payment_type postpaid
+F avg_daily_4g_data_usage 139
+F avg_onnet_voice_min 3384.5
+F avg_non_business_data_usage 14510.84
+F avg_data_usage 95696077836
+F pkg_to_payg_data 
+F provience تهران
+F avg_business_data_usage 11781.09
+F age 504
+F status Active
+.
+F profileId 267783779
+F id 989124277800
+.
+B target
+B rtd
+F gender Male
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0.79
+F industry Others
+F avg_offnet_voice_min 1424746.87
+F vas_cost_to_arpu 7544449.06
+F monthly_data_pkg_end_time 14021118220254
+F avg_nmb_sms_sent 4542008.62
+F is_multi_sim_phone Yes
+F avg_non_business_voice_usage 49152
+F churn_propensity 
+F avg_business_voice_usage 66926.33
+F is_smart_phone_user No
+F onnet_to_offnet_rev 10.49
+F model A2104_IPHONE XS MAX_
+F arpu 7544449.06
+F data_package_size l
+F subscriber_segment SHVC
+F brand APPLE
+F tenure 321
+F monthly_data_pkg_start_time 14021018220254
+F portout_propensity 
+F peak_type_data peak
+F os iOS
+F enterprise_national_id 1380394503
+F avg_daily_2g_data_usage 0
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 44
+F roam_int_rev_to_arpu 2334569.58
+F payment_type postpaid
+F avg_daily_4g_data_usage 460
+F avg_onnet_voice_min 3077.5
+F avg_non_business_data_usage 4058.51
+F avg_data_usage 38746076281
+F pkg_to_payg_data 
+F provience تهران
+F avg_business_data_usage 5726.61
+F age 491
+F status Active
+.
+F profileId 246143034
+F id 989121266856
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+B COUNTER
+F ID monthly.moc_cost_roaming
+F LOGIC_ID 213
+F COMPONENT_ID moc_roaming_cost_monthly
+F MODE UPDATE
+F SOURCE_FIELD cost
+.
+.
+B FAILED_LOGICS
+F 78 L2_balance_LT_20000R
+F 77 L1_balance_LT_20000R
+F 243 BALANCE_100_L1-Topup_NID
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 244 BALANCE_50_L1-Topup_NID
+F 210 L1_new_60_min
+F 211 L2_new_60_min
+F 212 new_30_min
+.
+.
+B counters
+B 213
+B monthly
+B moc_cost_roaming
+F used 18414000000.000000
+F left 0
+F thresholdAll 100%
+.
+.
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 213
+F DISCARD_REASON Action Arbaeen_Roaming-0da60d4f was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046416743
+.

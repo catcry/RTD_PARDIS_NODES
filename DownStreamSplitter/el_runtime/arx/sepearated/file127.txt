@@ -1,0 +1,137 @@
+RECORD
+#source_id 
+F eventType 8
+F eventId {{!!NULL!!}}
+F callingNumber 989180660918
+F callingNumberType 0
+F calledNumber {{!!NULL!!}}
+F calledNumberType {{!!NULL!!}}
+F callingCountry 98
+F calledCountry {{!!NULL!!}}
+F eventDuration {{!!NULL!!}}
+F eventVolume 3518
+F internationalCall 0
+F onnet 0
+F isRoaming 0
+F eventStartTimestamp 20241027135719
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum 0
+F subBalance 928349345
+F cost 0
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046435833
+F @filename RTD_OCSPOST-OCS-61442-20241027195523.csv
+B profiles
+B subscriber
+B extensions
+F version 1729689023778062336
+B actions
+B Balance_50000_niod-4a78175f
+F sentTime 1724769928346
+.
+B Age_45_60-6314e334
+F sentTime 1725480801522
+.
+B testL1B250-9a6c08a2
+F sentTime 1705805624335
+.
+B Action_L2_new_60_min-80374415
+F sentTime 1728035126972
+.
+B testL2-f5299f11
+F sentTime 1705805624335
+.
+B Final_Dream_Friday-53a44cc0
+F sentTime 1594449493843
+.
+B action_L1_none3-8f234163
+F sentTime 1729689023778
+.
+B testL1B20-77847e22
+F sentTime 1705753888892
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1691538345065
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241026194230
+F gender Female
+F weekly_data_pkg_start_time 14020909205219
+F weekly_data_pkg_end_time 14020916205219
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0.13
+F industry Others
+F sub_balance 956546341
+F avg_offnet_voice_min 180008.77
+F vas_cost_to_arpu 2991797.05
+F voice_pkg_700316_start_time 14020927170220
+F is_multi_sim_phone Yes
+F avg_nmb_sms_sent 284516.69
+F churn_propensity Low
+F avg_non_business_voice_usage 3389.67
+F is_smart_phone_user No
+F onnet_to_offnet_rev 6.96
+F avg_business_voice_usage 2857.67
+F model KT55
+F daily_data_pkg_end_time 14021026195048
+F arpu 2991797.05
+F daily_data_pkg_start_time 14021025195050
+F subscriber_segment SHVC
+F brand SPEEDATA
+F voice_pkg_700315_end_time 14021002232953
+F tenure 78
+F portout_propensity Low
+F peak_type_data peak
+F os None
+F enterprise_national_id 3256286259
+F avg_daily_2g_data_usage 0
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 103
+F avg_monthly_topup_cost 1486250
+F roam_int_rev_to_arpu 328686.25
+F avg_monthly_topup_nmb 5
+F payment_type prepaid
+F avg_onnet_voice_min 159.45
+F avg_daily_4g_data_usage 1786
+F avg_non_business_data_usage 49715.2
+F avg_data_usage 333520104447
+F pkg_to_payg_data 0.85
+F provience کرمانشاه
+F avg_business_data_usage 34138.45
+F voice_pkg_700316_end_time 14021027170218
+F voice_pkg_700315_start_time 14020902232955
+F age 589
+F status Active
+.
+F profileId 219608580
+F id 989180660918
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 78 L2_balance_LT_20000R
+F 77 L1_balance_LT_20000R
+F 243 BALANCE_100_L1-Topup_NID
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 244 BALANCE_50_L1-Topup_NID
+F 210 L1_new_60_min
+F 213 roaming
+F 212 new_30_min
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 211
+F DISCARD_REASON Action Action_L2_new_60_min-80374415 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046435851
+.

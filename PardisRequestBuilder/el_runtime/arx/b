@@ -1,0 +1,444 @@
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F record_generate_time Mon Aug 19 18:13:45 IRDT 2024
+F chunk_id 47bef8fb-0a9e-4713-ad4a-9c5caec54ec1
+B Action
+F action_id general_loan_content7
+.
+B ChunkList
+B Sub_1
+F msisdn 989932761000
+F retry_count 0
+.
+B Sub_2
+F msisdn 989932761064
+F retry_count 0
+.
+B Sub_3
+F msisdn 989932761069
+F retry_count 0
+.
+B Sub_4
+F msisdn 989932761074
+F retry_count 0
+.
+B Sub_5
+F msisdn 989932761079
+F retry_count 0
+.
+B Sub_6
+F msisdn 989932761081
+F retry_count 0
+.
+B Sub_7
+F msisdn 989932761083
+F retry_count 0
+.
+B Sub_8
+F msisdn 989932761085
+F retry_count 0
+.
+B Sub_9
+F msisdn 989932761005
+F retry_count 0
+.
+B Sub_10
+F msisdn 989932761007
+F retry_count 0
+.
+.
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F record_generate_time Mon Aug 19 18:13:45 IRDT 2024
+F chunk_id 5c0badc9-d96a-40a4-ad25-d63c2c4aaf90
+B Action
+F action_id general_loan_content8
+.
+B ChunkList
+B Sub_1
+F msisdn 989932761001
+F retry_count 0
+.
+B Sub_2
+F msisdn 989932761065
+F retry_count 0
+.
+B Sub_3
+F msisdn 989932761070
+F retry_count 0
+.
+B Sub_4
+F msisdn 989932761075
+F retry_count 0
+.
+B Sub_5
+F msisdn 989932761080
+F retry_count 0
+.
+B Sub_6
+F msisdn 989932761082
+F retry_count 0
+.
+B Sub_7
+F msisdn 989932761084
+F retry_count 0
+.
+B Sub_8
+F msisdn 989932761086
+F retry_count 0
+.
+B Sub_9
+F msisdn 989932761006
+F retry_count 0
+.
+B Sub_10
+F msisdn 989932761008
+F retry_count 0
+.
+.
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F record_generate_time Mon Aug 19 18:13:45 IRDT 2024
+F chunk_id 5bee3494-5f21-4111-a474-1a30160ae8e0
+B Action
+F action_id general_loan_content7
+.
+B ChunkList
+B Sub_1
+F msisdn 989932761009
+F retry_count 0
+.
+B Sub_2
+F msisdn 989932761011
+F retry_count 0
+.
+B Sub_3
+F msisdn 989932761013
+F retry_count 0
+.
+B Sub_4
+F msisdn 989932761015
+F retry_count 0
+.
+B Sub_5
+F msisdn 989932761017
+F retry_count 0
+.
+B Sub_6
+F msisdn 989932761019
+F retry_count 0
+.
+B Sub_7
+F msisdn 989932761021
+F retry_count 0
+.
+B Sub_8
+F msisdn 989932761023
+F retry_count 0
+.
+B Sub_9
+F msisdn 989932761025
+F retry_count 0
+.
+B Sub_10
+F msisdn 989932761027
+F retry_count 0
+.
+.
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F record_generate_time Mon Aug 19 18:13:45 IRDT 2024
+F chunk_id 293b4e85-6fe6-44be-aec0-a8a23fb63c5a
+B Action
+F action_id general_loan_content8
+.
+B ChunkList
+B Sub_1
+F msisdn 989932761010
+F retry_count 0
+.
+B Sub_2
+F msisdn 989932761012
+F retry_count 0
+.
+B Sub_3
+F msisdn 989932761014
+F retry_count 0
+.
+B Sub_4
+F msisdn 989932761016
+F retry_count 0
+.
+B Sub_5
+F msisdn 989932761018
+F retry_count 0
+.
+B Sub_6
+F msisdn 989932761020
+F retry_count 0
+.
+B Sub_7
+F msisdn 989932761022
+F retry_count 0
+.
+B Sub_8
+F msisdn 989932761024
+F retry_count 0
+.
+B Sub_9
+F msisdn 989932761026
+F retry_count 0
+.
+B Sub_10
+F msisdn 989932761028
+F retry_count 0
+.
+.
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F record_generate_time Mon Aug 19 18:13:45 IRDT 2024
+F chunk_id f5551bb1-cd8b-4707-93ec-58db5ef75301
+B Action
+F action_id general_loan_content6
+.
+B ChunkList
+B Sub_1
+F msisdn 989932761002
+F retry_count 0
+.
+B Sub_2
+F msisdn 989932761063
+F retry_count 0
+.
+B Sub_3
+F msisdn 989932761068
+F retry_count 0
+.
+B Sub_4
+F msisdn 989932761073
+F retry_count 0
+.
+B Sub_5
+F msisdn 989932761078
+F retry_count 0
+.
+.
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F record_generate_time Mon Aug 19 18:13:45 IRDT 2024
+F chunk_id cb96e642-213a-44ab-be73-7b56b23a93b5
+B Action
+F action_id general_loan_content5
+.
+B ChunkList
+B Sub_1
+F msisdn 989932761003
+F retry_count 0
+.
+B Sub_2
+F msisdn 989932761062
+F retry_count 0
+.
+B Sub_3
+F msisdn 989932761067
+F retry_count 0
+.
+B Sub_4
+F msisdn 989932761072
+F retry_count 0
+.
+B Sub_5
+F msisdn 989932761077
+F retry_count 0
+.
+.
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F record_generate_time Mon Aug 19 18:13:45 IRDT 2024
+F chunk_id f707b1c2-5da3-4fab-8b0d-4be694bc031a
+B Action
+F action_id general_loan_content4
+.
+B ChunkList
+B Sub_1
+F msisdn 989932761004
+F retry_count 0
+.
+B Sub_2
+F msisdn 989932761061
+F retry_count 0
+.
+B Sub_3
+F msisdn 989932761066
+F retry_count 0
+.
+B Sub_4
+F msisdn 989932761071
+F retry_count 0
+.
+B Sub_5
+F msisdn 989932761076
+F retry_count 0
+.
+.
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F record_generate_time Mon Aug 19 18:13:45 IRDT 2024
+F chunk_id a09cec8e-8c61-46b1-ae8e-62daef78ba02
+B Action
+F action_id general_loan_content7
+.
+B ChunkList
+B Sub_1
+F msisdn 989932761029
+F retry_count 0
+.
+B Sub_2
+F msisdn 989932761031
+F retry_count 0
+.
+B Sub_3
+F msisdn 989932761033
+F retry_count 0
+.
+B Sub_4
+F msisdn 989932761035
+F retry_count 0
+.
+B Sub_5
+F msisdn 989932761037
+F retry_count 0
+.
+B Sub_6
+F msisdn 989932761039
+F retry_count 0
+.
+B Sub_7
+F msisdn 989932761041
+F retry_count 0
+.
+B Sub_8
+F msisdn 989932761043
+F retry_count 0
+.
+B Sub_9
+F msisdn 989932761045
+F retry_count 0
+.
+B Sub_10
+F msisdn 989932761047
+F retry_count 0
+.
+.
+.
+RECORD
+#input_id 1721052846x005_00150
+#output_id 
+#input_type 
+#output_type 
+#addkey 
+#source_id RTD1_ACTIONS
+#filename test.OUT.collected
+F record_generate_time Mon Aug 19 18:13:45 IRDT 2024
+F chunk_id 0f6ba44f-961c-4ef7-8617-bf1e73719856
+B Action
+F action_id general_loan_content8
+.
+B ChunkList
+B Sub_1
+F msisdn 989932761030
+F retry_count 0
+.
+B Sub_2
+F msisdn 989932761032
+F retry_count 0
+.
+B Sub_3
+F msisdn 989932761034
+F retry_count 0
+.
+B Sub_4
+F msisdn 989932761036
+F retry_count 0
+.
+B Sub_5
+F msisdn 989932761038
+F retry_count 0
+.
+B Sub_6
+F msisdn 989932761040
+F retry_count 0
+.
+B Sub_7
+F msisdn 989932761042
+F retry_count 0
+.
+B Sub_8
+F msisdn 989932761044
+F retry_count 0
+.
+B Sub_9
+F msisdn 989932761046
+F retry_count 0
+.
+B Sub_10
+F msisdn 989932761048
+F retry_count 0
+.
+.
+.

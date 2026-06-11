@@ -1,0 +1,142 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989164087413
+F callingNumberType 0
+F calledNumber 989910009912
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 4
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 1
+F isRoaming 0
+F eventStartTimestamp 20241027161221
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 671881568
+F cost 0
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046437550
+F @filename RTD_OCSPOST-RECLIVE-61708-20241027195530.csv
+B profiles
+B subscriber
+B extensions
+F version 1729247147934154752
+B actions
+B ACTION_L2_balance_LT_20000R-f4ae35a9
+F sentTime 1729247147934
+.
+B action_L2_5_to_10-fe251d53
+F sentTime 1689325379690
+.
+B action2_atrisk_mass-3c6d105f
+F sentTime 1621142693841
+.
+B ACTION_L1_balance_LT_20000R-f25260df
+F sentTime 1703433774415
+.
+B action_L1_5_to_10-20fc9ce6
+F sentTime 1666056503193
+.
+B Final_Dream_Friday-53a44cc0
+F sentTime 1600576790525
+.
+B L1_none2_LT_7000-9d951be9
+F sentTime 1601967600010
+.
+B Notify_Nondata-03fc65dd
+F sentTime 1568034318778
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027191316
+F voice_pkg_400289_end_time 20190619083142
+F sub_balance 39546473
+F monthly_data_pkg_end_time 14011223235628
+F avg_nmb_sms_sent 919145.67
+F is_multi_sim_phone No
+F avg_business_voice_usage 9836
+F onnet_to_offnet_rev 8.17
+F voice_pkg_700700_start_time 14000125215402
+F voice_pkg_400295_end_time 13990308213756
+F model SM-G532F/DS
+F daily_data_pkg_end_time 14020129232738
+F daily_data_pkg_start_time 14020128232741
+F data_package_size s
+F subscriber_segment HMR
+F brand Samsung Korea
+F voice_pkg_400295_start_time 13990209213757
+F tenure 117
+F monthly_data_pkg_start_time 14011222235631
+F portout_propensity Low
+F arpu_segment High ARPU
+F avg_monthly_topup_cost 333333.33
+F payment_type prepaid
+F avg_non_business_data_usage 4155.07
+F avg_data_usage 32756594081
+F provience فارس
+F avg_business_data_usage 3196.67
+F status Active
+F gender Male
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F avg_offnet_voice_min 342662.73
+F vas_cost_to_arpu 655483.9
+F voice_pkg_700700_end_time 14000224215401
+F churn_propensity High
+F avg_non_business_voice_usage 7165.33
+F pkg_to_payg_voice 0.01
+F is_smart_phone_user No
+F arpu 655483.9
+F voice_pkg_400289_start_time 20190618083142
+F peak_type_data peak
+F os Android
+F enterprise_national_id 2559631180
+F avg_daily_2g_data_usage 0
+F avg_daily_3g_data_usage 0
+F roam_int_rev_to_arpu 315369.69
+F avg_monthly_topup_nmb 4.83
+F avg_daily_4g_data_usage 27
+F avg_onnet_voice_min 475.27
+F pkg_to_payg_data 
+F age 483
+.
+F profileId 249639318
+F id 989164087413
+.
+B target
+F errorCode 100
+F errorMessage Profile for subscriber '989910009912' was not found
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 77 L1_balance_LT_20000R
+F 243 BALANCE_100_L1-Topup_NID
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 244 BALANCE_50_L1-Topup_NID
+F 210 L1_new_60_min
+F 213 roaming
+F 211 L2_new_60_min
+F 212 new_30_min
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 78
+F DISCARD_REASON Action ACTION_L2_balance_LT_20000R-f4ae35a9 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046437669
+.

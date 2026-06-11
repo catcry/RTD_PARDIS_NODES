@@ -1,0 +1,204 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989198688944
+F callingNumberType 0
+F calledNumber 989936319209
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 81
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 1
+F isRoaming 0
+F eventStartTimestamp 20241027160839
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 1999709914
+F cost 889485
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046430342
+F @filename RTD_OCSPOST-RECLIVE-61630-20241027195527.csv
+B profiles
+B subscriber
+B extensions
+F version 1728800147847249920
+B actions
+B Balance_50000_niod-4a78175f
+F sentTime 1728088820329
+.
+B ACTION_L2_balance_LT_20000R-f4ae35a9
+F sentTime 1700940136474
+.
+B BonTest_Balance_L1_20_50-493742c0
+F sentTime 1710079524039
+.
+B Action_L2_new_60_min-80374415
+F sentTime 1728800147846
+.
+B testL2-f5299f11
+F sentTime 1706198180220
+.
+B action2_atrisk_shvc-e80e7a78
+F sentTime 1674779222395
+.
+B action_L1_5_to_10-20fc9ce6
+F sentTime 1572862169562
+.
+B testL1B20-77847e22
+F sentTime 1706001058627
+.
+B action_PAYG_DATA-0a179f57
+F sentTime 1711971315190
+.
+B Zarrebin2-5eae5c9b
+F sentTime 1674718524083
+.
+B Final_30_min_per_day-b08fb678
+F sentTime 1630685058256
+.
+B ZarebinTest_action-e4ab93c6
+F sentTime 1634971997762
+.
+B testL1B250-9a6c08a2
+F sentTime 1705755900750
+.
+B ACTION_L1_balance_LT_20000R-f25260df
+F sentTime 1659798123532
+.
+B testL1-fd6c1b3b
+F sentTime 1710064003977
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1695553147067
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027182823
+F gender Female
+F weekly_data_pkg_start_time 14020228122442
+F weekly_data_pkg_end_time 14020304122442
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0.05
+F industry Others
+F sub_balance 33502734
+F avg_offnet_voice_min 152600.37
+F vas_cost_to_arpu 2726682.92
+F monthly_data_pkg_end_time 13991122160657
+F churn_propensity Low
+F avg_nmb_sms_sent 524764.62
+F is_multi_sim_phone No
+F avg_non_business_voice_usage 5675.67
+F avg_business_voice_usage 4275.67
+F is_smart_phone_user Yes
+F onnet_to_offnet_rev 3.17
+F model SM-J710F/DS
+F daily_data_pkg_end_time 14020916183240
+F arpu 2726682.92
+F daily_data_pkg_start_time 14020915183240
+F data_package_size xl
+F subscriber_segment SHVC
+F brand Samsung Korea
+F tenure 84
+F monthly_data_pkg_start_time 13991022160657
+F portout_propensity High
+F peak_type_data peak
+F os Android
+F enterprise_national_id 0021655111
+F avg_daily_2g_data_usage 0
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 1280
+F avg_monthly_topup_cost 2725000
+F roam_int_rev_to_arpu 124582.16
+F avg_monthly_topup_nmb 11.67
+F payment_type prepaid
+F avg_daily_4g_data_usage 0
+F avg_onnet_voice_min 213.83
+F avg_non_business_data_usage 24076.83
+F avg_data_usage 137062298944
+F pkg_to_payg_data 0.95
+F provience قم
+F avg_business_data_usage 16751.41
+F age 310
+F status Active
+.
+F profileId 248820837
+F id 989198688944
+.
+B target
+B rtd
+F sub_balance_timestamp 20241027141913
+F gender Female
+F weekly_data_pkg_start_time 14010621180709
+F weekly_data_pkg_end_time 14010628180709
+F peak_type_voice 
+F voice_pkg_700785_end_time 14010623112232
+F payg_data_rev_to_arpu 
+F sub_balance 141900225
+F industry Others
+F avg_offnet_voice_min 0
+F vas_cost_to_arpu 0
+F voice_pkg_700785_start_time 14010524112234
+F is_multi_sim_phone Yes
+F avg_nmb_sms_sent 0
+F churn_propensity 
+F avg_non_business_voice_usage 
+F is_smart_phone_user No
+F onnet_to_offnet_rev 0
+F avg_business_voice_usage 
+F arpu 0
+F subscriber_segment MASS
+F tenure 4
+F portout_propensity 
+F peak_type_data 
+F enterprise_national_id 0060433426
+F avg_daily_2g_data_usage 
+F arpu_segment Low ARPU
+F avg_daily_3g_data_usage 
+F avg_monthly_topup_cost 
+F roam_int_rev_to_arpu 874902.15
+F avg_monthly_topup_nmb 
+F payment_type prepaid
+F avg_onnet_voice_min 0
+F avg_daily_4g_data_usage 
+F avg_non_business_data_usage 
+F avg_data_usage 0
+F pkg_to_payg_data 
+F provience تهران
+F avg_business_data_usage 
+F age 537
+F status Active
+.
+F profileId 300088865
+F id 989936319209
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 78 L2_balance_LT_20000R
+F 77 L1_balance_LT_20000R
+F 243 BALANCE_100_L1-Topup_NID
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 244 BALANCE_50_L1-Topup_NID
+F 210 L1_new_60_min
+F 213 roaming
+F 212 new_30_min
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 211
+F DISCARD_REASON Action Action_L2_new_60_min-80374415 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046430431
+.

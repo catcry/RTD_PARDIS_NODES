@@ -1,0 +1,40 @@
+<file storage_order="MSB" record_separator="" may_truncate_fields="true" record_terminator = "LF">
+
+  <set>
+
+    <record name="Pardis_Response" field_separator=",">
+	<field name="action_id">
+            <ascii orientation="Left" padding="" />
+            <length type="variable">25</length>
+            <value type="string"> </value>
+        </field>
+	<field name="content_id">
+            <ascii orientation="Left" padding="" />
+            <length type="variable">50</length>
+            <value type="string"> </value>
+        </field>
+	<field name="msisdn">
+            <ascii orientation="Left" padding="" />
+            <length type="variable">20</length>
+            <value type="string"> </value>
+        </field>
+	<field name="retry_count">
+            <ascii orientation="Left" padding="" />
+            <length type="variable">3</length>
+            <value type="string"> </value>
+        </field>
+	<field name="sms_id">
+            <ascii orientation="Left" padding="" />
+            <length type="variable">75</length>
+            <value type="string"> </value>
+        </field>
+		
+	<field name="@distributed">
+            <ascii orientation="Left" padding="" />
+            <length type="variable">30</length>
+            <value type="string"> </value>
+        </field>
+        </record>
+    </set>
+</file>
+	

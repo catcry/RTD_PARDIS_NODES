@@ -1,0 +1,123 @@
+RECORD
+#source_id 
+F eventType 8
+F eventId {{!!NULL!!}}
+F callingNumber 989195594081
+F callingNumberType 0
+F calledNumber {{!!NULL!!}}
+F calledNumberType {{!!NULL!!}}
+F callingCountry 98
+F calledCountry {{!!NULL!!}}
+F eventDuration {{!!NULL!!}}
+F eventVolume 667127
+F internationalCall 0
+F onnet 0
+F isRoaming 0
+F eventStartTimestamp 20241027152337
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum 0
+F subBalance 887660565
+F cost 0
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046438743
+F @filename RTD_OCSPOST-OCS-61500-20241027195524.csv
+B profiles
+B subscriber
+B extensions
+F version 1728329741972471808
+B actions
+B Balance_50000_niod-4a78175f
+F sentTime 1728329741971
+.
+B ACTION_L2_balance_LT_20000R-f4ae35a9
+F sentTime 1728187814024
+.
+B new_30_min-5fda87d2
+F sentTime 1664631813906
+.
+B ACTION_L1_balance_LT_20000R-f25260df
+F sentTime 1728123147103
+.
+B L1_none2_LT_7000-9d951be9
+F sentTime 1597467410069
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027174740
+F gender Male
+F weekly_data_pkg_start_time 14010702105310
+F weekly_data_pkg_end_time 14010709105310
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F sub_balance 887798465
+F avg_offnet_voice_min 0
+F vas_cost_to_arpu 0
+F monthly_data_pkg_end_time 14021121091424
+F churn_propensity High
+F is_multi_sim_phone No
+F avg_non_business_voice_usage 13.17
+F avg_nmb_sms_sent 10432.66
+F avg_business_voice_usage 112.67
+F is_smart_phone_user No
+F onnet_to_offnet_rev 0
+F model 6060_ 6060v
+F daily_data_pkg_end_time 14030301192120
+F arpu 0
+F daily_data_pkg_start_time 14030231192122
+F data_package_size xl
+F subscriber_segment MASS
+F brand Nokia Corporation
+F tenure 169
+F monthly_data_pkg_start_time 14021021091426
+F portout_propensity Low
+F peak_type_data peak
+F os Not Known
+F enterprise_national_id 0015412131
+F avg_daily_2g_data_usage 0
+F arpu_segment Low ARPU
+F avg_daily_3g_data_usage 0
+F avg_monthly_topup_cost 
+F roam_int_rev_to_arpu 0
+F avg_monthly_topup_nmb 
+F payment_type prepaid
+F avg_daily_4g_data_usage 0
+F avg_non_business_data_usage 0
+F avg_onnet_voice_min 0
+F avg_data_usage 0
+F pkg_to_payg_data 
+F provience تهران
+F avg_business_data_usage 0
+F age 380
+F status Active
+.
+F profileId 229312502
+F id 989195594081
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 210 L1_new_60_min
+F 243 BALANCE_100_L1-Topup_NID
+F 212 new_30_min
+F 244 BALANCE_50_L1-Topup_NID
+F 88 L1_5T10_arpu
+F 213 roaming
+F 89 L2_5T10_arpu
+F 211 L2_new_60_min
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 78
+F DISCARD_REASON Action ACTION_L2_balance_LT_20000R-f4ae35a9 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046438916
+.

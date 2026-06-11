@@ -1,0 +1,223 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989136581101
+F callingNumberType 0
+F calledNumber 989944620623
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 22
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 1
+F isRoaming 0
+F eventStartTimestamp 20241027160857
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 179486506
+F cost 0
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046416181
+F @filename RTD_OCSPOST-RECLIVE-61328-20241027195520.csv
+B profiles
+B subscriber
+B extensions
+F version 1728673150993629184
+B actions
+B action2_atrisk_hvr-7a3f4730
+F sentTime 1718016352038
+.
+B Zarrebin2-5eae5c9b
+F sentTime 1670763844109
+.
+B NDU_MASS_ACTION-d6258716
+F sentTime 1663742788142
+.
+B ZarebinTest_action-e4ab93c6
+F sentTime 1634392259498
+.
+B testL1B250-9a6c08a2
+F sentTime 1705846865937
+.
+B Action_L2_new_60_min-80374415
+F sentTime 1728673150992
+.
+B testL2-f5299f11
+F sentTime 1705846865937
+.
+B action2_atrisk_mass-3c6d105f
+F sentTime 1698125977182
+.
+B testL1-fd6c1b3b
+F sentTime 1705600741463
+.
+B testL1B20-77847e22
+F sentTime 1705742901919
+.
+B NDU_HVR_ACTION-6b8ed944
+F sentTime 1647673891065
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1690853552607
+.
+B action_PAYG_DATA-0a179f57
+F sentTime 1682932701282
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027100215
+F voice_pkg_400289_end_time 20190330221722
+F sub_balance 134970901
+F voice_pkg_400642_start_time {{!!NULL!!}}
+F monthly_data_pkg_end_time 14001123092813
+F voice_pkg_700316_start_time 14011108180936
+F avg_nmb_sms_sent 77824.7
+F is_multi_sim_phone Yes
+F avg_business_voice_usage 1068.33
+F onnet_to_offnet_rev 0
+F voice_pkg_400295_end_time 14000227005611
+F voice_pkg_700700_start_time 14010530212017
+F model SM-J500H/DS
+F daily_data_pkg_end_time 14010901192715
+F data_package_size xl
+F daily_data_pkg_start_time 14010830192717
+F subscriber_segment MASS
+F brand Samsung Korea
+F voice_pkg_400295_start_time 14000128005612
+F tenure 176
+F monthly_data_pkg_start_time 14001023092813
+F portout_propensity Low
+F arpu_segment Low ARPU
+F avg_monthly_topup_cost 33333.33
+F voice_pkg_400218_start_time 14000118094930
+F voice_pkg_400642_end_time {{!!NULL!!}}
+F payment_type prepaid
+F avg_non_business_data_usage 0
+F avg_data_usage 1476653
+F provience اصفهان
+F avg_business_data_usage 0.49
+F status Disconnected
+F gender Female
+F peak_type_voice 
+F payg_data_rev_to_arpu 
+F industry Others
+F avg_offnet_voice_min 0
+F vas_cost_to_arpu 0
+F voice_pkg_700700_end_time 14010629212016
+F churn_propensity Low
+F avg_non_business_voice_usage 1114.5
+F pkg_to_payg_voice 
+F is_smart_phone_user Yes
+F arpu 0
+F voice_pkg_400289_start_time 20190329221722
+F peak_type_data 
+F os Android
+F enterprise_national_id 1171220081
+F avg_daily_2g_data_usage 
+F avg_daily_3g_data_usage 
+F roam_int_rev_to_arpu 61077.99
+F voice_pkg_400218_end_time 14000118230000
+F avg_monthly_topup_nmb 0.5
+F voice_pkg_400644_start_time {{!!NULL!!}}
+F avg_daily_4g_data_usage 
+F avg_onnet_voice_min 40.16
+F pkg_to_payg_data 
+F voice_pkg_700316_end_time 14011208180934
+F voice_pkg_400644_end_time {{!!NULL!!}}
+F age 460
+.
+F profileId 233327483
+F id 989136581101
+.
+B target
+B extensions
+F version 1601881416787886080
+B actions
+B L1_none2_LT_7000-9d951be9
+F sentTime 1601881416787
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20231107175013
+F gender Female
+F peak_type_voice peak
+F payg_data_rev_to_arpu 
+F industry Others
+F sub_balance 910662053
+F avg_offnet_voice_min 0
+F vas_cost_to_arpu 0
+F monthly_data_pkg_end_time 14011223205045
+F voice_pkg_700700_end_time 14021113103709
+F churn_propensity 
+F is_multi_sim_phone Yes
+F avg_non_business_voice_usage 207.83
+F avg_nmb_sms_sent 0
+F pkg_to_payg_voice 0.99
+F avg_business_voice_usage 13.67
+F is_smart_phone_user Yes
+F onnet_to_offnet_rev 0
+F voice_pkg_700700_start_time 14021013103712
+F model SM-J500H/DS
+F daily_data_pkg_end_time 14011125212921
+F arpu 0
+F daily_data_pkg_start_time 14011124212923
+F data_package_size s
+F subscriber_segment HDR
+F brand Samsung Korea
+F tenure 63
+F monthly_data_pkg_start_time 14011222205047
+F portout_propensity 
+F peak_type_data peak
+F os Android
+F enterprise_national_id 6299550074
+F avg_daily_2g_data_usage 0
+F arpu_segment Low ARPU
+F avg_daily_3g_data_usage 2
+F avg_monthly_topup_cost 
+F roam_int_rev_to_arpu 5435.74
+F avg_monthly_topup_nmb 
+F payment_type postpaid
+F avg_daily_4g_data_usage 1314
+F avg_non_business_data_usage 10468.68
+F avg_onnet_voice_min 0
+F avg_data_usage 37241550150
+F pkg_to_payg_data 
+F provience چهارمحال و بختیاری
+F avg_business_data_usage 6867.89
+F age 512
+F status Suspended
+.
+F profileId 278380955
+F id 989944620623
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 210 L1_new_60_min
+F 243 BALANCE_100_L1-Topup_NID
+F 212 new_30_min
+F 244 BALANCE_50_L1-Topup_NID
+F 77 L1_balance_LT_20000R
+F 88 L1_5T10_arpu
+F 213 roaming
+F 89 L2_5T10_arpu
+F 78 L2_balance_LT_20000R
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 211
+F DISCARD_REASON Action Action_L2_new_60_min-80374415 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046416361
+.

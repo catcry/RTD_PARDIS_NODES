@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="elink@1924685.149" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
+    <option name="confirmBeforeUploading" value="false" />
+    <serverData>
+      <paths name="elink@1924685.149">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/comptel/elink/zahra/el-programming-samples/java-programming/pardis-bln/cfg/AnyOS" local="$PROJECT_DIR$/target/jar" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

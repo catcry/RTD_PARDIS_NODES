@@ -1,0 +1,213 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989100600524
+F callingNumberType 0
+F calledNumber 989183111978
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 57
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 1
+F isRoaming 0
+F eventStartTimestamp 20241027160809
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 883297918
+F cost 0
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046439532
+F @filename RTD_OCSPOST-RECLIVE-61733-20241027195530.csv
+B profiles
+B subscriber
+B extensions
+F version 1729327923580174336
+B actions
+B Balance_50000_niod-4a78175f
+F sentTime 1729327923578
+.
+B action2_atrisk_hvr-7a3f4730
+F sentTime 1643905417161
+.
+B Zarrebin2-5eae5c9b
+F sentTime 1669045743697
+.
+B ZarebinTest_action-e4ab93c6
+F sentTime 1633875372819
+.
+B Action_L2_new_60_min-80374415
+F sentTime 1729327923578
+.
+B Zarebin1_action-e275ce6a
+F sentTime 1633960186024
+.
+B action2_atrisk_shvc-e80e7a78
+F sentTime 1627484050284
+.
+B testL1-fd6c1b3b
+F sentTime 1632210399547
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1729287074374
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027093252
+F voice_pkg_400283_end_time 13990816231800
+F voice_pkg_700789_start_time 13990218103128
+F contact_cust_care_promo 
+F voice_pkg_700704_end_time 13990424110927
+F sub_balance 883962921
+F monthly_data_pkg_end_time 13991128000624
+F voice_pkg_700316_start_time 13991013161950
+F is_multi_sim_phone Yes
+F avg_nmb_sms_sent 29204.87
+F avg_business_voice_usage 342.83
+F onnet_to_offnet_rev 5.22
+F voice_pkg_700700_start_time 14000213113805
+F voice_pkg_400647_start_time 20190120093746
+F model HUAWEI G6605
+F daily_data_pkg_end_time {{!!NULL!!}}
+F data_package_size xl
+F daily_data_pkg_start_time {{!!NULL!!}}
+F subscriber_segment MASS
+F brand HUAWEI Technologies Co Ltd
+F tenure 69
+F monthly_data_pkg_start_time 13991028000624
+F portout_propensity Low
+F contact_cust_care_bill 
+F arpu_segment Low ARPU
+F contact_cust_care_ntwk 
+F avg_monthly_topup_cost 50000
+F voice_pkg_400218_start_time 14001126080004
+F payment_type prepaid
+F avg_non_business_data_usage 0
+F avg_data_usage 648739
+F provience همدان
+F avg_business_data_usage 0.1
+F voice_pkg_400647_end_time 20190219093746
+F status Active
+F gender Male
+F weekly_data_pkg_start_time 13990416195633
+F weekly_data_pkg_end_time 13990423195633
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F avg_offnet_voice_min 20008.3
+F vas_cost_to_arpu 21104.5
+F voice_pkg_700700_end_time 14000312113804
+F churn_propensity High
+F avg_non_business_voice_usage 647.33
+F voice_pkg_700704_start_time 13990325110928
+F pkg_to_payg_voice 
+F is_smart_phone_user No
+F arpu 21104.5
+F voice_pkg_700317_start_time 13990519114310
+F peak_type_data peak
+F os Not Known
+F enterprise_national_id 4031910746
+F avg_daily_2g_data_usage 0
+F avg_daily_3g_data_usage 0
+F roam_int_rev_to_arpu 263552.47
+F voice_pkg_400218_end_time 14001126230000
+F voice_pkg_700317_end_time 13990618114307
+F avg_monthly_topup_nmb 0.33
+F voice_pkg_400644_start_time {{!!NULL!!}}
+F avg_daily_4g_data_usage 0
+F avg_onnet_voice_min 12.86
+F pkg_to_payg_data 
+F voice_pkg_700789_end_time 13990317103126
+F voice_pkg_700316_end_time 13991113161948
+F voice_pkg_400644_end_time {{!!NULL!!}}
+F voice_pkg_400283_start_time 13990815231802
+F age 508
+.
+F profileId 275460330
+F id 989100600524
+.
+B target
+B extensions
+F version 1699699703783424000
+B actions
+B roaming_post-bf9cb923
+F sentTime 1699699705680
+.
+B action2_atrisk_shvc-e80e7a78
+F sentTime 1657785606551
+.
+.
+.
+B rtd
+F gender Male
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F avg_offnet_voice_min 211686.54
+F vas_cost_to_arpu 1912396.91
+F monthly_data_pkg_end_time 14010202004407
+F churn_propensity 
+F avg_nmb_sms_sent 708063.28
+F is_multi_sim_phone No
+F avg_non_business_voice_usage 8785.5
+F avg_business_voice_usage 5912.67
+F is_smart_phone_user No
+F onnet_to_offnet_rev 3.28
+F model 
+F arpu 1912396.91
+F data_package_size xl
+F subscriber_segment SHVC
+F brand 
+F tenure 216
+F monthly_data_pkg_start_time 14010103004407
+F portout_propensity 
+F peak_type_data peak
+F os 
+F enterprise_national_id 4040264746
+F avg_daily_2g_data_usage 0
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 19
+F roam_int_rev_to_arpu 163083.3
+F payment_type postpaid
+F avg_daily_4g_data_usage 1028
+F avg_onnet_voice_min 429.73
+F avg_non_business_data_usage 13235.33
+F avg_data_usage 84346211898
+F pkg_to_payg_data 
+F provience همدان
+F avg_business_data_usage 11470.23
+F age 345
+F status Active
+.
+F profileId 237694488
+F id 989183111978
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 78 L2_balance_LT_20000R
+F 77 L1_balance_LT_20000R
+F 243 BALANCE_100_L1-Topup_NID
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 244 BALANCE_50_L1-Topup_NID
+F 213 roaming
+F 212 new_30_min
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 211
+F DISCARD_REASON Action Action_L2_new_60_min-80374415 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046439737
+.

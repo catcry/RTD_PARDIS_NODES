@@ -1,0 +1,136 @@
+RECORD
+#source_id 
+F eventType 8
+F eventId {{!!NULL!!}}
+F callingNumber 989174766346
+F callingNumberType 0
+F calledNumber {{!!NULL!!}}
+F calledNumberType {{!!NULL!!}}
+F callingCountry 98
+F calledCountry {{!!NULL!!}}
+F eventDuration {{!!NULL!!}}
+F eventVolume 616057
+F internationalCall 0
+F onnet 0
+F isRoaming 0
+F eventStartTimestamp 20241027100911
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum 0
+F subBalance 701419533
+F cost 0
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046443837
+F @filename RTD_OCSPOST-OCS-61567-20241027195526.csv
+B profiles
+B subscriber
+B extensions
+F version 1727756844295454720
+B actions
+B ACTION_L2_balance_LT_20000R-f4ae35a9
+F sentTime 1727756844292
+.
+B Zarrebin2-5eae5c9b
+F sentTime 1674705909579
+.
+B action_L2_5_to_10-fe251d53
+F sentTime 1601945712455
+.
+B ZarebinTest_action-e4ab93c6
+F sentTime 1634461889350
+.
+B ACTION_L1_balance_LT_20000R-f25260df
+F sentTime 1690913838530
+.
+B action_L1_5_to_10-20fc9ce6
+F sentTime 1601927795693
+.
+B testL1-fd6c1b3b
+F sentTime 1632264269005
+.
+B action_L1_none3-8f234163
+F sentTime 1722476116117
+.
+B action_PAYG_DATA-0a179f57
+F sentTime 1690920743263
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027124159
+F gender Male
+F weekly_data_pkg_start_time 14020509224623
+F weekly_data_pkg_end_time 14020516224623
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0.07
+F industry Others
+F sub_balance 704988456
+F avg_offnet_voice_min 142497.32
+F monthly_data_pkg_end_time 14010131005158
+F vas_cost_to_arpu 1236189.2
+F is_multi_sim_phone No
+F avg_nmb_sms_sent 215937.99
+F churn_propensity Low
+F avg_non_business_voice_usage 7872.17
+F is_smart_phone_user Yes
+F onnet_to_offnet_rev 1.46
+F avg_business_voice_usage 5299.33
+F model VTR-L29
+F daily_data_pkg_end_time 14020827114607
+F arpu 1236189.2
+F data_package_size s
+F daily_data_pkg_start_time 14020826114607
+F subscriber_segment SHVC
+F brand HUAWEI Technologies Co Ltd
+F tenure 161
+F monthly_data_pkg_start_time 14010130005159
+F portout_propensity Low
+F peak_type_data peak
+F os Android
+F enterprise_national_id 2572440067
+F avg_daily_2g_data_usage 0
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 8
+F avg_monthly_topup_cost 696250
+F roam_int_rev_to_arpu 84087.59
+F avg_monthly_topup_nmb 2.33
+F payment_type prepaid
+F avg_onnet_voice_min 68.18
+F avg_daily_4g_data_usage 1400
+F avg_non_business_data_usage 21297.39
+F avg_data_usage 55573113714
+F pkg_to_payg_data 0.92
+F provience فارس
+F avg_business_data_usage 13150.89
+F age 744
+F status Disconnected
+.
+F profileId 236792622
+F id 989174766346
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 77 L1_balance_LT_20000R
+F 243 BALANCE_100_L1-Topup_NID
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 244 BALANCE_50_L1-Topup_NID
+F 210 L1_new_60_min
+F 213 roaming
+F 211 L2_new_60_min
+F 212 new_30_min
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 78
+F DISCARD_REASON Action ACTION_L2_balance_LT_20000R-f4ae35a9 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046443870
+.

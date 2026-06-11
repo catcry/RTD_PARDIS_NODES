@@ -1,0 +1,206 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989922359805
+F callingNumberType 0
+F calledNumber 989114764784
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 12
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 1
+F isRoaming 0
+F eventStartTimestamp 20241027160757
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 930486828
+F cost 131776
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046446811
+F @filename RTD_OCSPOST-RECLIVE-61790-20241027195532.csv
+B profiles
+B subscriber
+B extensions
+F version 1729697127428063232
+B actions
+B Balance_50000_niod-4a78175f
+F sentTime 1727615722986
+.
+B action_L1_10million-d949b1f6
+F sentTime 1599484734227
+.
+B Action_L2_new_60_min-80374415
+F sentTime 1729697127427
+.
+B ACTION_L1_tenure_LT_3-b0cced75
+F sentTime 1584569109776
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1688989085973
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027121628
+F sub_balance 931793603
+F monthly_data_pkg_end_time 14030725001956
+F is_multi_sim_phone Yes
+F avg_nmb_sms_sent 188398.61
+F avg_business_voice_usage 770.17
+F onnet_to_offnet_rev 2.64
+F model 
+F daily_data_pkg_end_time 14030329172512
+F daily_data_pkg_start_time 14030328172514
+F data_package_size xl
+F subscriber_segment SHVC
+F brand 
+F tenure 19
+F monthly_data_pkg_start_time 14030626001958
+F portout_propensity High
+F arpu_segment High ARPU
+F avg_monthly_topup_cost 346591.67
+F payment_type prepaid
+F avg_non_business_data_usage 14214.17
+F avg_data_usage 102413645491
+F voice_pkg_400297_end_time 13990129000000
+F provience مازندران
+F avg_business_data_usage 11332.92
+F voice_pkg_400297_start_time 13981229000000
+F voice_pkg_700338_start_time 14020130194403
+F status Active
+F gender Female
+F weekly_data_pkg_start_time 14020714122329
+F weekly_data_pkg_end_time 14020721122329
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0.12
+F industry Others
+F avg_offnet_voice_min 72881.17
+F vas_cost_to_arpu 366236.12
+F churn_propensity High
+F avg_non_business_voice_usage 2719.83
+F is_smart_phone_user No
+F arpu 366236.12
+F voice_pkg_700338_end_time 14020229194400
+F peak_type_data peak
+F os 
+F enterprise_national_id 2064200029
+F avg_daily_2g_data_usage 2
+F avg_daily_3g_data_usage 32
+F roam_int_rev_to_arpu 319607.76
+F avg_monthly_topup_nmb 2.5
+F avg_daily_4g_data_usage 1682
+F avg_onnet_voice_min 121.41
+F pkg_to_payg_data 0.85
+F age 524
+.
+F profileId 282905355
+F id 989922359805
+.
+B target
+B extensions
+F version 1675587726363525120
+B actions
+B Zarrebin2-5eae5c9b
+F sentTime 1675587725251
+.
+B ZarebinTest_action-e4ab93c6
+F sentTime 1634358265820
+.
+B Zarebin1_action-e275ce6a
+F sentTime 1634669517920
+.
+B testL1-fd6c1b3b
+F sentTime 1632235879245
+.
+B Notify_Nondata-03fc65dd
+F sentTime 1579617657117
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20231008204334
+F voice_pkg_700701_end_time 13990612103038
+F sub_balance 817801193
+F monthly_data_pkg_end_time 14030609074009
+F avg_nmb_sms_sent 861515.97
+F is_multi_sim_phone Yes
+F voice_pkg_400645_end_time 20181206142602
+F avg_business_voice_usage 13508.83
+F onnet_to_offnet_rev 3.73
+F model 
+F daily_data_pkg_end_time 14020827170836
+F data_package_size xl
+F daily_data_pkg_start_time 14020826170836
+F subscriber_segment SHVC
+F brand 
+F tenure 115
+F monthly_data_pkg_start_time 14030510074011
+F portout_propensity Low
+F arpu_segment High ARPU
+F avg_monthly_topup_cost 524758.33
+F voice_pkg_700701_start_time 13990513103040
+F payment_type postpaid
+F avg_non_business_data_usage 57465.43
+F avg_data_usage 326393048699
+F provience مازندران
+F avg_business_data_usage 50787.85
+F status Active
+F gender Female
+F weekly_data_pkg_start_time 14020825142058
+F weekly_data_pkg_end_time 14020902142058
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F avg_offnet_voice_min 284909.84
+F vas_cost_to_arpu 4321817.28
+F churn_propensity Low
+F avg_non_business_voice_usage 14612.67
+F pkg_to_payg_voice 
+F is_smart_phone_user No
+F arpu 4321817.28
+F peak_type_data peak
+F os 
+F enterprise_national_id 2064200029
+F avg_daily_2g_data_usage 0
+F avg_daily_3g_data_usage 366
+F roam_int_rev_to_arpu 319607.76
+F avg_monthly_topup_nmb 3.83
+F avg_daily_4g_data_usage 5132
+F avg_onnet_voice_min 475.43
+F pkg_to_payg_data 1
+F voice_pkg_400645_start_time 20181106142602
+F age 524
+.
+F profileId 252584049
+F id 989114764784
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 78 L2_balance_LT_20000R
+F 77 L1_balance_LT_20000R
+F 243 BALANCE_100_L1-Topup_NID
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 244 BALANCE_50_L1-Topup_NID
+F 210 L1_new_60_min
+F 213 roaming
+F 212 new_30_min
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 211
+F DISCARD_REASON Action Action_L2_new_60_min-80374415 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046446842
+.

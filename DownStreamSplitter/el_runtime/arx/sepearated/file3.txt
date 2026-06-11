@@ -1,0 +1,159 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989100015621
+F callingNumberType 0
+F calledNumber 989232856441
+F calledNumberType 1
+F callingCountry 98
+F calledCountry 98
+F eventDuration 412
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 0
+F isRoaming 0
+F eventStartTimestamp 20241027155715
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 865632680
+F cost 4524296
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046397287
+F @filename RTD_OCSPOST-RECLIVE-61078-20241027195515.csv
+B profiles
+B subscriber
+B extensions
+F version 1727898071137583104
+B actions
+B Balance_50000_niod-4a78175f
+F sentTime 1727898071136
+.
+B action_L1_low-cb8cd9b7
+F sentTime 1621672354356
+.
+B action_referral-c48432a6
+F sentTime 1613390514294
+.
+B ACTION_L2_balance_LT_20000R-f4ae35a9
+F sentTime 1727898071136
+.
+B Zarrebin2-5eae5c9b
+F sentTime 1674963481752
+.
+B ZarebinTest_action-e4ab93c6
+F sentTime 1633877963789
+.
+B Action_L2_new_60_min-80374415
+F sentTime 1727847934896
+.
+B ACTION_L1_balance_LT_20000R-f25260df
+F sentTime 1727703446849
+.
+B Zarebin1_action-e275ce6a
+F sentTime 1634154013987
+.
+B testL1-fd6c1b3b
+F sentTime 1705614495434
+.
+B testL1B20-77847e22
+F sentTime 1705756417959
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1727703446849
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027005358
+F sub_balance 884245984
+F monthly_data_pkg_end_time 14000821225607
+F voice_pkg_700316_start_time 14011013180349
+F avg_nmb_sms_sent 823086.03
+F is_multi_sim_phone No
+F avg_business_voice_usage 6902.83
+F onnet_to_offnet_rev 34.2
+F model KT200
+F daily_data_pkg_end_time 14020129204518
+F daily_data_pkg_start_time 14020128204520
+F data_package_size l
+F subscriber_segment HVR
+F brand Xinchuangxin International Limited Co Limited
+F voice_pkg_700315_end_time 14020318074213
+F tenure 103
+F monthly_data_pkg_start_time 14000721225608
+F portout_propensity Low
+F arpu_segment Low ARPU
+F avg_monthly_topup_cost 225000
+F payment_type prepaid
+F avg_non_business_data_usage 0
+F avg_data_usage 0
+F provience تهران
+F avg_business_data_usage 0
+F status Disconnected
+F gender Female
+F weekly_data_pkg_start_time 20190616112713
+F weekly_data_pkg_end_time 20190716112713
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F avg_offnet_voice_min 5801.42
+F vas_cost_to_arpu 5801.42
+F churn_propensity High
+F avg_non_business_voice_usage 9470.83
+F pkg_to_payg_voice 
+F is_smart_phone_user No
+F arpu 5801.42
+F voice_pkg_700317_start_time 14011102230338
+F peak_type_data peak
+F os NONE
+F enterprise_national_id 0018862901
+F avg_daily_2g_data_usage 0
+F avg_daily_3g_data_usage 0
+F roam_int_rev_to_arpu 5636.61
+F voice_pkg_700317_end_time 14011202230336
+F avg_monthly_topup_nmb 3
+F avg_daily_4g_data_usage 0
+F avg_onnet_voice_min 346.48
+F pkg_to_payg_data 
+F voice_pkg_700316_end_time 14011113180347
+F voice_pkg_700315_start_time 14020219074215
+F age 342
+.
+F profileId 211489427
+F id 989100015621
+.
+B target
+F errorCode 100
+F errorMessage Profile for subscriber '989232856441' was not found
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 77 L1_balance_LT_20000R
+F 243 BALANCE_100_L1-Topup_NID
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 244 BALANCE_50_L1-Topup_NID
+F 210 L1_new_60_min
+F 213 roaming
+F 212 new_30_min
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 78
+F DISCARD_REASON Action ACTION_L2_balance_LT_20000R-f4ae35a9 was removed from the event because of resend frequency restriction.
+.
+B LOGIC
+F ID 211
+F DISCARD_REASON Action Action_L2_new_60_min-80374415 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046397384
+.

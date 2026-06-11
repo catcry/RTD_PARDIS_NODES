@@ -1,0 +1,233 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989170325323
+F callingNumberType 0
+F calledNumber 989177704670
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 38
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 1
+F isRoaming 0
+F eventStartTimestamp 20241027160541
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 62468626
+F cost 417289
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046432757
+F @filename RTD_OCSPOST-RECLIVE-61660-20241027195528.csv
+B profiles
+B subscriber
+B extensions
+F version 1727770309461934080
+B actions
+B Balance_50000_niod-4a78175f
+F sentTime 1719413749883
+.
+B Age_45_60-6314e334
+F sentTime 1725462382367
+.
+B Action_L2_new_60_min-80374415
+F sentTime 1727770309459
+.
+B testL2-f5299f11
+F sentTime 1706318599727
+.
+B action2_atrisk_shvc-e80e7a78
+F sentTime 1621227790773
+.
+B testL1B20-77847e22
+F sentTime 1705890188600
+.
+B action_referral-c48432a6
+F sentTime 1631697241985
+.
+B Zarrebin2-5eae5c9b
+F sentTime 1675098691142
+.
+B ZarebinTest_action-e4ab93c6
+F sentTime 1633876926821
+.
+B testL1B250-9a6c08a2
+F sentTime 1706318599727
+.
+B Zarebin1_action-e275ce6a
+F sentTime 1634363982162
+.
+B testL1-fd6c1b3b
+F sentTime 1706318974608
+.
+B action_L1_none3-8f234163
+F sentTime 1725237334111
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1717536313138
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027054639
+F sub_balance 70564591
+F monthly_data_pkg_end_time 14000914134625
+F is_multi_sim_phone Yes
+F avg_nmb_sms_sent 798617.9
+F avg_business_voice_usage 6089
+F onnet_to_offnet_rev 3.3
+F voice_pkg_700700_start_time 13990414181751
+F daily_data_pkg_end_time 14001130140641
+F model SM-G7102
+F data_package_size xl
+F daily_data_pkg_start_time 14001129140641
+F brand Samsung Korea
+F subscriber_segment HMR
+F tenure 64
+F monthly_data_pkg_start_time 14000814134625
+F portout_propensity High
+F arpu_segment High ARPU
+F avg_monthly_topup_cost 375000
+F voice_pkg_400218_start_time 20191114202500
+F payment_type prepaid
+F avg_non_business_data_usage 17281.79
+F avg_data_usage 226990733
+F provience بوشهر
+F avg_business_data_usage 8046.33
+F voice_pkg_700338_start_time 14030409125307
+F status Disconnected
+F gender Female
+F weekly_data_pkg_start_time 14010320002446
+F weekly_data_pkg_end_time 14010327002446
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F avg_offnet_voice_min 377339.38
+F vas_cost_to_arpu 544055.39
+F voice_pkg_700700_end_time 13990513181750
+F churn_propensity Low
+F avg_non_business_voice_usage 14885.67
+F pkg_to_payg_voice 
+F is_smart_phone_user Yes
+F arpu 544055.39
+F voice_pkg_700338_end_time 14030508125305
+F peak_type_data peak
+F os Android
+F enterprise_national_id 3559305160
+F avg_daily_2g_data_usage 0
+F avg_daily_3g_data_usage 1299
+F roam_int_rev_to_arpu 295015.28
+F voice_pkg_400218_end_time 20191114230000
+F avg_monthly_topup_nmb 2.67
+F avg_daily_4g_data_usage 4120
+F avg_onnet_voice_min 409.02
+F pkg_to_payg_data 
+F age 646
+.
+F profileId 264951886
+F id 989170325323
+.
+B target
+B extensions
+F version 1655397187289350144
+B actions
+B NDU_SHVC_ACTION-780ab1f3
+F sentTime 1610304935228
+.
+B action2_atrisk_shvc-e80e7a78
+F sentTime 1655397193751
+.
+B Dormant_SHVC-0cf38dfd
+F sentTime 1629572187858
+.
+B Dormant_HVR-f1ead8c0
+F sentTime 1606200079511
+.
+B NDU_HVR_ACTION-6b8ed944
+F sentTime 1612777929286
+.
+B Notify_Nondata-03fc65dd
+F sentTime 1585294238362
+.
+.
+.
+B rtd
+F voice_pkg_400652_start_time 14000121203506
+F gender Female
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F voice_pkg_700704_end_time 13990512232225
+F industry Others
+F avg_offnet_voice_min 1055028.45
+F vas_cost_to_arpu 1659916.27
+F monthly_data_pkg_end_time 14010205185212
+F churn_propensity Low
+F avg_nmb_sms_sent 2889652.35
+F is_multi_sim_phone No
+F avg_non_business_voice_usage 45390.5
+F voice_pkg_700704_start_time 13990413232226
+F pkg_to_payg_voice 
+F avg_business_voice_usage 28209.67
+F is_smart_phone_user No
+F onnet_to_offnet_rev 5.99
+F voice_pkg_400652_end_time 14000220203505
+F model 
+F arpu 1659916.27
+F data_package_size xl
+F subscriber_segment SHVC
+F brand 
+F tenure 201
+F monthly_data_pkg_start_time 14010106185212
+F portout_propensity Low
+F peak_type_data peak
+F os 
+F voice_pkg_700705_end_time 13991120121702
+F enterprise_national_id 3539980954
+F avg_daily_2g_data_usage 4
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 449
+F roam_int_rev_to_arpu 900949.82
+F voice_pkg_700705_start_time 13991020121704
+F payment_type postpaid
+F avg_daily_4g_data_usage 0
+F avg_onnet_voice_min 1926.78
+F avg_non_business_data_usage 7123.68
+F avg_data_usage 39141507183
+F pkg_to_payg_data 1
+F provience بوشهر
+F avg_business_data_usage 4962.18
+F age 466
+F status Active
+.
+F profileId 186244830
+F id 989177704670
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 210 L1_new_60_min
+F 243 BALANCE_100_L1-Topup_NID
+F 212 new_30_min
+F 244 BALANCE_50_L1-Topup_NID
+F 77 L1_balance_LT_20000R
+F 88 L1_5T10_arpu
+F 213 roaming
+F 89 L2_5T10_arpu
+F 78 L2_balance_LT_20000R
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 211
+F DISCARD_REASON Action Action_L2_new_60_min-80374415 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046432784
+.

@@ -1,0 +1,136 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989144514318
+F callingNumberType 0
+F calledNumber 989394777178
+F calledNumberType 1
+F callingCountry 98
+F calledCountry 98
+F eventDuration 20
+F eventVolume {{!!NULL!!}}
+F internationalCall 1
+F onnet 0
+F isRoaming 1
+F eventStartTimestamp 20241027160333
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 2778638219
+F cost 159500000
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046420737
+F @filename RTD_OCSPOST-RECLIVE-61488-20241027195524.csv
+B profiles
+B subscriber
+B extensions
+F version 1728321432540020736
+B actions
+B Age_45_60-6314e334
+F sentTime 1725445935892
+.
+B roaming_post-bf9cb923
+F sentTime 1706689341879
+.
+B action2_atrisk_shvc-e80e7a78
+F sentTime 1667213644515
+.
+B Arbaeen_Roaming-0da60d4f
+F sentTime 1728321432539
+.
+.
+.
+B rtd
+F gender Male
+F voice_pkg_219_start_time 13990403141219
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F avg_offnet_voice_min 97250.39
+F vas_cost_to_arpu 457645.58
+F monthly_data_pkg_end_time {{!!NULL!!}}
+F churn_propensity 
+F avg_nmb_sms_sent 808586.08
+F is_multi_sim_phone No
+F avg_non_business_voice_usage 11760.17
+F avg_business_voice_usage 12575.17
+F is_smart_phone_user Yes
+F onnet_to_offnet_rev 4.68
+F model iPhone 7 _A1778_
+F arpu 457645.58
+F data_package_size m
+F subscriber_segment SHVC
+F brand Apple Inc
+F tenure 251
+F monthly_data_pkg_start_time {{!!NULL!!}}
+F portout_propensity 
+F peak_type_data peak
+F os iOS
+F enterprise_national_id 1465764321
+F avg_daily_2g_data_usage 0
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 4
+F roam_int_rev_to_arpu 88838.72
+F voice_pkg_219_end_time 13990404141217
+F payment_type postpaid
+F avg_daily_4g_data_usage 29
+F avg_onnet_voice_min 577.13
+F avg_non_business_data_usage 715.65
+F avg_data_usage 4119380437
+F pkg_to_payg_data 
+F provience اردبیل
+F avg_business_data_usage 640.93
+F age 590
+F status Active
+.
+F profileId 187407396
+F id 989144514318
+.
+B target
+F errorCode 100
+F errorMessage Profile for subscriber '989394777178' was not found
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+B COUNTER
+F ID monthly.moc_cost_roaming
+F LOGIC_ID 213
+F COMPONENT_ID moc_roaming_cost_monthly
+F MODE UPDATE
+F SOURCE_FIELD cost
+.
+.
+B FAILED_LOGICS
+F 78 L2_balance_LT_20000R
+F 77 L1_balance_LT_20000R
+F 243 BALANCE_100_L1-Topup_NID
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 244 BALANCE_50_L1-Topup_NID
+F 210 L1_new_60_min
+F 211 L2_new_60_min
+F 212 new_30_min
+.
+.
+B counters
+B 213
+B monthly
+B moc_cost_roaming
+F used 1914000000.000000
+F left 2380967300.000000
+.
+.
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 213
+F DISCARD_REASON Action Arbaeen_Roaming-0da60d4f was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046420787
+.

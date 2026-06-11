@@ -1,0 +1,17 @@
+{
+  "destinationList":
+  [
+    {
+      "mobileNo": "121234567"
+    },
+    {
+      "mobileNo": "9121234568"
+    },
+    {
+      "mobileNo": "9121234569"
+    }
+  ],
+  "message": "Hello World",
+  "smsClass": "NORMAL",
+  "source": "981000"
+}

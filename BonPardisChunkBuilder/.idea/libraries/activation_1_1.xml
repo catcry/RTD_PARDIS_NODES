@@ -1,0 +1,76 @@
+<component name="libraryTable">
+  <library name="activation-1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/activation-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/ant-1.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/antlr-2.7.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/aopalliance.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/aspectjrt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/aspectjweaver.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/c3p0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/cglib-nodep-2.1_3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/commons-cli.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/commons-collections.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/commons-io-1.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/commons-logging.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/comptel-auth-2015.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/cron4j.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/csrt-alarm-2.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/csrt-db-2.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/csrt-grc-2.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/csrt-logging-2.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/csrt-native-2.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/csrt-util-2.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/el_common.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/el_common_data.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/el_common_jpa.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/el_nodemanager.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/el_tools.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/guava-18.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/hibernate-commons-annotations.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/hibernate-core4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/hibernate-entitymanager.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/hibernate-jpa-2.0-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/httpclient-4.3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/jackson-core-asl-1.9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/jackson-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/jackson-jaxrs-1.9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/jackson-mapper-asl-1.9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/jackson-xc-1.9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/javassist.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/jaxb-api-2.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/jaxb-impl-2.2.3-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/jaxen-1.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/jboss-logging.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/jboss-transaction-api_1.1_spec.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/jersey-client-1.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/jersey-core-1.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/jersey-json-1.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/jersey-multipart-1.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/jettison-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/jta.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/log4j.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/mimepull-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/Nodebase.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/opencsv-1.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/rct-ui-scheduler.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/shiro-core-1.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/slf4j-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/slf4j-log4j12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/spring-aop.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/spring-beans.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/spring-context.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/spring-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/spring-expression.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/spring-jdbc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/spring-orm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/spring-tx.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/stax-api-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/xercesImpl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../el-lib/lib/java/xml-apis.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

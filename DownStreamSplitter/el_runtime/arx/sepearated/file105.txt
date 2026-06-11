@@ -1,0 +1,166 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989109231105
+F callingNumberType 0
+F calledNumber 989910009912
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 3
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 1
+F isRoaming 0
+F eventStartTimestamp 20241027160711
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 1307331093
+F cost 0
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046431511
+F @filename RTD_OCSPOST-RECLIVE-61645-20241027195528.csv
+B profiles
+B subscriber
+B extensions
+F version 1729960303538667520
+B actions
+B Balance_50000_niod-4a78175f
+F sentTime 1727254211952
+.
+B ACTION_L2_balance_LT_20000R-f4ae35a9
+F sentTime 1700754082317
+.
+B BonTest_Balance_L1_20_50-493742c0
+F sentTime 1710065740299
+.
+B testL2-f5299f11
+F sentTime 1709191939986
+.
+B action_L1_5_to_10-20fc9ce6
+F sentTime 1694882400916
+.
+B Final_Dream_Friday-53a44cc0
+F sentTime 1594449366408
+.
+B testL1B20-77847e22
+F sentTime 1705748194937
+.
+B action_PAYG_DATA-0a179f57
+F sentTime 1660171295075
+.
+B Zarrebin2-5eae5c9b
+F sentTime 1672521851445
+.
+B action_L2_5_to_10-fe251d53
+F sentTime 1729960303536
+.
+B ZarebinTest_action-e4ab93c6
+F sentTime 1634114983500
+.
+B testL1B250-9a6c08a2
+F sentTime 1705746428098
+.
+B ACTION_L1_balance_LT_20000R-f25260df
+F sentTime 1660819534003
+.
+B Zarebin1_action-e275ce6a
+F sentTime 1634580580608
+.
+B Final_60_min_per_day-0f58f786
+F sentTime 1661381420375
+.
+B testL1-fd6c1b3b
+F sentTime 1706266240523
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027161531
+F sub_balance 131146429
+F voice_pkg_400642_start_time 20181128134850
+F monthly_data_pkg_end_time 14000927043952
+F avg_nmb_sms_sent 797002.73
+F is_multi_sim_phone No
+F avg_business_voice_usage 6847.33
+F onnet_to_offnet_rev 11.04
+F voice_pkg_700700_start_time 14000830171404
+F model SM-N950F/DS
+F daily_data_pkg_end_time 14010621225520
+F data_package_size l
+F daily_data_pkg_start_time 14010620225520
+F subscriber_segment MASS
+F brand Samsung Korea
+F tenure 144
+F monthly_data_pkg_start_time 14000827043954
+F portout_propensity Low
+F arpu_segment High ARPU
+F avg_monthly_topup_cost 508333.33
+F voice_pkg_400642_end_time 20181228134850
+F payment_type prepaid
+F avg_non_business_data_usage 3886.51
+F avg_data_usage 6587994201
+F provience تهران
+F avg_business_data_usage 1401.84
+F status Active
+F gender Female
+F weekly_data_pkg_start_time 14010527143842
+F weekly_data_pkg_end_time 14010603143842
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F avg_offnet_voice_min 514068.24
+F vas_cost_to_arpu 998170.37
+F voice_pkg_700700_end_time 14000930171402
+F churn_propensity Low
+F avg_non_business_voice_usage 13921.17
+F pkg_to_payg_voice 
+F is_smart_phone_user Yes
+F arpu 998170.37
+F peak_type_data offpeak
+F os Android
+F enterprise_national_id 1462841351
+F avg_daily_2g_data_usage 0
+F avg_daily_3g_data_usage 526
+F roam_int_rev_to_arpu 476573.29
+F avg_monthly_topup_nmb 2.17
+F avg_daily_4g_data_usage 303
+F avg_onnet_voice_min 367.06
+F pkg_to_payg_data 
+F age 850
+.
+F profileId 224202823
+F id 989109231105
+.
+B target
+F errorCode 100
+F errorMessage Profile for subscriber '989910009912' was not found
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 210 L1_new_60_min
+F 243 BALANCE_100_L1-Topup_NID
+F 212 new_30_min
+F 244 BALANCE_50_L1-Topup_NID
+F 77 L1_balance_LT_20000R
+F 88 L1_5T10_arpu
+F 213 roaming
+F 211 L2_new_60_min
+F 78 L2_balance_LT_20000R
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 89
+F DISCARD_REASON Action action_L2_5_to_10-fe251d53 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046431546
+.

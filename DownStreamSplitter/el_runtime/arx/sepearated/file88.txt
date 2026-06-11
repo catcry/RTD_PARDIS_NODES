@@ -1,0 +1,122 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989145064854
+F callingNumberType 0
+F calledNumber 989210280997
+F calledNumberType 1
+F callingCountry 98
+F calledCountry 98
+F eventDuration 1244
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 0
+F isRoaming 0
+F eventStartTimestamp 20241027154116
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 542590252
+F cost 13660737
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046423310
+F @filename RTD_OCSPOST-RECLIVE-61531-20241027195525.csv
+B profiles
+B subscriber
+B extensions
+F version 1728576030736580608
+B actions
+B Balance_50000_niod-4a78175f
+F sentTime 1728576030737
+.
+B new_30_min-5fda87d2
+F sentTime 1728576030737
+.
+B Final_Dream_Friday-53a44cc0
+F sentTime 1600511237872
+.
+B L1_none2_LT_7000-9d951be9
+F sentTime 1622354623925
+.
+B Notify_Nondata-03fc65dd
+F sentTime 1567956607168
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241026222619
+F gender Male
+F peak_type_voice peak
+F payg_data_rev_to_arpu 
+F industry Others
+F sub_balance 576380106
+F avg_offnet_voice_min 0
+F vas_cost_to_arpu 0
+F avg_nmb_sms_sent 0
+F is_multi_sim_phone Yes
+F avg_non_business_voice_usage 212.33
+F churn_propensity High
+F avg_business_voice_usage 296.5
+F is_smart_phone_user Yes
+F onnet_to_offnet_rev 0
+F model SM-J701F/DS
+F daily_data_pkg_end_time 13991213194904
+F arpu 0
+F daily_data_pkg_start_time 13991212194906
+F subscriber_segment MASS
+F brand Samsung Korea
+F tenure 145
+F portout_propensity Low
+F peak_type_data peak
+F os Android
+F enterprise_national_id 1379498661
+F avg_daily_2g_data_usage 0
+F arpu_segment Low ARPU
+F avg_daily_3g_data_usage 0
+F avg_monthly_topup_cost 
+F roam_int_rev_to_arpu 102235.91
+F avg_monthly_topup_nmb 
+F payment_type prepaid
+F avg_daily_4g_data_usage 0
+F avg_onnet_voice_min 0
+F avg_non_business_data_usage 1.47
+F avg_data_usage 0
+F provience آذربایجان شرقی
+F avg_business_data_usage 0
+F age 474
+F status Active
+.
+F profileId 199342449
+F id 989145064854
+.
+B target
+F errorCode 100
+F errorMessage Profile for subscriber '989210280997' was not found
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 210 L1_new_60_min
+F 243 BALANCE_100_L1-Topup_NID
+F 244 BALANCE_50_L1-Topup_NID
+F 77 L1_balance_LT_20000R
+F 88 L1_5T10_arpu
+F 213 roaming
+F 89 L2_5T10_arpu
+F 211 L2_new_60_min
+F 78 L2_balance_LT_20000R
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 212
+F DISCARD_REASON Action new_30_min-5fda87d2 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046423407
+.

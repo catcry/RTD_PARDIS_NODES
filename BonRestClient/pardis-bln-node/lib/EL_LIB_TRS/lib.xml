@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<library elversion="6.1">
+    <name>EL_LIB_TRS</name>
+    <param_prefix>TRS</param_prefix>
+    <version major="1" minor="3" defect="2" patch=""/>
+    <parameters>
+        <parameter name="DataStorage">
+            <description>Name of the data store</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="UseScalability">
+            <value>0</value>
+            <description>Handling of node scalability. 1=yes 0=no</description>
+            <value_type>
+                <numeric/>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="ConnectString">
+            <description>Connection string</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="Config">
+            <description>Table configuration file</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>true</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="DataStorageSize">
+            <description>Size of the data store in megabytes.</description>
+            <value_type>
+                <numeric min_value="0"/>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+    </parameters>
+    <files>
+        <file os="Linux" path="./" name="Linux/libtrs.so">
+            <export>
+                <libpath>false</libpath>
+                <perl5lib>false</perl5lib>
+            </export>
+        </file>
+    </files>
+    <messages>
+        <message key="TRS012" type="E">
+            <text>Value cannot be null.</text>
+            <explanation>Null value is not allowed to be inserted in the database.</explanation>
+        </message>
+        <message key="TRS009" type="E">
+            <text>Query handle is invalid. Handle should be between 0 and %d, not %d.</text>
+            <explanation>Invalid query handle. </explanation>
+        </message>
+        <message key="TRS116" type="E">
+            <text>TRS interface must be initialised before it's methods can be used.</text>
+            <explanation>trs_initialize must be called before other functions.</explanation>
+        </message>
+        <message key="TRS103" type="E">
+            <text>Field value cannot be NULL.</text>
+            <explanation>Field value cannot be NULL.</explanation>
+        </message>
+        <message key="TRS014" type="E">
+            <text>Row ID index is invalid. Row ID index should be between 0 and %d, not %d.</text>
+            <explanation>Row ID index is not in valid range.</explanation>
+        </message>
+        <message key="TRS017" type="E">
+            <text>Different amount of columns for table '%s': in data store: %d, in configuration: %d</text>
+            <explanation>The amount of columns does not match with the record type in the data store.</explanation>
+        </message>
+        <message key="TRS005" type="E">
+            <text>Invalid field description on line %d: '%s'. Field should have at least name and type.</text>
+            <explanation>Check the field description in the table configuration file.</explanation>
+        </message>
+        <message key="TRS117" type="E">
+            <text>Row ID handle is invalid. Handle should be between 0 and %d, not %d.</text>
+            <explanation>Invalid row ID handle. </explanation>
+        </message>
+        <message key="TRS001" type="E">
+            <text>Configuration parameter '%s' not found.</text>
+            <explanation>Configuration parameter is missing or the value is empty.</explanation>
+        </message>
+        <message key="TRS030" type="E">
+            <text>Configuration parameter TRS.DataStorageSize must be greater than zero.</text>
+            <explanation>Value for the configuration parameter is invalid.</explanation>
+        </message>
+        <message key="TRS003" type="E">
+            <text>Record type '%s' already exists.</text>
+            <explanation>Cannot add new record type, record type name must be unique.</explanation>
+        </message>
+        <message key="TRS115" type="E">
+            <text>SQL interface must be initialised before it's methods can be used.</text>
+            <explanation>sql_initialize must be called before other functions.</explanation>
+        </message>
+        <message key="TRS032" type="E">
+            <text>Error reading configuration file '%s'. Data may be corrupted.</text>
+            <explanation>Error occurred when reading the table configuration file. Check that the file is not corrupted.</explanation>
+        </message>
+        <message key="TRS023" type="E">
+            <text>Invalid field type '%s' for field name '%s'.</text>
+            <explanation>Field type is not supported by the library.</explanation>
+        </message>
+        <message key="TRS008" type="E">
+            <text>Invalid query description on line %d: '%s'. Query should have at least query type and name.</text>
+            <explanation>Check the query description in the table configuration file.</explanation>
+        </message>
+        <message key="TRS028" type="E">
+            <text>Invalid row ID. Row ID cannot be NULL.</text>
+            <explanation>Check that the search query has been made.</explanation>
+        </message>
+        <message key="TRS027" type="E">
+            <text>Field '%s' not found from record type '%s'.</text>
+            <explanation>Field name is invalid.</explanation>
+        </message>
+        <message key="TRS104" type="E">
+            <text>Key value	cannot be NULL.</text>
+            <explanation>Key value cannot be NULL.</explanation>
+        </message>
+        <message key="TRS101" type="E">
+            <text>Record type name cannot be NULL.</text>
+            <explanation>Record type name cannot be NULL.</explanation>
+        </message>
+        <message key="TRS018" type="E">
+            <text>Different amount of indexes for table '%s': in data store: %d, in configuration: %d</text>
+            <explanation>The amount of indexes does not match with the record type in the data store.</explanation>
+        </message>
+        <message key="TRS031" type="E">
+            <text>Error in setting row ID. Column should be binary type, not %d.</text>
+            <explanation>Error in setting row ID. Check that the column index is correct.</explanation>
+        </message>
+        <message key="TRS015" type="E">
+            <text>Error in retrieving row ID. Value should be binary type, not %d.</text>
+            <explanation>Error in retrieving row ID. Check that the row ID index is correct.</explanation>
+        </message>
+        <message key="TRS019" type="E">
+            <text>Column with name '%s' and type '%s' was not found from record configuration '%s'.</text>
+            <explanation>Column definitions do not match with the ones in the record type in the data store.</explanation>
+        </message>
+        <message key="TRS105" type="E">
+            <text>Column name cannot be NULL.</text>
+            <explanation>Column name cannot be NULL.</explanation>
+        </message>
+        <message key="TRS036" type="E">
+            <text>Field name must be given for creating the index for record type '%s'.</text>
+            <explanation>Field name must be given for creating the index.</explanation>
+        </message>
+        <message key="TRS013" type="E">
+            <text>Value index is invalid. Index should be between 0 and %d, not %d.</text>
+            <explanation>Value index is not in valid range.</explanation>
+        </message>
+        <message key="TRS004" type="E">
+            <text>Unexpected empty line on row %d. Record should have fields and queries.</text>
+            <explanation>Received an empty line after reading the record name.</explanation>
+        </message>
+        <message key="TRS011" type="E">
+            <text>Parameter number (%d) must be smaller than the number of parameters in prepared statement (%d).</text>
+            <explanation>Parameter number must be smaller than the number of parameters in prepared statement.</explanation>
+        </message>
+        <message key="TRS002" type="E">
+            <text>Error opening configuration file '%s'.</text>
+            <explanation>Failed to open the configuration file.</explanation>
+        </message>
+        <message key="TRS111" type="E">
+            <text>Delete query not found for field '%s' in record type '%s'.</text>
+            <explanation>Check that field name is written correctly.</explanation>
+        </message>
+        <message key="TRS025" type="E">
+            <text>Invalid query type '%s' in query '%s' for record type '%s'.</text>
+            <explanation>Query type must be either SEARCH or DELETE.</explanation>
+        </message>
+        <message key="TRS037" type="E">
+            <text>Invalid field name '%s' for record type '%s'. Field name is reserved for internal use.</text>
+            <explanation>Field name is reserved for audit purposes.</explanation>
+        </message>
+        <message key="TRS102" type="E">
+            <text>Query type name cannot be NULL.</text>
+            <explanation>Query type name cannot be NULL.</explanation>
+        </message>
+        <message key="TRS010" type="E">
+            <text>Error in %s: %s</text>
+            <explanation>TimesTen error occured. Read the error message for more information.</explanation>
+        </message>
+        <message key="TRS022" type="E">
+            <text>Field '%s' already exists in record type '%s'.</text>
+            <explanation>Cannot add new field to the record type, field name must be unique.</explanation>
+        </message>
+        <message key="TRS112" type="E">
+            <text>Column name '%s' not found from query '%s' in record type '%s'.</text>
+            <explanation>Invalid column name.</explanation>
+        </message>
+        <message key="TRS020" type="E">
+            <text>Column '%s' is not indexed in record configuration '%s'.</text>
+            <explanation>Column has an index in the data store, but not in table configuration file.</explanation>
+        </message>
+        <message key="TRS024" type="E">
+            <text>Query '%s' already exists for record type '%s'.</text>
+            <explanation>Cannot add new query to the record type, query name must be unique.</explanation>
+        </message>
+        <message key="TRS007" type="E">
+            <text>Invalid composite index description on line %d: '%s'. Index should have comma separated list of field names.</text>
+            <explanation>Check the query description in the table configuration file.</explanation>
+        </message>
+        <message key="TRS016" type="E">
+            <text>Parameter number (%d) is greater than the number of parameters in prepared statement (%d).</text>
+            <explanation>Parameter number must be smaller than the number of parameters in prepared statement.</explanation>
+        </message>
+        <message key="TRS106" type="E">
+            <text>Record type '%s' not found.</text>
+            <explanation>Record type is not found.</explanation>
+        </message>
+        <message key="TRS035" type="E">
+            <text>Trying to insert an empty string for query name for record type '%s'.</text>
+            <explanation>Query name cannot be empty.</explanation>
+        </message>
+        <message key="TRS107" type="E">
+            <text>Search query '%s' not found for record type '%s'.</text>
+            <explanation>Search type is not found.</explanation>
+        </message>
+        <message key="TRS113" type="E">
+            <text>Limit value should be greater than zero.</text>
+            <explanation>Invalid limit value, limit must be greater than zero.</explanation>
+        </message>
+        <message key="TRS038" type="E">
+            <text>Invalid value '%s' for timestamp field. Value must be at least 14 characters long.</text>
+            <explanation>Value of timestamp field must be at least 14 characters long.</explanation>
+        </message>
+        <message key="TRS029" type="E">
+            <text>Configuration parameter TRS.DataStorageSize must have numeric value.</text>
+            <explanation>Value for the configuration parameter is invalid.</explanation>
+        </message>
+        <message key="TRS033" type="E">
+            <text>Record name cannot be empty.</text>
+            <explanation>Trying to insert an empty string for record name.</explanation>
+        </message>
+        <message key="TRS114" type="E">
+            <text>Invalid query type '%d' in query '%s' for record type '%s'.</text>
+            <explanation>Query type must be either TRS_SEARCH or TRS_DELETE.</explanation>
+        </message>
+        <message key="TRS026" type="E">
+            <text>Record type '%s' has no fields defined.</text>
+            <explanation>Record type should have at least one field.</explanation>
+        </message>
+        <message key="TRS109" type="E">
+            <text>Invalid index no %d for search '%s' in record type '%s'.</text>
+            <explanation>Invalid key index.</explanation>
+        </message>
+        <message key="TRS006" type="E">
+            <text>Invalid index definition on line %d: '%s'.</text>
+            <explanation>Check the index definition in the table configuration file.</explanation>
+        </message>
+        <message key="TRS021" type="E">
+            <text>Unsupported field type.</text>
+            <explanation>Field type is not supported by the library.</explanation>
+        </message>
+        <message key="TRS110" type="E">
+            <text>Update query not found for field '%s' in record type '%s'.</text>
+            <explanation>Check that field name is written correctly.</explanation>
+        </message>
+        <message key="TRS108" type="E">
+            <text>Invalid field index %d for record type '%s'.</text>
+            <explanation>Invalid index number.</explanation>
+        </message>
+        <message key="TRS034" type="E">
+            <text>Trying to insert an empty string for field name for record type '%s'.</text>
+            <explanation>Field name cannot be empty.</explanation>
+        </message>
+    </messages>
+    <docs>
+        <file name="docs/TRS_Online.htm"/>
+    </docs>
+    <libraries/>
+    <auditkeys/>
+</library>

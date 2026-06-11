@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration elversion="6.1">
+    <name>MCI_CFG_BON_PARDIS_CHUNK_BUILDER</name>
+    <version major="1" minor="0" defect="0" patch="PRE_09"/>
+    <description>
+
+    </description>
+    <type>
+        <collector>false</collector>
+        <intermediate>false</intermediate>
+        <decoder>false</decoder>
+        <businesslogic>true</businesslogic>
+        <blt>false</blt>
+        <encoder>false</encoder>
+        <distributor>false</distributor>
+        <standalone>false</standalone>
+        <interface>false</interface>
+    </type>
+    <nodebase>java_node</nodebase>
+    <attributes>
+        <application_commit>false</application_commit>
+        <schedulable>true</schedulable>
+        <realtime>false</realtime>
+    </attributes>
+    <scalability>
+        <free></free>
+    </scalability>
+    <parameters>
+        <parameter name="InitialJavaHeapSize">
+            <value>128M</value>
+            <description>Defines the initial size of java heap memory.
+            </description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="chunker-max-size">
+            <value>10</value>
+            <description>chunker max size</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="max-untouched-record-count">
+            <value>20</value>
+            <description>chunker max size</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="ApplicationClass">
+            <value>com.bonyan.rtd.PardisChunkBuilderNode</value>
+            <description>Node application class</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>true</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="max-retry-count">
+            <value>5</value>
+            <description>chunk writer sleep time after write each chunk list</description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="MaxJavaHeapSize">
+            <value>128M</value>
+            <description>Defines the maximum size of java heap memory.
+            </description>
+            <value_type>
+                <any/>
+            </value_type>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+    </parameters>
+    <files>
+        <file os="AnyOS" path="./" editable="false" name="AnyOS/app_AdapterNode.jar">
+            <export>
+                <libpath>false</libpath>
+                <perl5lib>false</perl5lib>
+            </export>
+        </file>
+    </files>
+    <messages>
+        <message key="InitException" type="E">
+            <text>Exception in Init method: '%s'</text>
+            <explanation>Exception in Init method: '%s'</explanation>
+        </message>
+    </messages>
+    <docs>
+        <file name="docs/index.html"/>
+    </docs>
+    <libraries>
+        <library name="MCP_LIB_JAVANODE" min_major="1" min_minor="0" min_defect="0" exactversion="false"/>
+    </libraries>
+    <storages/>
+    <links>
+        <link>OUT</link>
+    </links>
+    <auditkeys/>
+</configuration>

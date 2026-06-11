@@ -1,0 +1,195 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989132801062
+F callingNumberType 0
+F calledNumber 989133817010
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 103
+F eventVolume {{!!NULL!!}}
+F internationalCall 1
+F onnet 1
+F isRoaming 1
+F eventStartTimestamp 20241027160020
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 1961282989
+F cost 506000000
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046414160
+F @filename RTD_OCSPOST-RECLIVE-61278-20241027195519.csv
+B profiles
+B subscriber
+B extensions
+F version 1682341103046557696
+B actions
+B Dormant_MASS-c0fe6136
+F sentTime 1682341127984
+.
+B NDU_MASS_ACTION-d6258716
+F sentTime 1681132334551
+.
+B action2_atrisk_mass-3c6d105f
+F sentTime 1652950744770
+.
+B NDU_HVR_ACTION-6b8ed944
+F sentTime 1679818989203
+.
+.
+.
+B rtd
+F voice_pkg_400289_end_time 14020703101405
+F monthly_data_pkg_end_time 14020129214828
+F avg_nmb_sms_sent 615831.32
+F is_multi_sim_phone No
+F voice_pkg_700310_start_time 14021004180644
+F avg_business_voice_usage 21378.33
+F onnet_to_offnet_rev 1.59
+F voice_pkg_700700_start_time 14010917195021
+F model 
+F daily_data_pkg_end_time 13991107212513
+F data_package_size s
+F daily_data_pkg_start_time 13991106212515
+F subscriber_segment HVR
+F brand 
+F tenure 214
+F monthly_data_pkg_start_time 14020128214830
+F portout_propensity Low
+F arpu_segment High ARPU
+F voice_pkg_219_end_time 14021009192516
+F payment_type postpaid
+F avg_non_business_data_usage 72.28
+F avg_data_usage 339767058
+F provience چهارمحال و بختیاری
+F avg_business_data_usage 35.21
+F status Active
+F gender Female
+F voice_pkg_219_start_time 14021008192518
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F avg_offnet_voice_min 37314.46
+F vas_cost_to_arpu 523483.44
+F voice_pkg_700700_end_time 14011017195019
+F churn_propensity Low
+F avg_non_business_voice_usage 14062.5
+F pkg_to_payg_voice 0.93
+F is_smart_phone_user No
+F arpu 523483.44
+F voice_pkg_400289_start_time 14020702101407
+F peak_type_data peak
+F os 
+F enterprise_national_id 4679309318
+F avg_daily_2g_data_usage 0
+F avg_daily_3g_data_usage 0
+F voice_pkg_700310_end_time 14021104180642
+F roam_int_rev_to_arpu 22906.99
+F avg_daily_4g_data_usage 9
+F avg_onnet_voice_min 904.65
+F pkg_to_payg_data 
+F age 959
+.
+F profileId 218766107
+F id 989132801062
+.
+B target
+B rtd
+F gender Male
+F weekly_data_pkg_start_time 14010416102211
+F weekly_data_pkg_end_time 14010423102211
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F avg_offnet_voice_min 297121.05
+F vas_cost_to_arpu 744218.8
+F monthly_data_pkg_end_time {{!!NULL!!}}
+F churn_propensity 
+F avg_nmb_sms_sent 880326.97
+F is_multi_sim_phone Yes
+F avg_non_business_voice_usage 9665
+F avg_business_voice_usage 13014.5
+F is_smart_phone_user No
+F onnet_to_offnet_rev 12.65
+F model 
+F daily_data_pkg_end_time 20190325142239
+F arpu 744218.8
+F data_package_size l
+F daily_data_pkg_start_time 20190223142239
+F subscriber_segment HVR
+F brand 
+F tenure 247
+F monthly_data_pkg_start_time {{!!NULL!!}}
+F portout_propensity 
+F peak_type_data peak
+F os 
+F enterprise_national_id 4623351841
+F avg_daily_2g_data_usage 0
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 4
+F roam_int_rev_to_arpu 291037.41
+F payment_type postpaid
+F avg_daily_4g_data_usage 116
+F avg_onnet_voice_min 624.44
+F avg_non_business_data_usage 221.84
+F avg_data_usage 6540705563
+F pkg_to_payg_data 
+F provience چهارمحال و بختیاری
+F avg_business_data_usage 879.83
+F age 455
+F status Active
+.
+F profileId 272992982
+F id 989133817010
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+B COUNTER
+F ID monthly.moc_cost_roaming
+F LOGIC_ID 213
+F COMPONENT_ID moc_roaming_cost_monthly
+F MODE UPDATE
+F SOURCE_FIELD cost
+.
+.
+B FAILED_LOGICS
+F 210 L1_new_60_min
+F 243 BALANCE_100_L1-Topup_NID
+F 212 new_30_min
+F 244 BALANCE_50_L1-Topup_NID
+F 77 L1_balance_LT_20000R
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 211 L2_new_60_min
+F 78 L2_balance_LT_20000R
+.
+.
+B counters
+B 213
+B monthly
+B moc_cost_roaming
+F used 506000000.000000
+F left 3788967300.000000
+.
+.
+.
+.
+B __RULE_ENGINE__
+B TRIGGERED_ACTIONS
+F 213 Arbaeen_Roaming-0da60d4f
+.
+B ACTIONS
+B Arbaeen_Roaming-0da60d4f
+F CONTENT_ID arbaeen
+F DOWNSTREAM cms
+F CHANNEL sms
+F RESEND_FREQUENCY month
+.
+.
+.
+F @distributed 1730046414188
+.

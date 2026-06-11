@@ -1,0 +1,11 @@
+
+##Run one of these commands:
+
+# create msisdns from 09191231000 to 09191232000
+1. java -jar app_AdapterNode.jar /{InputFilesPath}/fileName.txt
+
+# create msisdns from 09191231000 to 09191231500
+2. java -jar app_AdapterNode.jar /{InputFilesPath}/fileName.txt 500
+
+# create msisdns from 09191232500 to 09191233500
+3. java -jar app_AdapterNode.jar /{InputFilesPath}/fileName.txt 2500 3500

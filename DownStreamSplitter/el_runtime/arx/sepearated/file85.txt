@@ -1,0 +1,119 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989195979611
+F callingNumberType 0
+F calledNumber 989910009912
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 49
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 1
+F isRoaming 0
+F eventStartTimestamp 20241027160528
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 2589376763
+F cost 0
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046422225
+F @filename RTD_OCSPOST-RECLIVE-61517-20241027195524.csv
+B profiles
+B subscriber
+B extensions
+F version 1728660013481852928
+B actions
+B Balance_50000_niod-4a78175f
+F sentTime 1728660013480
+.
+B Zarrebin2-5eae5c9b
+F sentTime 1675339921493
+.
+B new_30_min-5fda87d2
+F sentTime 1727795090302
+.
+B ZarebinTest_action-e4ab93c6
+F sentTime 1634971903955
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027125639
+F gender Male
+F peak_type_voice peak
+F industry Others
+F sub_balance 1730620
+F avg_offnet_voice_min 0
+F vas_cost_to_arpu 0
+F monthly_data_pkg_end_time 14000529105652
+F is_multi_sim_phone Yes
+F avg_nmb_sms_sent 0
+F churn_propensity High
+F avg_non_business_voice_usage 0
+F is_smart_phone_user No
+F onnet_to_offnet_rev 0
+F avg_business_voice_usage 25.17
+F model 
+F arpu 0
+F data_package_size xl
+F subscriber_segment MASS
+F brand 
+F tenure 81
+F monthly_data_pkg_start_time 14000430105652
+F portout_propensity Low
+F peak_type_data peak
+F os 
+F enterprise_national_id 0061699535
+F avg_daily_2g_data_usage 0
+F arpu_segment Low ARPU
+F avg_daily_3g_data_usage 0
+F avg_monthly_topup_cost 
+F roam_int_rev_to_arpu 524433.95
+F avg_monthly_topup_nmb 
+F payment_type prepaid
+F avg_onnet_voice_min 0
+F avg_daily_4g_data_usage 242
+F avg_non_business_data_usage 169.23
+F avg_data_usage 0
+F provience تهران
+F avg_business_data_usage 959.5
+F age 564
+F status Active
+.
+F profileId 193235131
+F id 989195979611
+.
+B target
+F errorCode 100
+F errorMessage Profile for subscriber '989910009912' was not found
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 210 L1_new_60_min
+F 243 BALANCE_100_L1-Topup_NID
+F 244 BALANCE_50_L1-Topup_NID
+F 77 L1_balance_LT_20000R
+F 88 L1_5T10_arpu
+F 213 roaming
+F 89 L2_5T10_arpu
+F 211 L2_new_60_min
+F 78 L2_balance_LT_20000R
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 212
+F DISCARD_REASON Action new_30_min-5fda87d2 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046422315
+.

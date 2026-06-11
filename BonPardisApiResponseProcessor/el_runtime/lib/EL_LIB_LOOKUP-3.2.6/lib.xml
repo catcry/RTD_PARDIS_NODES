@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<library elversion="6.1">
+    <name>EL_LIB_LOOKUP</name>
+    <param_prefix>Lookup</param_prefix>
+    <version major="3" minor="2" defect="6" patch=""/>
+    <parameters>
+        <parameter name="ShmidDirectory">
+            <description>Directory where Lookup Server shared memory id file is located.</description>
+            <value>/comptel/elink/installation/EventLink/lookup_server3/tmp</value>
+            <value_type>
+                <any min_length="0" max_length="1024"/>
+            </value_type>
+            <attributes>
+                <mandatory>true</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>true</installation_specific>
+            </attributes>
+        </parameter>
+        <parameter name="AbortOnReloadFailure">
+            <value>1</value>
+            <description>Causes the lookup library to automatically abort the node when a lookup table reloading fails.</description>
+            <value_type>
+                <list>
+                    <element>1</element>
+                    <element>0</element>
+                </list>
+            </value_type>
+            <attributes>
+                <mandatory>false</mandatory>
+                <hidden>false</hidden>
+                <environment>false</environment>
+                <installation_specific>false</installation_specific>
+            </attributes>
+        </parameter>
+    </parameters>
+    <files>
+        <file os="AnyOS" path="./" name="AnyOS/Lookup.jar">
+            <export>
+                <libpath>false</libpath>
+                <perl5lib>false</perl5lib>
+            </export>
+        </file>
+        <file os="Linux" path="./" name="Linux/liblookup_java.so">
+            <export>
+                <libpath>false</libpath>
+                <perl5lib>false</perl5lib>
+            </export>
+        </file>
+        <file os="Linux" path="./" name="Linux/libserver_lookup.so">
+            <export>
+                <libpath>false</libpath>
+                <perl5lib>false</perl5lib>
+            </export>
+        </file>
+    </files>
+    <messages>
+        <message key="LS014" type="E">
+            <text>Invalid search string: %s.</text>
+            <explanation>Invalid search string.</explanation>
+        </message>
+        <message key="LS005" type="E">
+            <text>Could not allocate memory. %s</text>
+            <explanation>Memory allocation failed.</explanation>
+        </message>
+        <message key="LS004" type="E">
+            <text>Unable to find lookup server shared memory id files (.shmid) from directory '%s'.</text>
+            <explanation>Unable to find lookup server shared memory id file. Lookup Server may not be running.</explanation>
+        </message>
+        <message key="LS010" type="E">
+            <text>Unable to find table '%s' from server '%s'.</text>
+            <explanation>Check that table with given name exists.</explanation>
+        </message>
+        <message key="LS011" type="E">
+            <text>Server index %d found from tablenumber must be between 0 and %d.</text>
+            <explanation>Index is not within valid range.</explanation>
+        </message>
+        <message key="LS009" type="E">
+            <text>Unknown server '%s'.</text>
+            <explanation>Check that lookup server with given name exists.</explanation>
+        </message>
+        <message key="LS015" type="E">
+            <text>Server is not available '%s'.</text>
+            <explanation>Server is not available.</explanation>
+        </message>
+        <message key="LS008" type="E">
+            <text>Unable to detach from server shared memory (%s).</text>
+            <explanation>Unable to detach from shared memory which points to lookup server.</explanation>
+        </message>
+        <message key="LS016" type="E">
+            <text>Unable to reinitialize server '%s'.</text>
+            <explanation>Unable to reinitialize server.</explanation>
+        </message>
+        <message key="LS002" type="E">
+            <text>Unable to open shared memory id directory '%s' - '%s'.</text>
+            <explanation>Unable to open shared memory id directory. Check that the name is correct and that the directory exists.</explanation>
+        </message>
+        <message key="LS006" type="E">
+            <text>Unable to open shared memory id file '%s' - '%s'.</text>
+            <explanation>Unable to open shared memory id file. Check that the file exists.</explanation>
+        </message>
+        <message key="LS007" type="E">
+            <text>Unable to attach to server shared memory id '%d' (%s).</text>
+            <explanation>Unable to attach to shared memory which points to lookup server.</explanation>
+        </message>
+        <message key="LS012" type="E">
+            <text>Table index %d found from tablenumber must be between 0 and %ld.</text>
+            <explanation>Index is not within valid range.</explanation>
+        </message>
+        <message key="LS003" type="E">
+            <text>Too many servers found in the system (%d allowed).</text>
+            <explanation>Allowed amount of servers is exceeded.</explanation>
+        </message>
+        <message key="LS001" type="E">
+            <text>Unable to find configuration parameter '%s'.</text>
+            <explanation>Configuration parameter is missing or its value is empty.</explanation>
+        </message>
+        <message key="LS013" type="E">
+            <text>Unable to attach to shared memory segment of table '%s' - '%s'.</text>
+            <explanation>Maximum number of attached shared memory segments per process in the UNIX machine may be too small.</explanation>
+        </message>
+    </messages>
+    <docs/>
+    <libraries/>
+    <auditkeys/>
+</library>

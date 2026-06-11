@@ -1,0 +1,1884 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>EventLink Multi-format Encoder Node</title>
+<style>
+<!--p.BODY
+	{font-weight: medium;
+	font-style: Regular;}
+p.BODY
+	{font-weight: medium;
+	font-style: Regular;}
+li.BULLETBODY
+	{font-weight: medium;
+	font-style: Regular;}
+li.BULLETED
+	{font-weight: medium;
+	font-style: Regular;}
+h1.CAPTION
+	{font-style: Regular;}
+h2.CAPTION
+	{font-style: Regular;}
+h3.CAPTION
+	{font-style: Regular;}
+h4.CAPTION
+	{font-style: Regular;}
+h5.CAPTION
+	{font-style: Regular;}
+h6.CAPTION
+	{font-style: Regular;}
+p.CELLBODY
+	{font-weight: medium;
+	font-style: Regular;}
+p.CELLHEADING
+	{font-weight: medium;
+	font-style: Regular;}
+p.FOOTNOTE
+	{font-weight: medium;
+	font-style: Regular;}
+h1.HEADING-1
+	{font-style: Regular;}
+h2.HEADING-1
+	{font-style: Regular;}
+h3.HEADING-1
+	{font-style: Regular;}
+h4.HEADING-1
+	{font-style: Regular;}
+h5.HEADING-1
+	{font-style: Regular;}
+h6.HEADING-1
+	{font-style: Regular;}
+h1.HEADING-2
+	{font-style: Regular;}
+h2.HEADING-2
+	{font-style: Regular;}
+h3.HEADING-2
+	{font-style: Regular;}
+h4.HEADING-2
+	{font-style: Regular;}
+h5.HEADING-2
+	{font-style: Regular;}
+h6.HEADING-2
+	{font-style: Regular;}
+h1.HEADING-3
+	{font-style: Regular;}
+h2.HEADING-3
+	{font-style: Regular;}
+h3.HEADING-3
+	{font-style: Regular;}
+h4.HEADING-3
+	{font-style: Regular;}
+h5.HEADING-3
+	{font-style: Regular;}
+h6.HEADING-3
+	{font-style: Regular;}
+h1.HEADING1
+	{font-style: Regular;}
+h2.HEADING1
+	{font-style: Regular;}
+h3.HEADING1
+	{font-style: Regular;}
+h4.HEADING1
+	{font-style: Regular;}
+h5.HEADING1
+	{font-style: Regular;}
+h6.HEADING1
+	{font-style: Regular;}
+h1.HEADING2
+	{font-style: Regular;}
+h2.HEADING2
+	{font-style: Regular;}
+h3.HEADING2
+	{font-style: Regular;}
+h4.HEADING2
+	{font-style: Regular;}
+h5.HEADING2
+	{font-style: Regular;}
+h6.HEADING2
+	{font-style: Regular;}
+h1.HEADINGRUNIN
+	{font-style: Regular;}
+h2.HEADINGRUNIN
+	{font-style: Regular;}
+h3.HEADINGRUNIN
+	{font-style: Regular;}
+h4.HEADINGRUNIN
+	{font-style: Regular;}
+h5.HEADINGRUNIN
+	{font-style: Regular;}
+h6.HEADINGRUNIN
+	{font-style: Regular;}
+p.INDENTED
+	{font-weight: medium;
+	font-style: Regular;}
+li.NUMBERED
+	{font-weight: medium;
+	font-style: Regular;}
+li.NUMBERED1
+	{font-weight: medium;
+	font-style: Regular;}
+p.TABLEBODY
+	{font-weight: medium;
+	font-style: Regular;}
+p.TABLEBODYBOLD
+	{font-style: Regular;}
+p.TABLEFOOTNOTE
+	{font-weight: medium;
+	font-style: Regular;}
+h1.TABLETITLE
+	{font-style: Regular;}
+h2.TABLETITLE
+	{font-style: Regular;}
+h3.TABLETITLE
+	{font-style: Regular;}
+h4.TABLETITLE
+	{font-style: Regular;}
+h5.TABLETITLE
+	{font-style: Regular;}
+h6.TABLETITLE
+	{font-style: Regular;}
+h1.TITLE
+	{font-style: Regular;}
+h2.TITLE
+	{font-style: Regular;}
+h3.TITLE
+	{font-style: Regular;}
+h4.TITLE
+	{font-style: Regular;}
+h5.TITLE
+	{font-style: Regular;}
+h6.TITLE
+	{font-style: Regular;}
+em.TABLEBODYCOURIER-CHAR
+	{font-weight: medium;
+	font-style: Regular;}
+
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+h1
+	{mso-style-link:"Heading 1 Char";
+	margin-right:0in;
+	margin-left:0in;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;}
+h2
+	{mso-style-link:"Heading 2 Char";
+	margin-right:0in;
+	margin-left:0in;
+	font-size:18.0pt;
+	font-family:"Times New Roman",serif;}
+h3
+	{mso-style-link:"Heading 3 Char";
+	margin-right:0in;
+	margin-left:0in;
+	font-size:13.5pt;
+	font-family:"Times New Roman",serif;}
+h4
+	{mso-style-link:"Heading 4 Char";
+	margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+h5
+	{mso-style-link:"Heading 5 Char";
+	margin-right:0in;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+h6
+	{mso-style-link:"Heading 6 Char";
+	margin-right:0in;
+	margin-left:0in;
+	font-size:7.5pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Calibri Light",sans-serif;
+	color:#2E74B5;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-link:"Heading 2";
+	font-family:"Calibri Light",sans-serif;
+	color:#2E74B5;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Calibri Light",sans-serif;
+	color:#1F4D78;}
+span.Heading4Char
+	{mso-style-name:"Heading 4 Char";
+	mso-style-link:"Heading 4";
+	font-family:"Calibri Light",sans-serif;
+	color:#2E74B5;
+	font-style:italic;}
+span.Heading5Char
+	{mso-style-name:"Heading 5 Char";
+	mso-style-link:"Heading 5";
+	font-family:"Calibri Light",sans-serif;
+	color:#2E74B5;}
+span.Heading6Char
+	{mso-style-name:"Heading 6 Char";
+	mso-style-link:"Heading 6";
+	font-family:"Calibri Light",sans-serif;
+	color:#1F4D78;}
+p.body, li.body, div.body
+	{mso-style-name:body;
+	margin-top:9.0pt;
+	margin-right:0in;
+	margin-bottom:9.0pt;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:"Verdana",sans-serif;
+	color:black;}
+p.cellbody, li.cellbody, div.cellbody
+	{mso-style-name:cellbody;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	color:black;}
+p.cellheading, li.cellheading, div.cellheading
+	{mso-style-name:cellheading;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	color:black;}
+p.footnote, li.footnote, div.footnote
+	{mso-style-name:footnote;
+	margin-top:0in;
+	margin-right:.25in;
+	margin-bottom:0in;
+	margin-left:30.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	color:black;}
+p.indented, li.indented, div.indented
+	{mso-style-name:indented;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.25in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	color:black;}
+p.tablebody, li.tablebody, div.tablebody
+	{mso-style-name:tablebody;
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:2.0pt;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:"Verdana",sans-serif;
+	color:black;}
+p.tablebodybold, li.tablebodybold, div.tablebodybold
+	{mso-style-name:tablebodybold;
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:2.0pt;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:"Verdana",sans-serif;
+	color:black;
+	font-weight:bold;}
+p.tablefootnote, li.tablefootnote, div.tablefootnote
+	{mso-style-name:tablefootnote;
+	margin-top:0in;
+	margin-right:.25in;
+	margin-bottom:0in;
+	margin-left:30.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-12.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	color:black;}
+p.msochpdefault, li.msochpdefault, div.msochpdefault
+	{mso-style-name:msochpdefault;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+<meta http-equiv=Content-Style-Type content="text/css">
+<!--<LINK REL="STYLESHEET" HREF="EventLink_Correlation_Libary_Online_Help.css" CHARSET="ISO-8859-1" TYPE="text/css">-->
+</head>
+
+<body lang=EN-GB link=blue vlink=purple>
+
+<div class=WordSection1>
+
+<h1 style='vertical-align:baseline'><a name=pgfId-998295></a><span
+style='font-size:18.0pt;font-family:"Verdana",sans-serif;color:#072D60'>EventLink
+Multi-format Encoder Node</span></h1>
+
+<p class=body><a name=pgfId-998296></a>EventLink Multi-format Encoder Node is
+used for encoding event records in Comptel EventLink internal format into ASCII
+or binary format for target systems, for example, billing or fraud.</p>
+
+<div>
+
+<h2 style='vertical-align:baseline'><a name=pgfId-998297></a><span
+style='font-size:14.0pt;font-family:"Verdana",sans-serif;color:#072D60'>Functionality
+of EventLink Multi-format Encoder Node</span></h2>
+
+<p class=body><a name=pgfId-998298></a>EventLink Multi-format Encoder Node is a
+generic ASCII and binary data encoder for Comptel EventLink. EventLink
+Multi-format Encoder Node is responsible for receiving input event records
+(ERs), formatting the ERs as required by the target systems and forwarding the
+data to the next node in the process stream for distributing the data to the
+target system.</p>
+
+<p class=body><a name=pgfId-998299></a>EventLink Multi-format Encoder Node uses
+a data format description to determine the structure and layout of the output
+data. When EventLink Multi-format Encoder Node receives an input record, it
+searches for the corresponding output record specification from the data format
+description and writes the record out accordingly. EventLink Multi-format
+Encoder Node does not create the output file but forms a data block of the file
+contents and sends it to the next node together with the desired output file
+name. It is up to the distributor node to decide how and when the data is
+distributed or stored.</p>
+
+</div>
+
+<div>
+
+<h2 style='vertical-align:baseline'><a name=pgfId-998300></a><span
+style='font-size:14.0pt;font-family:"Verdana",sans-serif;color:#072D60'>Configuration
+of EventLink Multi-format Encoder Node</span></h2>
+
+<div>
+
+<h3 style='vertical-align:baseline'><a name=pgfId-998301></a><span
+style='font-family:"Verdana",sans-serif;color:black'>Configuration parameters</span></h3>
+
+<p class=body><a name=pgfId-998302></a>The following table lists the EventLink
+Multi-format Encoder Node configuration parameters. In the M/O column, M stands
+for a mandatory option, O for an optional one and C for a conditional one.</p>
+
+<div>
+
+<h6 style='margin:0in;margin-bottom:.0001pt;vertical-align:baseline'><a
+name=pgfId-998303></a><span style='font-size:10.0pt;color:black'>Table 1.
+EventLink Multi-format Encoder Node configuration parameters</span></h6>
+
+</div>
+
+<table class=MsoNormalTable border=1 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1006553></a>Parameter</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1006555></a>Description</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1006557></a>Values</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1006559></a>M/O/C</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006561></a>OutputDescriptionFilename</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006563></a>Defines the name of the output
+  description file.</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1006565></a>Default value:</p>
+  <p class=tablebody><a name=pgfId-1006566></a>default_description.xml</p>
+  <p class=tablebodybold><a name=pgfId-1006567></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1006568></a>description.xml</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006570></a>M</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006572></a>RecordLimit</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006574></a>Defines the maximum number of
+  ERs in a file before it is closed.</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1006576></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1006577></a>1000</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006579></a>O</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006581></a>RecordWaitingTimeLimit</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006583></a>Defines the maximum period of
+  time that a file can be open after the last record has been written to it. If
+  the file is older than the given time, it is closed. </p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006585></a>The default unit of the value is
+  a second but the time related specifications can also be given as:</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006586></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>15m, where m stands for minutes</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006587></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>15h, where h stands for hours</p>
+  <p class=tablebodybold><a name=pgfId-1006588></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1006589></a>20</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006591></a>O</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006593></a>MinAgeOfFile</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006595></a>Defines the minimum period of
+  time that a file must be open after its creation before it can be closed in
+  scheduled file closing. If the file is newer than the given age, it is not
+  closed.</p>
+  <p class=tablebody>&nbsp;</p>
+  <div style='border-top:solid windowtext 1.0pt;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:none;padding:1.0pt 0in 1.0pt 0in'>
+  <p class=tablebody style='border:none;padding:0in'><a name=pgfId-1006596></a><b>Note:</b>
+  The parameter requires the use of the SeparationCondition parameter.</p>
+  </div>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006598></a>The default unit of the value is
+  a second but the time related specifications can also be given as:</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006599></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>15m, where m stands for minutes</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006600></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>15h, where h stands for hours</p>
+  <p class=tablebodybold><a name=pgfId-1006601></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1006602></a>30</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006604></a>C</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006606></a>MaxAgeOfFile</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006608></a>Defines the maximum period of time
+  that a file can be open after creation. If the file is older than the given
+  time, it is closed. </p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006610></a>The default unit of the value is
+  a second but the time related specifications can also be given as:</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006611></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>15m, where m stands for minutes</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006612></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>15h, where h stands for hours</p>
+  <p class=tablebodybold><a name=pgfId-1006613></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1006614></a>30</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006616></a>O</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006618></a>FileSizeLimit</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006620></a>Defines the maximum size of an
+  output file. If the file is bigger than the given value, it is closed. </p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006622></a>The default unit of the value is
+  a byte but the data amount related specifications can also be given as:</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006623></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>2k, where k stands for kilobytes</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006624></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>2M, where M stands for megabytes</p>
+  <p class=tablebodybold><a name=pgfId-1006625></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1006626></a>2 048 000</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006628></a>O</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006630></a>CreateEmptyOutputFiles</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006632></a>Defines whether empty output
+  files are created.</p>
+  <p class=tablebody><a name=pgfId-1006635></a>&nbsp;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1006637></a>Possible values:</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006638></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>0 - Do not create empty files</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006639></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>1 - Create empty files</p>
+  <p class=tablebodybold><a name=pgfId-1006640></a>Default value:</p>
+  <p class=tablebody><a name=pgfId-1006642></a>0<a name="OLE_LINK5"></a></p>
+  <p class=tablebodybold><a name=pgfId-1006643></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1006644></a>1</p>
+  <p class=tablebody><a name=pgfId-1010552></a>&nbsp;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006646></a>O</p>
+  </td>
+ </tr>
+ <tr style='height:92.7pt'>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt;height:92.7pt'>
+  <p class=tablebody><a name=pgfId-1006831></a>CreateEmptyOutputFileOnFlush</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt;height:92.7pt'>
+  <p class=tablebody><a name=pgfId-1006877></a>Defines whether empty output
+  files are created in a nonseparated execution in which a node with neither SeparationCondition
+  nor SeparateSourceID defined is flushed.</p>
+  <p class=tablebody>&nbsp;</p>
+  <div style='border-top:solid windowtext 1.0pt;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:none;padding:1.0pt 0in 1.0pt 0in'>
+  <p class=tablebody style='border:none;padding:0in'><a name=pgfId-1006879></a><b>Note:</b>
+  This parameter does not have any effect together with the
+  CreateEmptyOutputFilesOnSeparation parameter.<a name=pgfId-1006833></a></p>
+  </div>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt;height:92.7pt'>
+  <p class=tablebodybold><a name=pgfId-1006835></a>Possible values:</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006899></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>0 - Do not create empty files on <br>
+       flush</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006961></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>1 - Create empty files on flush</p>
+  <p class=tablebodybold><a name=pgfId-1006906></a>Default value:</p>
+  <p class=body><a name=pgfId-1006913></a>1</p>
+  <p class=tablebodybold><a name=pgfId-1006920></a>Example value:</p>
+  <p class=body><a name=pgfId-1006927></a>0</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt;height:92.7pt'>
+  <p class=tablebody><a name=pgfId-1006837></a>O</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006839></a>CreateEmptyOutputFilesOnSeparation</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1007015></a>Defines whether the handling of
+  an input file that does not contain any records or contains the control
+  records only is indicated to the following node with an empty output file on
+  a separated execution in which either SeparationCondition or SeparateSourceID
+  is defined.</p>
+  <p class=tablebody><a name=pgfId-1007017></a>Note: This parameter requires
+  the use of the SeparationCondition parameter.</p>
+  <p class=tablebody>&nbsp;</p>
+  <div style='border-top:solid windowtext 1.0pt;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:none;padding:1.0pt 0in 1.0pt 0in'>
+  <p class=tablebody style='border:none;padding:0in'><a name=pgfId-1007044></a><b>Note:</b>
+  Empty output files are created with the EMPTYOUTPUT separation value and it
+  is possible that two output files with the same output file name are created
+  in a row.</p>
+  </div>
+  <p class=tablebody><a name=pgfId-1006841></a>&nbsp;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1006981></a>Possible values:</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1007007></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>0 - Do not create am empty file</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1007008></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>1 - Create an empty file</p>
+  <p class=tablebodybold><a name=pgfId-1007009></a>Default value:</p>
+  <p class=body><a name=pgfId-1006985></a>0</p>
+  <p class=tablebodybold><a name=pgfId-1006986></a>Example value:</p>
+  <p class=body><a name=pgfId-1006987></a>1<a name=pgfId-1007000></a></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006845></a>O</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006648></a>InputFileNameExtractionMask</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006650></a>Defines the regular expression
+  that is used to extract information from the original input file name for the
+  output file name.</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1006652></a>Possible values:</p>
+  <p class=tablebody><a name=pgfId-1006653></a>“([A-Za-z]+)([0-9]+)([A-Za-z]+)”
+  </p>
+  <p class=tablebody><a name=pgfId-1006654></a>(For a description of the variables,
+  see Description of variables in EventLink File Naming Library below.)</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006656></a>O</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006658></a>OutputFileNameCreationMask</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006660></a>Defines the output file name
+  creation pattern to be used for output files. Parts that were extracted from
+  the input file name with InputFileNameExtractionMask can be referenced here
+  by using the $&lt;digit&gt; notation.</p>
+  <p class=tablebody><a name=pgfId-1012494></a>&nbsp;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1006662></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1006663></a>“$2.&amp;FSIZE.&amp;CREATIONTIME(%d%m%Y).&amp;SEQ(4)”
+  </p>
+  <p class=tablebody><a name=pgfId-1006664></a>(For a description of the
+  variables, see Description of variables in EventLink File Naming Library
+  below.)</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006666></a>O</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006668></a>RealTimeDelivery</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006670></a>Defines whether a control record
+  is created containing the output record's length and offset in the output
+  file. The control records can be used by a real-time delivery node. </p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1006672></a>Possible values:</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006673></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>0 - Do not create real-time <br>
+       delivery control records</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006674></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>1 - Create real-time delivery <br>
+       control records</p>
+  <p class=tablebodybold><a name=pgfId-1006675></a>Default value:</p>
+  <p class=tablebody><a name=pgfId-1006676></a>0</p>
+  <p class=tablebodybold><a name=pgfId-1006677></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1006678></a>1</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006680></a>O</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006682></a>SeparationCondition</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006684></a>Defines whether input records
+  with different values for metadata or input field are written to separate
+  output files.</p>
+  <p class=tablebody><a name=pgfId-1012497></a>&nbsp;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1006686></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1006687></a>#source_id </p>
+  <p class=tablebody><a name=pgfId-1006688></a>(For a description of the
+  variables, see Description of variables for the output file separation.)</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006690></a>O</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1011709></a>TargetLinksConfigurationFileName</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1011711></a>Defines the name of the target
+  links configuration file. The file contains the matching definitions which will
+  separate input records to different output links according to the
+  SeparationCondition parameter value. If the TargetLinksConfigurationFileName
+  parameter is empty or file does not exist, this feature will not be enabled.</p>
+  <p class=tablebody>&nbsp;</p>
+  <div style='border-top:solid windowtext 1.0pt;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:none;padding:1.0pt 0in 1.0pt 0in'>
+  <p class=tablebody style='border:none;padding:0in'><a name=pgfId-1012095></a><b>Note:</b>
+  This parameter takes effect only if the SeparationCondition parameter is
+  defined, and requires the DefaultOutputFilesLink parameter to be defined.</p>
+  </div>
+  <p class=tablebody><a name=pgfId-1012500></a>&nbsp;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1011713></a>Example value:</p>
+  <p class=tablebody>outlinks_configuration.xml&nbsp;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1011715></a>O</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1011701></a>DefaultOutputFilesLink</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1011703></a>When the
+  TargetLinksConfigurationFileName parameter is defined, record which does not
+  match any key will write to this link.</p>
+  <p class=tablebody>&nbsp;</p>
+  <div style='border-top:solid windowtext 1.0pt;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:none;padding:1.0pt 0in 1.0pt 0in'>
+  <p class=tablebody style='border:none;padding:0in'><a name=pgfId-1012320></a><b>Note:</b>
+  This parameter is mandatory when TargetLinksConfigurationFileName is defined.
+  If TargetLinksConfigurationFileName is not defined, this parameter has no
+  effect.</p>
+  </div>
+  <p class=tablebody><a name=pgfId-1012503></a>&nbsp;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1011705></a>Example value:</p>
+  <p class=tablebody>DEFAULT_MFE_OUT&nbsp;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1011707></a>C</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006692></a>SeparateSourceID</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006694></a>Defines whether the input
+  records from different sources are written to separate output files. This
+  parameter has an effect only if the SeparationCondition parameter is not set.</p>
+  <p class=tablebody>&nbsp;</p>
+  <div style='border-top:solid windowtext 1.0pt;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:none;padding:1.0pt 0in 1.0pt 0in'>
+  <p class=tablebody style='border:none;padding:0in'><a name=pgfId-1006695></a><b>Note:</b>
+  This parameter is obsolete.</p>
+  </div>
+  <a name=pgfId-1012506></a></td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1006697></a>Possible values:</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006698></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>0 - Do not separate the input <br>
+       records</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006699></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>1 - Separate the input records</p>
+  <p class=tablebodybold><a name=pgfId-1006700></a>Default value:</p>
+  <p class=tablebody><a name=pgfId-1006701></a>0</p>
+  <p class=tablebodybold><a name=pgfId-1006702></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1006703></a>0</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006705></a>O</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006707></a>ResetInterval</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006709></a>Defines how often the file
+  sequence numbers in output file names are reset.</p>
+  <p class=tablebody>&nbsp;</p>
+  <div style='border-top:solid windowtext 1.0pt;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:none;padding:1.0pt 0in 1.0pt 0in'>
+  <p class=tablebody style='border:none;padding:0in'><a name=pgfId-1006710></a><b>Note:</b>
+  The sequence numbers encoded into the output data are not reset.</p>
+  </div>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1006712></a>Possible values:</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006713></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>0 - Time-based reset interval is <br>
+       not in use</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006714></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>1 - The sequence number is reset <br>
+       after an hour has passed from <br>
+       the point of the previous reset</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006715></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>2 - The sequence number is reset <br>
+       after a day has passed from <br>
+       the point of the previous reset</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006716></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>3 - The sequence number is reset <br>
+       after a week has passed from <br>
+       the poin of the previous reset</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006717></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>4 - The sequence number is reset <br>
+       every month</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006718></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>5 - The sequence number is reset <br>
+       when the node's schedule is <br>
+       run</p>
+  <p class=tablebody>&nbsp;</p>
+  <div style='border-top:solid windowtext 1.0pt;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:none;padding:1.0pt 0in 1.0pt 0in'>
+  <p class=tablebody style='border:none;padding:0in'><b>Note:</b> The use of
+  value 5 requires that the node scheduling has been enabled in the node
+  configuration package.</p>
+  </div>
+  <p class=tablebody>&nbsp;</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006719></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>6 - The sequence number is reset <br>
+       every midnight</p>
+  <p class=tablebodybold><a name=pgfId-1006720></a>Default value:</p>
+  <p class=tablebody><a name=pgfId-1006721></a>0</p>
+  <p class=tablebodybold><a name=pgfId-1006722></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1006723></a>0</p>
+  <p class=tablebody><a name=pgfId-1012509></a>&nbsp;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006725></a>O</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006727></a>RemoveFileTemplates</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006729></a>Defines if the memory structures
+  of the output files are deleted after the file has been sent.</p>
+  <p class=tablebody><a name=pgfId-1006730></a>Note: If the memory structures
+  are deleted, the file and record sequence numbers independent for the
+  separated output files are reset.</p>
+  <p class=tablebody>&nbsp;</p>
+  <div style='border-top:solid windowtext 1.0pt;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:none;padding:1.0pt 0in 1.0pt 0in'>
+  <p class=tablebody style='border:none;padding:0in'><a name=pgfId-1006731></a><b>Note:</b>
+  The parameter requires the use of the SeparationCondition parameter.</p>
+  </div>
+  <p class=tablebody>&nbsp;</p>
+  <div style='border-top:solid windowtext 1.0pt;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:none;padding:1.0pt 0in 1.0pt 0in'>
+  <p class=tablebody style='border:none;padding:0in'><a name=pgfId-1006732></a><b>Note:</b>
+  If the memory structures are deleted, the information about the previous file
+  name is also removed and it is possible that two output files with the same
+  output file names are created in a row.</p>
+  </div>
+  <p class=tablebody><a name=pgfId-1012512></a>&nbsp;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1006734></a>Possible values:</p>
+  <p class=tablebody><a name=pgfId-1006735></a>(For a description of the use of
+  values, see Description of variables for output file separation below.)</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006737></a><a name="0_pgfId-998419"></a><span style='font-family:
+  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>0 - Do not remove the structures <br>
+       of created output files </p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006739></a><a name="0_pgfId-998420"></a><span style='font-family:
+  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>1 - Remove the structures of <br>
+       created output files </p>
+  <p class=tablebodybold><a name=pgfId-1006740></a>Default value:</p>
+  <p class=tablebody><a name=pgfId-1006742></a>0<a name="0_pgfId-998421"></a></p>
+  <p class=tablebodybold><a name=pgfId-1006743></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1006745></a><a name="0_pgfId-998422"></a>1</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006747></a>C</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006749></a>RemoveFileTemplatesTimeout</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006751></a>Defines the period of time that
+  the output files memory structures are kept waiting for further files to be
+  created after a file has been sent.</p>
+  <p class=tablebody>&nbsp;</p>
+  <div style='border-top:solid windowtext 1.0pt;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:none;padding:1.0pt 0in 1.0pt 0in'>
+  <p class=tablebody style='border:none;padding:0in'><a name=pgfId-1006752></a><b>Note:</b>
+  The parameter requires the use of the SeparationCondition parameter.</p>
+  </div>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1006755></a><a name="0_pgfId-998364"></a>Possible
+  values:</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006757></a><a name="0_pgfId-998365"></a><span style='font-family:
+  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>0 - File structures are removed <br>
+       immediately after sending </p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006758></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>n - File structures are removed <br>
+       after configured time has <br>
+       passed from sending </p>
+  <p class=tablebody><a name=pgfId-1006759></a>&nbsp;</p>
+  <p class=tablebody>The default unit of the value is a second but the time
+  related specifications can also be given as:</p>
+  <p class=tablebody>&nbsp;</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006761></a><a name="0_pgfId-998362"></a><span style='font-family:
+  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>15m (where m stands for minutes)</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006763></a><a name="0_pgfId-998363"></a><span style='font-family:
+  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>15h (where h stands for hours)</p>
+  <p class=tablebodybold><a name=pgfId-1006764></a>Default value:</p>
+  <p class=tablebody><a name=pgfId-1006765></a>0</p>
+  <p class=tablebodybold><a name=pgfId-1006766></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1006767></a>15</p>
+  <p class=tablebody><a name=pgfId-1012522></a>&nbsp;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006769></a>C</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006771></a>SeparateSequenceNumbersInFileNames</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006773></a>Defines if the output file names
+  have common or independent sequence numbering.</p>
+  <p class=tablebody>&nbsp;</p>
+  <div style='border-top:solid windowtext 1.0pt;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:none;padding:1.0pt 0in 1.0pt 0in'>
+  <p class=tablebody style='border:none;padding:0in'><a name=pgfId-1006774></a><b>Note:</b>
+  The parameter requires the use of the SeparationCondition parameter.</p>
+  </div>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1006776></a>Possible values:</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006777></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>0 - All output files share a <br>
+       common sequence number in <br>
+       file names</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006778></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>1 - Each output file has an <br>
+       independent sequence <br>
+       number for file names</p>
+  <p class=tablebodybold><a name=pgfId-1006779></a>Default value:</p>
+  <p class=tablebody><a name=pgfId-1006780></a>0</p>
+  <p class=tablebodybold><a name=pgfId-1006781></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1006782></a>1</p>
+  <p class=tablebody><a name=pgfId-1012525></a>&nbsp;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006784></a>C</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006786></a>SeparateSequenceNumbersInOutput</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006788></a>Defines if the file and record
+  sequence counters in encoded output data have common or independent sequence
+  numbering.</p>
+  <p class=tablebody>&nbsp;</p>
+  <div style='border-top:solid windowtext 1.0pt;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:none;padding:1.0pt 0in 1.0pt 0in'>
+  <p class=tablebody style='border:none;padding:0in'><a name=pgfId-1006789></a><b>Note:</b>
+  The parameter requires the use of the SeparationCondition parameter.</p>
+  </div>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1006791></a>Possible values: </p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006792></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>0 - All output files share a <br>
+      common sequence numbers <br>
+      both in file and record <br>
+      sequence counters</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006793></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>1- Each output file has an <br>
+      independent sequence number <br>
+      for file and record sequence <br>
+      numbers</p>
+  <p class=tablebodybold><a name=pgfId-1006794></a>Default value: </p>
+  <p class=tablebody><a name=pgfId-1006795></a>1</p>
+  <p class=tablebodybold><a name=pgfId-1006796></a>Example value: </p>
+  <p class=tablebody><a name=pgfId-1006797></a>1</p>
+  <p class=tablebody><a name=pgfId-1012528></a>&nbsp;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006799></a>C</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006801></a>CloseFilesAtSchedule</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006803></a>Defines if the output files can
+  be closed when the node’s schedule is run. </p>
+  <p class=tablebody><a name=pgfId-1006804></a>&nbsp;</p>
+  <p class=tablebody><a name=pgfId-1006805></a>&nbsp;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1006807></a>Possible values: </p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006808></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>0 - The output files are not closed <br>
+       when the node’s schedule is <br>
+       run</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006809></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>1 - The output files are closed <br>
+       when the node’s schedule is <br>
+       run</p>
+  <p class=tablebodybold><a name=pgfId-1006810></a>Default value:</p>
+  <p class=tablebody><a name=pgfId-1006811></a>1</p>
+  <p class=tablebodybold><a name=pgfId-1006812></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1006813></a>0</p>
+  <p class=tablebody><a name=pgfId-1012531></a>&nbsp;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006815></a>O</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006817></a>UniqueOutputFileNames</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006819></a>Defines whether output files
+  have unique file names.</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1006821></a>Possible values:</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><a
+  name=pgfId-1006822></a><span style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>0 - The newly generated file <br>
+       names are used without any <br>
+       validation regardless of <br>
+       whether the generated file <br>
+       name is the same as the <br>
+       previous generated file name.</p>
+  <p class=tablebody style='margin-left:.5in'>&nbsp;</p>
+  <div style='border-top:solid windowtext 1.0pt;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:none;padding:1.0pt 0in 1.0pt 0in'>
+  <p class=tablebody style='border:none;padding:0in'><b>Note:</b> The use of
+  non-unique file names may cause some file overwrites on target system.</p>
+  </div>
+  <p class=tablebody style='margin-left:.5in'><a name=pgfId-1006823></a>&nbsp;</p>
+  <p class=tablebody style='margin-left:.5in;text-indent:-.25in'><span
+  style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span dir=LTR></span>1 - Generated file names are <br>
+       compared to the previous file <br>
+       name and used only if the <br>
+       newly generated file name is <br>
+       different from the previous <br>
+       one. If a newly generated file <br>
+       name is the same as the <br>
+       previous file name, a number<br>
+       of retry attempts is made and <br>
+       the execution aborted if <br>
+       unique file name cannot be <br>
+       achieved.</p>
+  <p class=tablebodybold><a name=pgfId-1006824></a>Default value:</p>
+  <p class=tablebody><a name=pgfId-1006825></a>1</p>
+  <p class=tablebodybold><a name=pgfId-1006826></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1006827></a>1</p>
+  <p class=tablebody><a name=pgfId-1012534></a>&nbsp;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1006829></a>O</p>
+  </td>
+ </tr>
+</table>
+
+<h4><a name=pgfId-998465></a>EventLink Multi-format Encoder Node scheduling</h4>
+
+<p class=body><a name=pgfId-999784></a>EventLink Multi-format Encoder Node can
+be configured to close output files when its schedule is run. In the scheduled
+file closing, the output files are closed unless they are newer than the age
+defined with the MinAgeOfFile node parameter. Empty output files are created
+only if the CreateEmptyOutputFiles parameter is set on. EventLink Multi-format
+Encoder Node can also be configured to reset file sequence numbers in output
+file names when its schedule is run.</p>
+
+</div>
+
+<div>
+
+<h4><a name=pgfId-1002339></a>Description of variables in EventLink File Naming
+Library</h4>
+
+<p class=body><a name=pgfId-1002340></a>Table 2 lists the variables that can be
+used with the OutputFileNameCreationMask parameter to form the file name. The
+variable is replaced with the value specified by the variable. Use the
+variables listed in Table 2 with input record fields, unless otherwise stated.
+You may also use the SMIN(), SMAX(), FIRST() and LAST() variables with the
+following metadata fields:</p>
+
+<p class=body><a name=pgfId-1000060></a>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;vertical-align:
+baseline'><a name=pgfId-1000064></a><span style='font-size:10.0pt;font-family:
+Symbol;color:black'>·</span><span style='font-size:7.0pt;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='color:black'>#input_id </span></p>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;vertical-align:
+baseline'><a name=pgfId-1000065></a><span style='font-size:10.0pt;font-family:
+Symbol;color:black'>·</span><span style='font-size:7.0pt;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='color:black'>#output_id </span></p>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;vertical-align:
+baseline'><a name=pgfId-1000066></a><span style='font-size:10.0pt;font-family:
+Symbol;color:black'>·</span><span style='font-size:7.0pt;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='color:black'>#input_type </span></p>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;vertical-align:
+baseline'><a name=pgfId-1000067></a><span style='font-size:10.0pt;font-family:
+Symbol;color:black'>·</span><span style='font-size:7.0pt;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='color:black'>#output_type </span></p>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;vertical-align:
+baseline'><a name=pgfId-1000068></a><span style='font-size:10.0pt;font-family:
+Symbol;color:black'>·</span><span style='font-size:7.0pt;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='color:black'>#addkey </span></p>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;vertical-align:
+baseline'><a name=pgfId-1000069></a><span style='font-size:10.0pt;font-family:
+Symbol;color:black'>·</span><span style='font-size:7.0pt;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='color:black'>#source_id </span></p>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;vertical-align:
+baseline'><a name=pgfId-1000062></a><span style='font-size:10.0pt;font-family:
+Symbol;color:black'>·</span><span style='font-size:7.0pt;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='color:black'>#filename </span></p>
+
+<p class=body><a name=pgfId-1000162></a>The rest of the names starting with or
+without the hash (<em><span style='font-family:"Verdana",sans-serif'> #</span></em>
+) character at the beginning of the name are handled as field names.</p>
+
+<p class=body><a name=pgfId-1000061></a>&nbsp;</p>
+
+<div>
+
+<h6 style='margin:0in;margin-bottom:.0001pt;vertical-align:baseline'><a
+name=pgfId-1002075></a><span style='font-size:10.0pt;color:black'>Table 2.
+Variables for the OutputFileNameCreationMask parameter</span></h6>
+
+<table class=MsoNormalTable border=1 cellpadding=0>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1001945></a>Variable</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1001947></a>Description</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1001949></a>Values</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1001951></a>&amp;SEQ(*)</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1001953></a>Inserts a running sequence number
+  to the file name. The number in brackets defines the number of digits used in
+  the sequence number. For example, &amp;SEQ(3) defines that the sequence
+  number is formed with three (3) digits and thus the sequence number is reset
+  after 999. The sequence number is right padded with zeros to fill the number
+  count. An asterisk in parentheses (*) is used to define an endless sequence
+  (though the system always limits the maximum value) where the sequence will
+  grow as long as possible. With asterisk there is no padding and the sequence
+  will be reset according to the reset interval.</p>
+  <p class=tablebody> </p>
+  <div style='border-top:solid windowtext 1.0pt;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:none;padding:1.0pt 0in 1.0pt 0in'>
+  <p class=tablebody style='border:none;padding:0in'><a name=pgfId-1001954></a><b>Note:</b>
+  The sequence number is always reset according to the ResetInterval parameter,
+  if it is defined to set time-based reset interval.</p>
+  </div>
+  <p class=tablebody><a name=pgfId-1012537></a>&nbsp;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1001956></a>Value range:</p>
+  <p class=tablebody><a name=pgfId-1001957></a>The maximum sequence width is 19
+  digits.</p>
+  <p class=tablebodybold><a name=pgfId-1001960></a><a name="OLE_LINK2"></a><a
+  name="OLE_LINK1"></a>Example values:</p>
+  <p class=tablebody><a name=pgfId-1002228></a>&amp;SEQ(3)</p>
+  <p class=tablebodybold><a name=pgfId-1002229></a>and</p>
+  <p class=tablebody><a name=pgfId-1001962></a>&amp;SEQ(8)</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1001964></a>&amp;SUM(field)</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1001966></a>The sum of specified fields.
+  Applies to integer type of fields only.</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1001968></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1001969></a>&amp;SUM(DURATION)</p>
+  <p class=tablebody><a name=pgfId-1012540></a>&nbsp;</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1001971></a>&amp;MIN(field)</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1001973></a>The smallest value of the
+  defined field as a 64-bit integer.</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1001975></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1001976></a>&amp;MIN(ENDTIME)</p>
+  <p class=tablebody><a name=pgfId-1012543></a>&nbsp;</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1001978></a>&amp;MAX(field)</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1001980></a>The largest value of the defined
+  field as a 64-bit integer.</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1001982></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1001983></a>&amp;MAX(ENDTIME)</p>
+  <p class=tablebody><a name=pgfId-1012546></a>&nbsp;</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1001985></a>&amp;SMIN(field)<br>
+  or<br>
+  &amp;SMIN(metafield)</p>
+  <p class=tablebody><a name=pgfId-1012549></a>&nbsp;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1001987></a>The smallest value of the
+  defined field as a string.</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1001989></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1001990></a>&amp;SMIN(ID)</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1001992></a>&amp;SMAX(field)</p>
+  <p class=tablebody><a name=pgfId-1001993></a>or<br>
+  &amp;SMAX(metafield)</p>
+  <p class=tablebody><a name=pgfId-1012552></a>&nbsp;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1001995></a>The largest value of the defined
+  field as a string.</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1001997></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1001998></a>&amp;SMAX(ID)</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1002000></a>&amp;FIRST(field)</p>
+  <p class=tablebody><a name=pgfId-1002001></a>or<br>
+  &amp;FIRST(metafield)</p>
+  <p class=tablebody><a name=pgfId-1012555></a>&nbsp;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1002003></a>The first value of the defined
+  field.</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1002005></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1002006></a>&amp;FIRST(#input_id)</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1002008></a>&amp;LAST(field)</p>
+  <p class=tablebody><a name=pgfId-1002009></a>or<br>
+  &amp;LAST(metafield)</p>
+  <p class=tablebody><a name=pgfId-1012558></a>&nbsp;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1002011></a>The last value of the defined
+  field.</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1002013></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1002014></a>&amp;LAST(#input_id)</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1002920></a>&amp;FSIZE</p>
+  <p class=tablebody><a name=pgfId-1002921></a>or</p>
+  <p class=tablebody><a name=pgfId-1002016></a>&amp;FSIZE(length)</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1002934></a>The file size of the output
+  file.</p>
+  <p class=tablebody><a name=pgfId-1002935></a>Optional length specification
+  can be used to zero pad the value to the given length. A positive integer
+  defines the destination length of a padded value. The length value 0 produces
+  an unpadded value.</p>
+  <p class=tablebody>&nbsp;</p>
+  <div style='border-top:solid windowtext 1.0pt;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:none;padding:1.0pt 0in 1.0pt 0in'>
+  <p class=tablebody style='border:none;padding:0in'><a name=pgfId-1002018></a><b>Note:</b>
+  If the value is defined to be padded and the resulting value is wider than
+  the space defined for it, the erroneous value is replaced by the ‘_’
+  character in the output file name.</p>
+  </div>
+  <p class=tablebody><a name=pgfId-1012561></a>&nbsp;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1002948></a><b>Example values:</b></p>
+  <p class=tablebody><a name=pgfId-1002949></a>&amp;FSIZE</p>
+  <p class=tablebody><a name=pgfId-1002950></a>and</p>
+  <p class=tablebody><a name=pgfId-1002021></a>&amp;FSIZE(7)</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1002899></a>&amp;COUNT(type)</p>
+  <p class=tablebody><a name=pgfId-1002900></a>or</p>
+  <p class=tablebody><a name=pgfId-1002023></a>&amp;COUNT(type,length)</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1002885></a>The count of the defined type of
+  records in the output file. With an asterisk (*), the count of all records
+  despite the type.</p>
+  <p class=tablebody><a name=pgfId-1002886></a>Optional length specification can
+  be used to zero pad the value to the given length. A positive integer defines
+  the destination length of a padded value. The length value 0 produces an
+  unpadded value.</p>
+  <p class=tablebody>&nbsp;</p>
+  <div style='border-top:solid windowtext 1.0pt;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:none;padding:1.0pt 0in 1.0pt 0in'>
+  <p class=tablebody style='border:none;padding:0in'><a name=pgfId-1002025></a><b>Note:</b>
+  If the value is defined to be padded and the resulting value is wider than
+  the space defined for it, the erroneous value is replaced by the ‘_’
+  character in the output file name.</p>
+  </div>
+  <p class=tablebody><a name=pgfId-1012571></a>&nbsp;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1002911></a><b>Example values:</b></p>
+  <p class=tablebody><a name=pgfId-1002912></a>&amp;COUNT(MTC)</p>
+  <p class=tablebody><a name=pgfId-1002913></a>and</p>
+  <p class=tablebody><a name=pgfId-1002914></a>&amp;COUNT(MTC,5)</p>
+  <p class=tablebody><a name=pgfId-1002915></a>and</p>
+  <p class=tablebody><a name=pgfId-1002916></a>COUNT(*)</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1002030></a>&amp;SOURCEID</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1002032></a>The source ID of the last record
+  that was handled by Node Base.</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1002034></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1002035></a>&amp;SOURCEID<a
+  name=pgfId-1012574></a></p>
+  <p class=tablebody>&nbsp;</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1002037></a>&amp;SEPARATIONVALUE</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1002039></a>The value that caused the record
+  separation to the output file.</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1002041></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1002042></a>&amp;SEPARATIONVALUE</p>
+  <p class=tablebody><a name=pgfId-1012577></a>&nbsp;</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1002044></a>&amp;EPOCH</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1002046></a>The current time in epoch
+  (seconds since January 1st 1970).</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1002048></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1002049></a>&amp;EPOCH</p>
+  <p class=tablebody><a name=pgfId-1012580></a>&nbsp;</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1002051></a>&amp;CREATIONTIME(field)</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1002053></a>Creation time in wanted format.
+  The field is given in the same format as a date string. Empty field string
+  forces the result in epoch.</p>
+  <p class=tablebody><a name=pgfId-1012583></a>&nbsp;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1002055></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1002056></a>&amp;CREATIONTIME(%d%m%Y)</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1002058></a>&amp;DELIVERYTIME(field)</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1002060></a>Delivery time in wanted format.
+  The field is given in the same format as a date string. Empty field string
+  forces the result in epoch.</p>
+  <p class=tablebody><a name=pgfId-1012586></a>&nbsp;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1002062></a>Example value:</p>
+  <p class=tablebody><a name=pgfId-1002063></a>&amp;DELIVERYTIME()</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1002065></a>$&lt;digit&gt;</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebody><a name=pgfId-1002067></a>This variable is replaced by
+  &lt;digit&gt;th match of the regular expression run against the original file
+  name. For example, $2 would be replaced by the second captured match of the
+  regular expression. The maximum of eleven (11) matches can be defined.</p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=tablebodybold><a name=pgfId-1002069></a>Value range:</p>
+  <p class=tablebody><a name=pgfId-1002070></a>0-10</p>
+  <p class=tablebodybold><a name=pgfId-1002071></a>Example values:</p>
+  <p class=tablebody><a name=pgfId-1002305></a>$2</p>
+  <p class=tablebodybold><a name=pgfId-1002306></a>and</p>
+  <p class=tablebody><a name=pgfId-1002307></a>$5</p>
+  <p class=tablebodybold><a name=pgfId-1002308></a>and</p>
+  <p class=tablebody><a name=pgfId-1002309></a>$1</p>
+  <p class=tablebody><a name=pgfId-1002073></a>Index 0 identifies the substring
+  that corresponds to the entire regular expression. </p>
+  <p class=tablebody><a name=pgfId-1002074></a>(For information on the syntax
+  of regular expression, see Regular expression syntax below.)</p>
+  <p class=tablebody><a name=pgfId-1012589></a>&nbsp;</p>
+  </td>
+ </tr>
+</table>
+
+<p class=body><a name=pgfId-1002076></a><b>Note:</b> If the
+OutputFileNameCreationMask parameter contains multiple variables &amp;SUM,
+&amp;MIN, &amp;MAX, &amp;SMIN, &amp;SMAX, &amp;FIRST and &amp;LAST with the
+same input or metadata field, the order of these variables must not be changed
+in the OutputFileNameCreationMask while EventLink Multi-Format Encoder Node has
+output files that have not yet been closed.</p>
+
+<p class=body><a name=pgfId-998950></a>% -character is used to define a date
+string. The date syntax follows the date function syntax (see the Unix manual
+‘man date’ or ‘man strftime’).</p>
+
+<p class=body><a name=pgfId-998952></a>If the file naming configuration (for
+example, timestamp-based file naming) causes EventLink Multi-format Encoder
+Node to create two identical file names in a row, it pauses until the new file
+name is unique. If 60 seconds have passed and a unique file name has not been
+successfully created, EventLink Multi-format Encoder Node aborts the processing
+with an error message. </p>
+
+<p class=body><a name=pgfId-998954></a>An example of output file name creation
+is presented below. In this example the original input file name is
+‘A031126220638AMA’. The InputFileNameExtractionMask and
+OutputFileNameCreationMask parameters have the values given as the examples of
+these configuration parameters.</p>
+
+<p class=body><a name=pgfId-998956></a>InputFileNameExtractionMask
+‘([A-Za-z]+)([0-9]+)([A-Za-z]+)’ is a regular expression that captures pieces
+of the original file name (subpatterns are defined with parenthesis). In this
+case regular expression matches the file name in three parts and stores the
+match results into variables that can be used to form the final file name. The
+results are stored into $n variable, where n is the nth match. A maximum of ten
+enclosed regular expressions are allowed (for more information, see ‘man
+regexec’ and ‘man regexp(5)’).</p>
+
+<p class=body><a name=pgfId-998958></a>OutputFileNameCreationMask
+‘$2.&amp;FSIZE.&amp;CREATIONTIME(%d%m%Y).&amp;SEQ(4)’ defines the output file
+name format. $2 is the second captured match of the regular expression run
+against the original file name, which in this case it would be the digit string
+‘031126220638’. The next item is ‘.’ character followed by the file size in
+bytes. The next ‘.’ character is followed by a timestamp in DDMMYYYY format.
+After the last ‘.’ character there is a running sequence number that consists
+of four (4) digits, thus the sequence number will be between 0001 and 9999. As
+a result, the following output file name is created (assuming that this is the
+24th time an output file name is requested):</p>
+
+<p class=body><a name=pgfId-998945></a>031126220638.4096.23032004.0024</p>
+
+<p class=body><a name=pgfId-998965></a>Everything that cannot be interpreted as
+a literal, regular expression capture match ($1,$2,$3,...) or a date specific
+syntax is inserted into the file name as such.</p>
+
+</div>
+
+</div>
+
+<div>
+
+<h4><a name=pgfId-998946></a>Regular expression syntax</h4>
+
+<p class=body><a name=pgfId-998823></a>(Copyright 1991 The Regents of the
+University of California. All rights reserved.)</p>
+
+<p class=body><a name=pgfId-998621></a>A regular expression is zero or more
+branches, separated by ’|’. It matches anything that matches one of the
+branches.</p>
+
+<p class=body><a name=pgfId-998622></a>A branch is zero or more pieces,
+concatenated. It matches a match for the first, followed by a match for the
+second, etc.</p>
+
+<p class=body><a name=pgfId-998623></a>A piece is an atom possibly followed by
+’*’,’+’, or ’?’. An atom followed by ’*’ matches a sequence of 0 or more
+matches of the atom. An atom followed by ’+’ matches a sequence of 1 or more
+matches of the atom. An atom followed by ’?’ matches a match of the atom, or
+the null string.</p>
+
+<p class=body><a name=pgfId-998624></a>An atom is a regular expression in
+parentheses (matching a match for the regular expression), a range (see below),
+’. ’ (matching any single character), ’^’ (matching the null string at the
+beginning of the input string), ’$’ (matching the null string at the end of the
+input string), a ’\’ followed by a single character (matching that character),
+or a single character with no other significance (matching that character).</p>
+
+<p class=body><a name=pgfId-998625></a>A range is a sequence of characters
+enclosed in ’[]’. It normally matches any single character from the sequence. If
+the sequence begins with ’^’, it matches any single character not from the rest
+of the sequence. If two characters in the sequence are separated by ’-’, this
+is shorthand for the full list of ASCII characters between them (for example,
+’[0-9]’ matches any decimal digit). To include a literal ’]’ in the sequence,
+make it the first character (following a possible ’^’). To include a literal
+’-’, make it the first or the last character.</p>
+
+</div>
+
+<div>
+
+<h4><a name=pgfId-998626></a>Date and time formatting</h4>
+
+<p class=body><a name=pgfId-998627></a>The time formatting function creates a
+time string according to specification. A conversion specification consists of
+a '%' (percent) character and one or two terminating conversion characters that
+determine the conversion specification's behaviour. All ordinary characters are
+copied unchanged.</p>
+
+<p class=body><a name=pgfId-998628></a>%% Same as %.<br>
+%a Locale's abbreviated weekday name. <br>
+%A Locale's full weekday name. <br>
+%b Locale's abbreviated month name.<br>
+%B Locale's full month name. <br>
+%c Locale's appropriate date and time representation. <br>
+<br>
+Standard-conforming<br>
+<br>
+%C Century number (the year divided by 100 and truncated to an integer as a
+decimal number [1,99]); single digits are preceded by 0. <br>
+%d Day of month [1,31]; single digits are preceded by 0.<br>
+%D Date as %m/%d/%y.<br>
+%e Day of month [1,31]; single digits are preceded by a space.<br>
+%g Week-based year within century [00,99].<br>
+%G Week-based year, including the century [0000,9999].<br>
+%h Locale's abbreviated month name.<br>
+%H Hour (24-hour clock) [0,23]; single digits are preceded by 0.<br>
+%I Hour (12-hour clock) [1,12]; single digits are preceded by 0.<br>
+%j Day number of year [1,366]; single digits are preceded by 0.<br>
+%k Hour (24-hour clock) [0,23]; single digits are preceded by a blank.<br>
+%l Hour (12-hour clock) [1,12]; single digits are preceded by a blank.<br>
+%m Month number [1,12]; single digits are preceded by 0.<br>
+%M Minute [00,59]; leading 0 is permitted but not required.<br>
+%n Insert a NEWLINE.<br>
+%p Locale's equivalent of either a.m. or p.m.<br>
+%r Appropriate time representation in 12-hour clock format with %p.<br>
+%R Time as %H:%M.<br>
+%S Seconds [00,61]; the range of values is [00,61] rather than [00,59] to allow
+for the occasional leap second and even more occasional double leap second.<br>
+%t Insert a TAB.<br>
+%T Time as %H:%M:%S.<br>
+%u Weekday as a decimal number [1,7], with 1 representing Monday.<br>
+%U Week number of year as a decimal number [00,53], with Sunday as the first
+day of week 1.<br>
+%V The ISO 8601 week number as a decimal number [01,53]. In the ISO 8601
+week-based system, weeks begin on a Monday and week 1 of the year is the week
+that includes both January 4th and the first Thursday of the year. If the first
+Monday of January is the 2nd, 3rd, or 4th, the preceding days are part of the
+last week of the preceding year.<br>
+%w Weekday as a decimal number [0,6], with 0 representing Sunday.<br>
+%W Week number of year as a decimal number [00,53], with Monday as the first
+day of week 1.<br>
+%x Locale's appropriate date representation.<br>
+%X Locale's appropriate time representation.<br>
+%y Year within century [00,99].<br>
+%Y Year, including the century (for example 2007).<br>
+%Z Time zone name or abbreviation, or no bytes if no time zone information
+exists.</p>
+
+</div>
+
+<div>
+
+<h4><a name=pgfId-998629></a>Description of variables for output file
+separation</h4>
+
+<p class=body><a name=pgfId-998630></a>The input records can be separated to
+different output files according to the content of an input field or a metadata
+field. The separated output files will have individual counter management,
+except the file sequence counters, and the files are closed independently from
+each other. The output description is common for all output files.</p>
+
+<p class=body><a name=pgfId-998631></a>The SeparationCondition parameter can
+have as a value the following metadata fields that separate input records to
+output files:</p>
+
+<p class=body><a name=pgfId-998632></a>#input_id <br>
+#output_id <br>
+#input_type <br>
+#output_type <br>
+#addkey <br>
+#source_id <br>
+#filename </p>
+
+<p class=body><a name=pgfId-998633></a>Any other string value for the
+SeparationCondition parameter is interpreted as the name of an input field. The
+values of that input field are used to separate the input records to output
+files.</p>
+
+<p class=body><a name=pgfId-998634></a>If the value for the SeparationCondition
+parameter is changed while<em><span style='font-family:"Verdana",sans-serif'>
+EventLink</span></em> Multi-format Encoder Node is processing data or it is
+stopped while it has unfinished output files in internal storage, the
+unfinished output files are flushed before the new value for the
+SeparationCondition parameter is taken into use.</p>
+
+<p class=body><a name=pgfId-1000317></a>If the SeparationCondition parameter
+has an indefinite number of values, EventLink Multi-format Encoder Node
+eventually exhausts all the resources in the executing host. The resources
+reserved by separated output files can be freed by using the
+RemoveFileTemplates and RemoveFileTemplatesTimeout parameters.</p>
+
+</div>
+
+<div>
+
+<h4><a name=pgfId-1012592></a>Writing records to different output links</h4>
+
+<p class=body><a name=pgfId-1012641></a>Input records can be separated to different
+output links according to configuration XML provided in the
+TargetLinksConfigurationFileName parameter.</p>
+
+<p class=body><a name=pgfId-1012677></a>Following is an example configuration
+file:</p>
+
+<p class=MsoNormal><a name=pgfId-1012714></a><span style='font-size:10.0pt;
+font-family:"Courier New"'>&lt;outlinks&gt;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:"Courier New"'>&nbsp;
+&lt;outlink name=&quot;MFE_OUT_1&quot;&gt;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+&lt;keys&gt;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;key&gt;SDK_SOURCE_1&lt;/key&gt;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;key&gt;SDK_SOURCE_2&lt;/key&gt;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;key&gt;SDK_A*&lt;/key&gt;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+&lt;/keys&gt;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:"Courier New"'>&nbsp;
+&lt;/outlink&gt;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:"Courier New"'>&nbsp;
+&lt;outlink name=&quot;MFE_OUT_2&quot;&gt;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+&lt;keys&gt;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;key&gt;SDK_SOURCE_3&lt;/key&gt;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;key&gt;SDK_SOURCE_4&lt;/key&gt;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;key&gt;&lt;/key&gt;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;
+&lt;/keys&gt;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:"Courier New"'>&nbsp;
+&lt;/outlink&gt;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:"Courier New"'>&lt;/outlinks&gt;</span></p>
+
+<p class=body>&nbsp;</p>
+
+<p class=body><a name=pgfId-1012799></a>The example configuration file has two
+output links - <span style='font-family:"Courier New"'>MFE_OUT_1</span> and <span
+style='font-family:"Courier New"'>MFE_OUT_2</span>. A record's
+SeparationCondition parameter value will be used for matching output link in
+this configuration. </p>
+
+<p class=body><a name=pgfId-1012826></a>For example, if the value is <span
+style='font-family:"Courier New"'>SDK_SOURCE_1</span> or <span
+style='font-family:"Courier New"'>SDK_SOURCE_2</span>, the record will be
+written to link <span style='font-family:"Courier New"'>MFE_OUT_1</span>. If
+the value is <span style='font-family:"Courier New"'>SDK_SOURCE_3</span> or <span
+style='font-family:"Courier New"'>SDK_SOURCE_4</span>, then the record will be
+written to link <span style='font-family:"Courier New"'>MFE_OUT_2</span>. If
+the value is empty, it will match the rule <span style='font-family:"Courier New"'>&quot;&lt;key&gt;&lt;/key&gt;&quot;</span>,
+and the record will be written to link <span style='font-family:"Courier New"'>MFE_OUT_2</span>.</p>
+
+<p class=body><a name=pgfId-1012833></a>A key can allow one wildcard character
+(<span style='font-family:"Courier New"'>*</span>) placed at the last position
+of the key. No multiple wildcards allowed, and the position of the wildcard
+must be the last. For example, if the key pattern is <span style='font-family:
+"Courier New"'>&lt;key&gt;SDK_A*&lt;/key&gt;</span>, values like <b><span
+style='font-family:"Courier New"'>SDK_A</span></b>, <b><span style='font-family:
+"Courier New"'>SDK_A</span></b><span style='font-family:"Courier New"'>201511201533</span>,
+and <b><span style='font-family:"Courier New"'>SDK_A</span></b><span
+style='font-family:"Courier New"'>PLUS</span> will match, and the records will
+be written to the associated output link (that is <span style='font-family:
+"Courier New"'>MFE_OUT_1</span> based on the above example configuration).</p>
+
+<p class=body><a name=pgfId-1012840></a>If a value has no matches, the record
+will be written to the link defined in the DefaultOutputFilesLink parameter.</p>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

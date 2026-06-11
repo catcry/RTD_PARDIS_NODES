@@ -1,0 +1,117 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989908513342
+F callingNumberType 0
+F calledNumber 982155393790
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 8
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 1
+F isRoaming 0
+F eventStartTimestamp 20241027160648
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 271975371
+F cost 87850
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046413225
+F @filename RTD_OCSPOST-RECLIVE-61261-20241027195518.csv
+B profiles
+B subscriber
+B extensions
+F version 1729414689346224128
+B actions
+B Age_45_60-6314e334
+F sentTime 1725469667549
+.
+B NDU_MASS_ACTION-d6258716
+F sentTime 1684916523569
+.
+B Action_L2_new_60_min-80374415
+F sentTime 1729414689344
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1689139294474
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027005409
+F gender Male
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0.33
+F industry Others
+F sub_balance 275386966
+F avg_offnet_voice_min 473250.12
+F vas_cost_to_arpu 777202.58
+F is_multi_sim_phone Yes
+F avg_nmb_sms_sent 1261762.4
+F churn_propensity Low
+F avg_non_business_voice_usage 14442.33
+F is_smart_phone_user No
+F onnet_to_offnet_rev 1.02
+F avg_business_voice_usage 17361.5
+F model SM-J111F/DS
+F arpu 777202.58
+F subscriber_segment SHVC
+F brand Samsung Korea
+F tenure 97
+F portout_propensity High
+F peak_type_data peak
+F os Android
+F enterprise_national_id 4431011072
+F avg_daily_2g_data_usage 0
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 17
+F avg_monthly_topup_cost 166666.67
+F roam_int_rev_to_arpu 595698
+F avg_monthly_topup_nmb 0.17
+F payment_type prepaid
+F avg_onnet_voice_min 447.96
+F avg_daily_4g_data_usage 503
+F avg_non_business_data_usage 2032.21
+F avg_data_usage 4469960650
+F provience یزد
+F avg_business_data_usage 1264
+F age 626
+F status Disconnected
+.
+F profileId 220942897
+F id 989908513342
+.
+B target
+F errorCode 100
+F errorMessage Profile for subscriber '982155393790' was not found
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 210 L1_new_60_min
+F 243 BALANCE_100_L1-Topup_NID
+F 212 new_30_min
+F 244 BALANCE_50_L1-Topup_NID
+F 77 L1_balance_LT_20000R
+F 88 L1_5T10_arpu
+F 213 roaming
+F 89 L2_5T10_arpu
+F 78 L2_balance_LT_20000R
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 211
+F DISCARD_REASON Action Action_L2_new_60_min-80374415 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046413435
+.

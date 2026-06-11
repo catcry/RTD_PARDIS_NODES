@@ -1,0 +1,328 @@
+ADAPTER100
+W
+Aggregated message %s %s times.
+
+LS001
+E
+Unable to find configuration parameter '%s'.
+
+LS002
+E
+Unable to open shared memory id directory '%s' - '%s'.
+
+LS003
+E
+Too many servers found in the system (%d allowed).
+
+LS004
+E
+Unable to find lookup server shared memory id files (.shmid) from directory '%s'.
+
+LS005
+E
+Could not allocate memory. %s
+
+LS006
+E
+Unable to open shared memory id file '%s' - '%s'.
+
+LS007
+E
+Unable to attach to server shared memory id '%d' (%s).
+
+LS008
+E
+Unable to detach from server shared memory (%s).
+
+LS009
+E
+Unknown server '%s'.
+
+LS010
+E
+Unable to find table '%s' from server '%s'.
+
+LS011
+E
+Server index %d found from tablenumber must be between 0 and %d.
+
+LS012
+E
+Table index %d found from tablenumber must be between 0 and %ld.
+
+LS013
+E
+Unable to attach to shared memory segment of table '%s' - '%s'.
+
+LS014
+E
+Invalid search string: %s.
+
+LS015
+E
+Server is not available '%s'.
+
+LS016
+E
+Unable to reinitialize server '%s'.
+
+NODEBASE001
+E
+Could not open file %s (mode '%s') : %s
+The file could not be opened. If the node has been run from the command line for testing purposes, check and correct it. The file name and reason provided in the message instruct where to locate the problem. In all other cases, contact the vendor.
+
+NODEBASE002
+E
+Unable to read file %s: %s
+The file could not be read. If the node has been run from the command line for testing purposes, check and correct it. The file name and reason provided in the message instruct where to locate the problem. In all other cases, contact the vendor.
+
+NODEBASE003
+E
+File %s contains broken records
+If the node has been run from the command line for testing purposes, fetch it from the discarded files directory and correct it. The file name provided in the message instructs where to locate the problem. In all other cases, contact the vendor.
+
+NODEBASE004
+E
+Unable to allocate memory
+There is not enough free memory available in the machine.
+
+NODEBASE005
+W
+Schedule failed, next retry at %02d:%02d
+Scheduled execution failed but is retried.
+
+NODEBASE006
+W
+Schedule failed
+Scheduled execution failed and will not be retried.
+
+NODEBASE007
+W
+Schedule was not run on time
+Scheduled execution was delayed. One or more scheduled executions were not run.
+
+NODEBASE008
+E
+Node application error: unknown output link '%s'
+The output link has not been defined in the process stream configuration. Check and correct the process stream configuration. If the rule set configuration is faulty, contact the vendor.
+
+NODEBASE009
+E
+Unable to write to file %s: %s
+It was not possible to write to the file. If the node has been run from the command line for testing purposes, check and correct it. The file name and reason provided in the message instruct where to locate the problem. In all other cases, contact the vendor.
+
+NODEBASE010
+E
+Unable to rename file %s to %s: %s
+It was not possible to rename the file. If the node has been run from the command line for testing purposes, check and correct it. The file name and reason provided in the message instruct where to locate the problem. In all other cases, contact the vendor.
+
+NODEBASE011
+E
+Syntax error in configuration file %s line %d, %s does not contain storage name
+The configuration for output link or rejected data storage is incorrect. If the node has been run from the command line for testing purposes, check and correct the configuration. In all other cases, contact the vendor.
+
+NODEBASE012
+E
+Mandatory parameter %s is not defined in configuration file %s
+The configuration file does not contain a mandatory parameter. If the node has been run from the command line for testing purposes, check and correct the configuration. In all other cases, contact the vendor.
+
+NODEBASE013
+E
+Unable to truncate file %s: %s
+It was not possible to truncate the file. If the node has been run from the command line for testing purposes, check and correct it. The file name and reason provided in the message instruct where to locate the problem. In all other cases, contact the vendor.
+
+NODEBASE014
+E
+Unable to delete file %s: %s
+It was not possible to delete the file. If the node has been run from the command line for testing purposes, check and correct it. The file name and reason provided in the message instruct where to locate the problem. In all other cases, contact the vendor.
+
+NODEBASE016
+E
+Unable to open directory %s : %s
+It was not possible to open the directory. If the node has been run from the command line for testing purposes, check and correct it. The file name and reason provided in the message instruct where to locate the problem. In all other cases, contact the vendor.
+
+NODEBASE017
+E
+Unable to fork a child process: %s
+There is not enough memory or some Unix resources are missing. Correct the problem and restart the node. 
+
+NODEBASE018
+E
+Syntax error in configuration file %s, line %d
+There is a syntax error in the configuration file. If the node has been run from the command line for testing purposes, check and correct the configuration of the application parameters. The line number provided in the message instructs where to locate the problem. In all other cases, contact the vendor.
+
+NODEBASE019
+E
+Unable to create a pipe: %s
+There is not enough memory or some Unix resources are missing. Correct the problem and restart the node. 
+
+NODEBASE021
+E
+Unable to close file %s: %s
+It was not possible to close the file. If the node has been run from the command line for testing purposes, check and correct it. The file name and reason provided in the message instruct where to locate the problem. In all other cases, contact the vendor.
+
+NODEBASE022
+E
+Unable to load library %s: %s
+It was not possible to load the required library. If the node has been run from the command line for testing purposes, check and correct it. The file name and reason provided in the message instruct where to locate the problem. In all other cases, contact the vendor.
+
+NODEBASE024
+E
+Invalid schedule string: %s
+The given schedule parameter is incorrect. If the node has been run from the command line for testing purposes, check and correct it. The file name and reason provided in the message instruct where to locate the problem. In all other cases, contact the vendor.
+
+NODEBASE025
+E
+Unable to check for free space for file %s: %s
+It was not possible to check for free space when writing to the file. If the node has been run from the command line for testing purposes, check and correct it. The file name and reason provided in the message instruct where to locate the problem. In all other cases, contact the vendor.
+
+NODEBASE026
+E
+Unable to parse input file version %d, Nodebase input file version is %d
+The input file can not be processed with the current version of Nodebase, it was generated with a newer version of Nodebase.
+
+NODEBASE027
+W
+Discarding input file %s, renaming it to %s
+The input file could not be processed and was discarded.
+
+NODEBASE029
+W
+Message limit of %d reached, processing aborted
+The node application is printing out too many event messages. To prevent system database from becoming full with these messages, the node was aborted. The node application must be fixed before the current input file can be properly processed.
+
+NODEBASE030
+I
+Finished processing input files.
+
+NODEBASE031
+E
+Partially processed input file %s was not found.
+
+NODEBASE032
+E
+Number of parallel nodes changed from %d to %d before commit phase was finished, processing aborted
+The number of parallel nodes should not be changed when the node has failed. Restart the node so it can finish the commit phase, and unless the node fails again, then change the number of parallel nodes.
+
+NODEBASE033
+E
+Application error, illegal call of pre/post commit
+The node application called pre/post commit at inappropriate time, or the application commit is not enabled for the node. If the node has been run from the command line for testing purposes, check and correct it. In all other cases, contact the vendor.
+
+NODEBASE034
+E
+Application requested discarding of the input file %s while part of the file was already committed, processing aborted
+
+NODEBASE035
+E
+Invalid use of ApplicationCommit parameter
+The application in use does not support the ApplicationCommit parameter.
+
+NODEBASE036
+W
+Discarding records %d - %d from input file %s to %s
+
+NODEBASE037
+E
+Undefined audit key used: %s
+
+NODEBASE038
+E
+Invalid call of audit_filein_discarded function
+The function audit_file_in must be called before calling audit_filein_discarded. If the node has been run from the command line for testing purposes, check and correct it. In all other cases, contact the vendor.
+
+NODEBASE039
+E
+Number of parallel nodes changed from %d to %d while part of the file was already committed, processing aborted
+The number of parallel nodes should not be changed when the node has failed. Restart the node so it can process the partially committed file, and unless the node fails again, then change the number of parallel nodes.
+
+NODEBASE040
+E
+Number of free scaled nodes decreased while all output files were not processed properly, processing aborted
+The number of parallel free scaled nodes should not be changed when the node has failed and left temporary output files. Restart all scaled nodes so they can finalize the output files, and unless nodes fail again, then change the number of parallel nodes.
+
+NODEBASE041
+E
+Shared memory segment is out of sync, processing restarting from a new segment.
+The shared memory segment is corrupt. Old segment is removed and a new segment is initialized.
+
+NODEBASE042
+E
+Unable to allocate shared memory segment for %d bytes: %s.
+Unable to allocate shared memory segment. Check kernel parameter SHMMAX for maximum size of shared memory segments allowed, or SHMMNI for maximum number of shared memory segments.
+
+NODEBASE043
+E
+The value %s of the %s parameter passed to the nb_ping_enable() function is illegal. Use parameter value %s or higher.
+Please check and correct the nb_ping_enable() function call in your application.
+
+NODEBASE044
+E
+Function call nb_ping_enable() is not allowed: only interface nodes can enable pinging.
+Please remove the nb_ping_enable() function call from your application.
+
+NODEBASE045
+E
+Unable to check the sequence number of the input file %s
+
+NODEBASE046
+E
+Unable to read status data from the lock file %s
+
+NODEBASE047
+E
+Unable to write status data to the lock file %s
+
+NODEBASE048
+E
+Unable to skip already committed records from the input file %s
+
+PERLNODE001
+E
+Could not initialize library, perl_init function not found
+
+PERLNODE002
+E
+Perl application app*.pl not found from %s
+
+PERLNODE003
+E
+Parse error in perl application: %s
+
+PERLNODE004
+E
+Application error in function %s: %s
+
+JAVANODE001
+E
+Unable to open ApplicationFilePath directory '%s'.
+Node program cannot open the directory 'ApplicationFilePath'. Check its permissions.
+
+JAVANODE002
+E
+Java application app_*.jar not found from %s
+
+JAVANODE003
+E
+Classpath too long.
+The generated runtime classpath is too long. Remove unneccessary jar files from the 'ApplicationFilePath' directory or shorten the filenames.
+
+JAVANODE004
+E
+Unable to create Java Virtual Machine. Errcode %d.
+For some reason, the startup of JVM failed.
+
+JAVANODE005
+E
+Unable to find Java application class '%s' from classpath '%s'
+The specified class cannot be located via the normal class loading procedures.
+
+JAVANODE006
+E
+Exception occured in function %s: '%s'
+A Java-level exception has occured during execution.
+
+JAVANODE007
+E
+'EVENTLINK_HOME' not set.
+Node was unable to read 'EVENTLINK_HOME' environment variable.

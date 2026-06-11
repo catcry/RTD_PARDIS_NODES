@@ -1,0 +1,122 @@
+RECORD
+#source_id 
+F eventType 8
+F eventId {{!!NULL!!}}
+F callingNumber 989925857923
+F callingNumberType 0
+F calledNumber {{!!NULL!!}}
+F calledNumberType {{!!NULL!!}}
+F callingCountry 98
+F calledCountry {{!!NULL!!}}
+F eventDuration {{!!NULL!!}}
+F eventVolume 209356
+F internationalCall 0
+F onnet 0
+F isRoaming 0
+F eventStartTimestamp 20241027160411
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum 0
+F subBalance 483851823
+F cost 0
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046405998
+F @filename RTD_OCSPOST-OCS-61178-20241027195517.csv
+B profiles
+B subscriber
+B extensions
+F version 1727431059654049792
+B actions
+B Balance_50000_niod-4a78175f
+F sentTime 1723005619816
+.
+B ACTION_L1_null-59705233
+F sentTime 1574675246006
+.
+B ACTION_L2_balance_LT_20000R-f4ae35a9
+F sentTime 1727431059652
+.
+B ACTION_L1_balance_LT_20000R-f25260df
+F sentTime 1697469500222
+.
+B testL1-fd6c1b3b
+F sentTime 1705561136138
+.
+B action_L1_none3-8f234163
+F sentTime 1723006214155
+.
+B testL1B20-77847e22
+F sentTime 1705779077845
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027020652
+F gender Male
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F sub_balance 488837333
+F avg_offnet_voice_min 196752.94
+F vas_cost_to_arpu 34389.2
+F is_multi_sim_phone No
+F avg_nmb_sms_sent 624409.74
+F churn_propensity Low
+F avg_non_business_voice_usage 5873.67
+F is_smart_phone_user No
+F onnet_to_offnet_rev 0.34
+F avg_business_voice_usage 7778.33
+F model 
+F arpu 34389.2
+F subscriber_segment SHVC
+F brand 
+F tenure 62
+F portout_propensity High
+F peak_type_data peak
+F os 
+F enterprise_national_id 1741810981
+F avg_daily_2g_data_usage 0
+F arpu_segment Low ARPU
+F avg_daily_3g_data_usage 0
+F avg_monthly_topup_cost 483333.33
+F roam_int_rev_to_arpu 72493.36
+F avg_monthly_topup_nmb 2.67
+F payment_type prepaid
+F avg_onnet_voice_min 131.4
+F avg_daily_4g_data_usage 1001
+F avg_non_business_data_usage 12863.86
+F avg_data_usage 61457707251
+F provience خوزستان
+F avg_business_data_usage 8326.07
+F age 359
+F status Disconnected
+.
+F profileId 279567375
+F id 989925857923
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 210 L1_new_60_min
+F 243 BALANCE_100_L1-Topup_NID
+F 212 new_30_min
+F 244 BALANCE_50_L1-Topup_NID
+F 77 L1_balance_LT_20000R
+F 88 L1_5T10_arpu
+F 213 roaming
+F 89 L2_5T10_arpu
+F 211 L2_new_60_min
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 78
+F DISCARD_REASON Action ACTION_L2_balance_LT_20000R-f4ae35a9 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046406037
+.

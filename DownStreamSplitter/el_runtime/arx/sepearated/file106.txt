@@ -1,0 +1,190 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989150774692
+F callingNumberType 0
+F calledNumber 989150775346
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 46
+F eventVolume {{!!NULL!!}}
+F internationalCall 0
+F onnet 1
+F isRoaming 0
+F eventStartTimestamp 20241027160937
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 134822355
+F cost 505140
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046432195
+F @filename RTD_OCSPOST-RECLIVE-61648-20241027195528.csv
+B profiles
+B subscriber
+B extensions
+F version 1730023277597229056
+B actions
+B Age_45_60-6314e334
+F sentTime 1725456714354
+.
+B Action_L2_new_60_min-80374415
+F sentTime 1730023277596
+.
+B testL1-fd6c1b3b
+F sentTime 1705470728757
+.
+B testL1B20-77847e22
+F sentTime 1705763405350
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1689113062982
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241027133117
+F gender Female
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F sub_balance 136842915
+F avg_offnet_voice_min 172999.42
+F vas_cost_to_arpu 2373328.06
+F monthly_data_pkg_end_time 14020529084028
+F is_multi_sim_phone Yes
+F avg_nmb_sms_sent 794573.98
+F churn_propensity Low
+F avg_non_business_voice_usage 12874.33
+F pkg_to_payg_voice 
+F is_smart_phone_user No
+F onnet_to_offnet_rev 1.7
+F avg_business_voice_usage 9648.67
+F model SM-J610F_GALAXY J6 PRIME_
+F daily_data_pkg_end_time 14020806174509
+F arpu 2373328.06
+F data_package_size xl
+F daily_data_pkg_start_time 14020805174509
+F subscriber_segment SHVC
+F brand SAMSUNG
+F voice_pkg_700338_end_time 14020521104003
+F tenure 90
+F monthly_data_pkg_start_time 14020430084030
+F portout_propensity High
+F peak_type_data peak
+F os Android
+F enterprise_national_id 6440051881
+F avg_daily_2g_data_usage 0
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 15
+F avg_monthly_topup_cost 574300
+F roam_int_rev_to_arpu 189918.88
+F avg_monthly_topup_nmb 7.33
+F payment_type prepaid
+F avg_onnet_voice_min 431.74
+F avg_daily_4g_data_usage 1153
+F avg_non_business_data_usage 26623.69
+F avg_data_usage 129984807048
+F pkg_to_payg_data 
+F provience خراسان رضوی
+F avg_business_data_usage 12584.28
+F voice_pkg_700338_start_time 14020422104004
+F age 359
+F status Disconnected
+.
+F profileId 191174775
+F id 989150774692
+.
+B target
+B extensions
+F version 1727704608070565888
+B actions
+B Action_L2_new_60_min-80374415
+F sentTime 1727704608071
+.
+B testL1B20-77847e22
+F sentTime 1705812169406
+.
+B Action_L1_new_60_min-7eee5652
+F sentTime 1689032664156
+.
+.
+.
+B rtd
+F sub_balance_timestamp 20241026214218
+F gender Male
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry 
+F sub_balance 3298848
+F avg_offnet_voice_min 134668.72
+F vas_cost_to_arpu 1542558.72
+F is_multi_sim_phone Yes
+F avg_nmb_sms_sent 319490.03
+F churn_propensity Low
+F avg_non_business_voice_usage 3897.5
+F pkg_to_payg_voice 
+F is_smart_phone_user No
+F onnet_to_offnet_rev 4.41
+F avg_business_voice_usage 3268.67
+F model 
+F daily_data_pkg_end_time 14020916031207
+F arpu 1542558.72
+F daily_data_pkg_start_time 14020915031207
+F subscriber_segment SHVC
+F brand 
+F voice_pkg_700338_end_time 14020521100000
+F tenure 15
+F portout_propensity High
+F peak_type_data peak
+F os 
+F enterprise_national_id 0921850026
+F avg_daily_2g_data_usage 0
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 4
+F avg_monthly_topup_cost 1358333.33
+F roam_int_rev_to_arpu 316358.72
+F avg_monthly_topup_nmb 20.67
+F payment_type prepaid
+F avg_onnet_voice_min 124.95
+F avg_daily_4g_data_usage 867
+F avg_non_business_data_usage 17627.21
+F avg_data_usage 91658383626
+F pkg_to_payg_data 
+F provience خراسان رضوی
+F avg_business_data_usage 8508.31
+F voice_pkg_700338_start_time 14020422100002
+F age 387
+F status Active
+.
+F profileId 266833301
+F id 989150775346
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+.
+B FAILED_LOGICS
+F 210 L1_new_60_min
+F 243 BALANCE_100_L1-Topup_NID
+F 212 new_30_min
+F 244 BALANCE_50_L1-Topup_NID
+F 77 L1_balance_LT_20000R
+F 88 L1_5T10_arpu
+F 213 roaming
+F 89 L2_5T10_arpu
+F 78 L2_balance_LT_20000R
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 211
+F DISCARD_REASON Action Action_L2_new_60_min-80374415 was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046432253
+.

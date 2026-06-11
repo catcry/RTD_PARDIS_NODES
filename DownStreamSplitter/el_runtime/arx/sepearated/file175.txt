@@ -1,0 +1,180 @@
+RECORD
+#source_id 
+F eventType 1
+F eventId {{!!NULL!!}}
+F callingNumber 989111009315
+F callingNumberType 0
+F calledNumber 989113255901
+F calledNumberType 0
+F callingCountry 98
+F calledCountry 98
+F eventDuration 41
+F eventVolume {{!!NULL!!}}
+F internationalCall 1
+F onnet 1
+F isRoaming 1
+F eventStartTimestamp 20241027161701
+F pkgStartTime {{!!NULL!!}}
+F pkgEndTime {{!!NULL!!}}
+F pkgNum {{!!NULL!!}}
+F subBalance 2581111730
+F cost 154000000
+F otherNetwork {{!!NULL!!}}
+F @collected 1730046443943
+F @filename RTD_OCSPOST-RECLIVE-61750-20241027195531.csv
+B profiles
+B subscriber
+B extensions
+F version 1729528978385993728
+B actions
+B action_atrisk_mass-65b15eef
+F sentTime 1595063349801
+.
+B action2_atrisk_mass-3c6d105f
+F sentTime 1604944249355
+.
+B Arbaeen_Roaming-0da60d4f
+F sentTime 1729528978384
+.
+B Notify_Nondata-03fc65dd
+F sentTime 1566203412306
+.
+.
+.
+B rtd
+F gender Male
+F weekly_data_pkg_start_time 20191226094743
+F voice_pkg_219_start_time 14030105210808
+F weekly_data_pkg_end_time 20200102094743
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F avg_offnet_voice_min 345274.05
+F vas_cost_to_arpu 361041.53
+F churn_propensity Low
+F avg_nmb_sms_sent 1159822.98
+F is_multi_sim_phone No
+F avg_non_business_voice_usage 18018.33
+F avg_business_voice_usage 13183.5
+F is_smart_phone_user No
+F onnet_to_offnet_rev 5.63
+F model 
+F daily_data_pkg_end_time 13991006214905
+F arpu 361041.53
+F daily_data_pkg_start_time 13991005214906
+F subscriber_segment HVR
+F brand 
+F tenure 215
+F portout_propensity Low
+F peak_type_data peak
+F os 
+F enterprise_national_id 2142732615
+F avg_daily_2g_data_usage 0
+F arpu_segment High ARPU
+F avg_daily_3g_data_usage 0
+F roam_int_rev_to_arpu 306751.65
+F voice_pkg_219_end_time 14030106210806
+F payment_type postpaid
+F avg_daily_4g_data_usage 0
+F avg_onnet_voice_min 743.45
+F avg_non_business_data_usage 0
+F avg_data_usage 9449
+F pkg_to_payg_data 
+F provience مازندران
+F avg_business_data_usage 0
+F age 759
+F status Active
+.
+F profileId 270079133
+F id 989111009315
+.
+B target
+B rtd
+F voice_pkg_400289_end_time 13990606095439
+F gender Male
+F voice_pkg_219_start_time 13990905194223
+F peak_type_voice peak
+F payg_data_rev_to_arpu 0
+F industry Others
+F avg_offnet_voice_min 86818.17
+F vas_cost_to_arpu 135483.61
+F churn_propensity Low
+F avg_nmb_sms_sent 249341.42
+F is_multi_sim_phone No
+F avg_non_business_voice_usage 3008
+F avg_business_voice_usage 5210.17
+F is_smart_phone_user No
+F onnet_to_offnet_rev 5.33
+F model 
+F daily_data_pkg_end_time 14001001153823
+F arpu 135483.61
+F daily_data_pkg_start_time 14000930153825
+F subscriber_segment MASS
+F brand 
+F tenure 232
+F voice_pkg_400289_start_time 13990605095441
+F portout_propensity Low
+F peak_type_data peak
+F os 
+F enterprise_national_id 5010036746
+F avg_daily_2g_data_usage 0
+F arpu_segment Medium ARPU
+F avg_daily_3g_data_usage 0
+F roam_int_rev_to_arpu 87938.26
+F voice_pkg_219_end_time 13990906194221
+F payment_type postpaid
+F avg_daily_4g_data_usage 0
+F avg_onnet_voice_min 155.62
+F avg_non_business_data_usage 31.02
+F avg_data_usage 0
+F provience مازندران
+F avg_business_data_usage 4.69
+F age 541
+F status Active
+.
+F profileId 246863878
+F id 989113255901
+.
+.
+B __CATEGORIZATION__
+B COUNTERS
+B COUNTER
+F ID monthly.moc_cost_roaming
+F LOGIC_ID 213
+F COMPONENT_ID moc_roaming_cost_monthly
+F MODE UPDATE
+F SOURCE_FIELD cost
+.
+.
+B FAILED_LOGICS
+F 78 L2_balance_LT_20000R
+F 77 L1_balance_LT_20000R
+F 243 BALANCE_100_L1-Topup_NID
+F 88 L1_5T10_arpu
+F 89 L2_5T10_arpu
+F 244 BALANCE_50_L1-Topup_NID
+F 210 L1_new_60_min
+F 211 L2_new_60_min
+F 212 new_30_min
+.
+.
+B counters
+B 213
+B monthly
+B moc_cost_roaming
+F used 2574000000.000000
+F left 1720967300.000000
+.
+.
+.
+.
+B __RULE_ENGINE__
+.
+B __ACTION_MONITOR__
+B LOGIC
+F ID 213
+F DISCARD_REASON Action Arbaeen_Roaming-0da60d4f was removed from the event because of resend frequency restriction.
+.
+.
+F @distributed 1730046444220
+.
