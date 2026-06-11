@@ -87,6 +87,13 @@ public final class JettyClient {
         this.nodeContext = app.getNodeContext();
         this.clientRequestTimeout = app.getClientRequestTimeout();
         this.clientResponseContentBufferSize = app.getClientResponseContentBufferSize();
+
+        // Added for SSL connection:
+        this.sslContextFactory = new SslContextFactory();
+
+        // curl -k equivalent (INSECURE, debug/non-prod only)
+        this.sslContextFactory.setTrustAll(true);
+        this.sslContextFactory.setEndpointIdentificationAlgorithm(null);
     }
 
     public void createRESTClientConnection(EventRecord eventRecord, EventRecordService erService) {
@@ -109,7 +116,8 @@ public final class JettyClient {
             HttpClient httpClient;
             if (this.apiUri.getScheme().equalsIgnoreCase("https")) {
                 this.nodeLogger.info("HTTPS connection requested...");
-                httpClient = new HttpClient();
+                //httpClient = new HttpClient();
+                httpClient = new HttpClient(this.sslContextFactory);
                 httpClient.setFollowRedirects(false);
             } else {
                 if (!this.apiUri.getScheme().equalsIgnoreCase("http")) {
